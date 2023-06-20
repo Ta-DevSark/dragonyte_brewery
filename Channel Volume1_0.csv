@@ -33,7 +33,7 @@
 31,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2008,"Wednesday, 31 December 2008",498629.5535
 32,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2009,"Thursday, 31 December 2009",525563.6082
 33,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2010,"Friday, 31 December 2010",673031.2344000001
-34,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2011,"Saturday, 31 December 2011",816688.5595999998
+34,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2011,"Saturday, 31 December 2011",816688.5595999999
 35,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2012,"Monday, 31 December 2012",908334.8744999999
 36,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2013,"Tuesday, 31 December 2013",951762.5705
 37,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2014,"Wednesday, 31 December 2014",954524.8795
@@ -446,7 +446,7 @@
 444,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2016,"Saturday, 31 December 2016",422649.2298
 445,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2017,"Sunday, 31 December 2017",426505.8788
 446,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2018,"Monday, 31 December 2018",422462.215
-447,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2019,"Tuesday, 31 December 2019",417062.9622999999
+447,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2019,"Tuesday, 31 December 2019",417062.96229999996
 448,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2020,"Thursday, 31 December 2020",418068.8271
 449,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2021,"Friday, 31 December 2021",421960.97270000004
 450,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2007,"Monday, 31 December 2007",275286.41010000004
@@ -469,7 +469,7 @@
 467,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2009,"Thursday, 31 December 2009",249850.4959
 468,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2010,"Friday, 31 December 2010",240984.7121
 469,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2011,"Saturday, 31 December 2011",243839.9196
-470,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2012,"Monday, 31 December 2012",239083.50020000004
+470,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2012,"Monday, 31 December 2012",239083.5002
 471,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2013,"Tuesday, 31 December 2013",254984.51940000002
 472,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2014,"Wednesday, 31 December 2014",252128.3128
 473,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2015,"Thursday, 31 December 2015",250617.1469
@@ -482,7 +482,7 @@
 480,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2007,"Monday, 31 December 2007",182577.6405
 481,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2008,"Wednesday, 31 December 2008",183824.8848
 482,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2009,"Thursday, 31 December 2009",182074.1913
-483,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2010,"Friday, 31 December 2010",180547.09489999997
+483,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2010,"Friday, 31 December 2010",180547.0949
 484,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2011,"Saturday, 31 December 2011",186852.32009999998
 485,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2012,"Monday, 31 December 2012",191063.8215
 486,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Food/drink/tobacco specialists,3,1000 litres,2013,"Tuesday, 31 December 2013",206029.9742
@@ -547,7 +547,7 @@
 545,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2012,"Monday, 31 December 2012",409.77285600000005
 546,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2013,"Tuesday, 31 December 2013",425.562629
 547,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2014,"Wednesday, 31 December 2014",452.079451
-548,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2015,"Thursday, 31 December 2015",446.57705699999997
+548,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2015,"Thursday, 31 December 2015",446.577057
 549,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2016,"Saturday, 31 December 2016",455.869327
 550,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2017,"Sunday, 31 December 2017",466.24359599999997
 551,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2018,"Monday, 31 December 2018",453.765859
@@ -964,10 +964,10 @@
 963,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2010,"Friday, 31 December 2010",6774.164579
 964,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2011,"Saturday, 31 December 2011",6146.240435000001
 965,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2012,"Monday, 31 December 2012",6298.015055
-966,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2013,"Tuesday, 31 December 2013",6287.155758000001
+966,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2013,"Tuesday, 31 December 2013",6287.155758
 967,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2014,"Wednesday, 31 December 2014",6134.111975
 968,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2015,"Thursday, 31 December 2015",6014.116446
-969,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2016,"Saturday, 31 December 2016",5710.570738000001
+969,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2016,"Saturday, 31 December 2016",5710.570738
 970,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2017,"Sunday, 31 December 2017",5735.120282
 971,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2018,"Monday, 31 December 2018",5878.529058
 972,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2019,"Tuesday, 31 December 2019",4463.879064000001
@@ -1009,7 +1009,7 @@
 1008,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2010,"Friday, 31 December 2010",522870.55799999996
 1009,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2011,"Saturday, 31 December 2011",579510.7133000001
 1010,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2012,"Monday, 31 December 2012",657537.3918
-1011,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2013,"Tuesday, 31 December 2013",716810.1357999999
+1011,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2013,"Tuesday, 31 December 2013",716810.1358
 1012,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2014,"Wednesday, 31 December 2014",727222.1177000001
 1013,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2015,"Thursday, 31 December 2015",805924.4599
 1014,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Small Grocery Retailers,3,1000 litres,2016,"Saturday, 31 December 2016",819688.4689
@@ -1067,7 +1067,7 @@
 1066,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2008,"Wednesday, 31 December 2008",84647.49700999999
 1067,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2009,"Thursday, 31 December 2009",86282.51517
 1068,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2010,"Friday, 31 December 2010",87592.62316
-1069,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2011,"Saturday, 31 December 2011",92613.93018999998
+1069,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2011,"Saturday, 31 December 2011",92613.93019
 1070,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2012,"Monday, 31 December 2012",96137.10721
 1071,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2013,"Tuesday, 31 December 2013",97443.04636
 1072,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2014,"Wednesday, 31 December 2014",95864.29963000001
@@ -1120,9 +1120,9 @@
 1119,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2016,"Saturday, 31 December 2016",648142.8052
 1120,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2017,"Sunday, 31 December 2017",680993.1748
 1121,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2018,"Monday, 31 December 2018",730454.5971
-1122,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2019,"Tuesday, 31 December 2019",784998.0871999998
+1122,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2019,"Tuesday, 31 December 2019",784998.0872
 1123,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2020,"Thursday, 31 December 2020",807891.2388
-1124,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2021,"Friday, 31 December 2021",839614.9363999999
+1124,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2021,"Friday, 31 December 2021",839614.9364
 1125,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2007,"Monday, 31 December 2007",4185981.557
 1126,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2008,"Wednesday, 31 December 2008",4120167.922
 1127,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Supermarkets,3,1000 litres,2009,"Thursday, 31 December 2009",3950244.649
@@ -1527,7 +1527,7 @@
 1526,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Supermarkets,3,1000 litres,2018,"Monday, 31 December 2018",509396.1934
 1527,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Supermarkets,3,1000 litres,2019,"Tuesday, 31 December 2019",521451.8951
 1528,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Supermarkets,3,1000 litres,2020,"Thursday, 31 December 2020",500487.00889999996
-1529,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Supermarkets,3,1000 litres,2021,"Friday, 31 December 2021",491114.4527999999
+1529,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Supermarkets,3,1000 litres,2021,"Friday, 31 December 2021",491114.45279999997
 1530,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Supermarkets,3,1000 litres,2007,"Monday, 31 December 2007",135256.23770000003
 1531,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Supermarkets,3,1000 litres,2008,"Wednesday, 31 December 2008",142427.7726
 1532,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Supermarkets,3,1000 litres,2009,"Thursday, 31 December 2009",156023.9984
@@ -1557,7 +1557,7 @@
 1556,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Supermarkets,3,1000 litres,2018,"Monday, 31 December 2018",657352.9227
 1557,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Supermarkets,3,1000 litres,2019,"Tuesday, 31 December 2019",684988.8366
 1558,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Supermarkets,3,1000 litres,2020,"Thursday, 31 December 2020",711382.4059
-1559,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Supermarkets,3,1000 litres,2021,"Friday, 31 December 2021",734076.3921999999
+1559,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Supermarkets,3,1000 litres,2021,"Friday, 31 December 2021",734076.3922
 1560,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Supermarkets,3,1000 litres,2007,"Monday, 31 December 2007",2617189.101
 1561,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Supermarkets,3,1000 litres,2008,"Wednesday, 31 December 2008",2599856.645
 1562,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Supermarkets,3,1000 litres,2009,"Thursday, 31 December 2009",2588155.095
@@ -1758,7 +1758,7 @@
 1757,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2009,"Thursday, 31 December 2009",402158.0692
 1758,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2010,"Friday, 31 December 2010",437404.80480000004
 1759,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2011,"Saturday, 31 December 2011",495796.9424
-1760,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2012,"Monday, 31 December 2012",564558.7834000002
+1760,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2012,"Monday, 31 December 2012",564558.7834000001
 1761,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2013,"Tuesday, 31 December 2013",642042.5140999999
 1762,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2014,"Wednesday, 31 December 2014",762509.5442
 1763,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2015,"Thursday, 31 December 2015",844414.1474
@@ -1783,7 +1783,7 @@
 1782,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2015,"Thursday, 31 December 2015",368014.8189
 1783,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2016,"Saturday, 31 December 2016",356630.1704
 1784,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2017,"Sunday, 31 December 2017",362983.3258
-1785,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2018,"Monday, 31 December 2018",362341.82490000007
+1785,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2018,"Monday, 31 December 2018",362341.8249
 1786,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2019,"Tuesday, 31 December 2019",366338.9706
 1787,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2020,"Thursday, 31 December 2020",375766.0053
 1788,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2021,"Friday, 31 December 2021",388311.8905
@@ -1811,7 +1811,7 @@
 1810,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2013,"Tuesday, 31 December 2013",27512.74433
 1811,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2014,"Wednesday, 31 December 2014",23301.291419999998
 1812,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2015,"Thursday, 31 December 2015",20732.33638
-1813,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2016,"Saturday, 31 December 2016",21435.350599999994
+1813,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2016,"Saturday, 31 December 2016",21435.350599999998
 1814,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2017,"Sunday, 31 December 2017",22006.03924
 1815,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2018,"Monday, 31 December 2018",22550.81525
 1816,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2019,"Tuesday, 31 December 2019",23299.80365
@@ -1824,7 +1824,7 @@
 1823,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2011,"Saturday, 31 December 2011",161894.4626
 1824,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2012,"Monday, 31 December 2012",171273.2442
 1825,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2013,"Tuesday, 31 December 2013",184412.858
-1826,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2014,"Wednesday, 31 December 2014",190405.07389999996
+1826,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2014,"Wednesday, 31 December 2014",190405.0739
 1827,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2015,"Thursday, 31 December 2015",197572.2115
 1828,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2016,"Saturday, 31 December 2016",202071.93240000002
 1829,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Hypermarkets,3,1000 litres,2017,"Sunday, 31 December 2017",203282.522
@@ -2083,7 +2083,7 @@
 2083,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2021,"Friday, 31 December 2021",1002123.428
 2084,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2007,"Monday, 31 December 2007",780581.0557
 2085,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2008,"Wednesday, 31 December 2008",711360.7801000001
-2086,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2009,"Thursday, 31 December 2009",769259.9511000001
+2086,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2009,"Thursday, 31 December 2009",769259.9511
 2087,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2010,"Friday, 31 December 2010",870118.0462999999
 2088,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2011,"Saturday, 31 December 2011",869805.2137
 2089,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2012,"Monday, 31 December 2012",967516.2112
@@ -2105,7 +2105,7 @@
 2105,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2013,"Tuesday, 31 December 2013",463176.32830000005
 2106,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2014,"Wednesday, 31 December 2014",375467.6052
 2107,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2015,"Thursday, 31 December 2015",389897.4908
-2108,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2016,"Saturday, 31 December 2016",414835.81409999996
+2108,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2016,"Saturday, 31 December 2016",414835.8141
 2109,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2017,"Sunday, 31 December 2017",442612.46249999997
 2110,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2018,"Monday, 31 December 2018",484563.9246
 2111,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2019,"Tuesday, 31 December 2019",508829.6935
@@ -2124,7 +2124,7 @@
 2124,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2017,"Sunday, 31 December 2017",228060.3171
 2125,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2018,"Monday, 31 December 2018",224154.9997
 2126,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2019,"Tuesday, 31 December 2019",224659.8554
-2127,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2020,"Thursday, 31 December 2020",222100.9716
+2127,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2020,"Thursday, 31 December 2020",222100.97160000002
 2128,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2021,"Friday, 31 December 2021",219740.3424
 2129,1,Alcoholic Drinks,2022,Cider/Perry,Cider/Perry,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2007,"Monday, 31 December 2007",6.63e-08
 2130,1,Alcoholic Drinks,2022,Cider/Perry,Cider/Perry,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2008,"Wednesday, 31 December 2008",6.68e-09
@@ -2410,7 +2410,7 @@
 2410,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2016,"Saturday, 31 December 2016",79580.50031
 2411,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2017,"Sunday, 31 December 2017",83639.24164
 2412,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2018,"Monday, 31 December 2018",82623.73636
-2413,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2019,"Tuesday, 31 December 2019",81073.56860000001
+2413,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2019,"Tuesday, 31 December 2019",81073.5686
 2414,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2020,"Thursday, 31 December 2020",77902.04188
 2415,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2021,"Friday, 31 December 2021",73910.53736
 2416,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2021,"Friday, 31 December 2021",751.731357
@@ -2427,7 +2427,7 @@
 2427,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2017,"Sunday, 31 December 2017",142275.109
 2428,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2018,"Monday, 31 December 2018",123124.7062
 2429,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2019,"Tuesday, 31 December 2019",101908.77679999999
-2430,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2020,"Thursday, 31 December 2020",90601.44270999999
+2430,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2020,"Thursday, 31 December 2020",90601.44271
 2431,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2021,"Friday, 31 December 2021",84902.0225
 2432,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2007,"Monday, 31 December 2007",55976.46586
 2433,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2008,"Wednesday, 31 December 2008",45503.821410000004
@@ -2461,7 +2461,7 @@
 2461,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2021,"Friday, 31 December 2021",119408.2827
 2462,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2007,"Monday, 31 December 2007",906.355323
 2463,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2008,"Wednesday, 31 December 2008",1022.582014
-2464,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2009,"Thursday, 31 December 2009",1113.7565140000004
+2464,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2009,"Thursday, 31 December 2009",1113.7565140000002
 2465,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2010,"Friday, 31 December 2010",1204.730971
 2466,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2011,"Saturday, 31 December 2011",1458.34491
 2467,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Grocery Retailers,3,1000 litres,2012,"Monday, 31 December 2012",1459.04761
@@ -2743,17 +2743,17 @@
 2743,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2020,"Thursday, 31 December 2020",33373.35888
 2744,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2021,"Friday, 31 December 2021",32632.659420000004
 2745,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2007,"Monday, 31 December 2007",7065.102373000001
-2746,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2008,"Wednesday, 31 December 2008",7409.758260000001
+2746,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2008,"Wednesday, 31 December 2008",7409.7582600000005
 2747,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2009,"Thursday, 31 December 2009",7996.594427
 2748,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2010,"Friday, 31 December 2010",8647.191955
 2749,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2011,"Saturday, 31 December 2011",9360.247307
 2750,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2012,"Monday, 31 December 2012",9656.683077
 2751,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2013,"Tuesday, 31 December 2013",10021.04023
 2752,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2014,"Wednesday, 31 December 2014",10538.3639
-2753,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2015,"Thursday, 31 December 2015",13073.512700000001
+2753,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2015,"Thursday, 31 December 2015",13073.5127
 2754,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2016,"Saturday, 31 December 2016",13820.65044
 2755,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2017,"Sunday, 31 December 2017",14636.43566
-2756,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2018,"Monday, 31 December 2018",15310.396240000002
+2756,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2018,"Monday, 31 December 2018",15310.39624
 2757,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2019,"Tuesday, 31 December 2019",16188.30533
 2758,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2020,"Thursday, 31 December 2020",16970.91459
 2759,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2021,"Friday, 31 December 2021",17869.100029999998
@@ -2769,7 +2769,7 @@
 2769,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2016,"Saturday, 31 December 2016",42104.06535
 2770,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2017,"Sunday, 31 December 2017",42487.58757
 2771,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2018,"Monday, 31 December 2018",42658.87565
-2772,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2019,"Tuesday, 31 December 2019",43169.23201000001
+2772,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2019,"Tuesday, 31 December 2019",43169.23201
 2773,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2020,"Thursday, 31 December 2020",43622.03903
 2774,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2021,"Friday, 31 December 2021",43953.163250000005
 2775,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Discounters,3,1000 litres,2007,"Monday, 31 December 2007",1251438.831
@@ -2801,11 +2801,11 @@
 2801,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2019,"Tuesday, 31 December 2019",6998.838675
 2802,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2020,"Thursday, 31 December 2020",6592.114553
 2803,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2021,"Friday, 31 December 2021",6152.025148
-2804,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2008,"Wednesday, 31 December 2008",6438.778393999999
+2804,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2008,"Wednesday, 31 December 2008",6438.778394
 2805,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2009,"Thursday, 31 December 2009",7379.348171000001
 2806,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2010,"Friday, 31 December 2010",9784.903934
 2807,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2011,"Saturday, 31 December 2011",10755.92063
-2808,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2012,"Monday, 31 December 2012",11808.778160000002
+2808,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2012,"Monday, 31 December 2012",11808.77816
 2809,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2013,"Tuesday, 31 December 2013",12574.31152
 2810,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2014,"Wednesday, 31 December 2014",13034.98827
 2811,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2015,"Thursday, 31 December 2015",13982.8195
@@ -2851,13 +2851,13 @@
 2851,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2010,"Friday, 31 December 2010",13888.09648
 2852,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2011,"Saturday, 31 December 2011",15197.063
 2853,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2012,"Monday, 31 December 2012",15785.125250000001
-2854,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2013,"Tuesday, 31 December 2013",17033.275600000004
+2854,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2013,"Tuesday, 31 December 2013",17033.2756
 2855,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2014,"Wednesday, 31 December 2014",17937.15572
 2856,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2015,"Thursday, 31 December 2015",25333.571490000002
 2857,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2016,"Saturday, 31 December 2016",27127.24715
 2858,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2017,"Sunday, 31 December 2017",28139.59858
 2859,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2018,"Monday, 31 December 2018",28622.70463
-2860,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2019,"Tuesday, 31 December 2019",29999.491879999998
+2860,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2019,"Tuesday, 31 December 2019",29999.49188
 2861,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2020,"Thursday, 31 December 2020",31038.834619999998
 2862,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2021,"Friday, 31 December 2021",31944.07953
 2863,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Discounters,3,1000 litres,2007,"Monday, 31 December 2007",154780.9008
@@ -2953,7 +2953,7 @@
 2953,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2007,"Monday, 31 December 2007",151840.8775
 2954,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2008,"Wednesday, 31 December 2008",152223.6174
 2955,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2009,"Thursday, 31 December 2009",173070.6988
-2956,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2010,"Friday, 31 December 2010",191290.72280000002
+2956,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2010,"Friday, 31 December 2010",191290.7228
 2957,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2011,"Saturday, 31 December 2011",196328.2941
 2958,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2012,"Monday, 31 December 2012",200583.855
 2959,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2013,"Tuesday, 31 December 2013",205812.783
@@ -3116,7 +3116,7 @@
 3117,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2021,"Friday, 31 December 2021",8135.667558
 3118,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2007,"Monday, 31 December 2007",652.707263
 3119,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2008,"Wednesday, 31 December 2008",752.175041
-3120,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2009,"Thursday, 31 December 2009",1116.3957020000003
+3120,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2009,"Thursday, 31 December 2009",1116.395702
 3121,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2010,"Friday, 31 December 2010",1516.023054
 3122,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2011,"Saturday, 31 December 2011",1602.159594
 3123,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2012,"Monday, 31 December 2012",2118.068428
@@ -3186,9 +3186,9 @@
 3187,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2016,"Saturday, 31 December 2016",404.15270399999997
 3188,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2017,"Sunday, 31 December 2017",511.085316
 3189,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2018,"Monday, 31 December 2018",559.842607
-3190,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2019,"Tuesday, 31 December 2019",671.5227469999999
+3190,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2019,"Tuesday, 31 December 2019",671.522747
 3191,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2020,"Thursday, 31 December 2020",729.270473
-3192,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2021,"Friday, 31 December 2021",787.364661
+3192,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Warehouse Clubs,3,1000 litres,2021,"Friday, 31 December 2021",787.3646610000001
 3193,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Department Stores,3,1000 litres,2007,"Monday, 31 December 2007",98141.00842000001
 3194,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Department Stores,3,1000 litres,2008,"Wednesday, 31 December 2008",102853.802
 3195,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Department Stores,3,1000 litres,2009,"Thursday, 31 December 2009",109758.38260000001
@@ -3336,7 +3336,7 @@
 3337,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2016,"Saturday, 31 December 2016",4702.553646
 3338,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2017,"Sunday, 31 December 2017",4590.264123
 3339,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2018,"Monday, 31 December 2018",4192.668041
-3340,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2019,"Tuesday, 31 December 2019",4513.810058999999
+3340,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2019,"Tuesday, 31 December 2019",4513.8100589999995
 3341,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2020,"Thursday, 31 December 2020",4759.812579
 3342,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2021,"Friday, 31 December 2021",4902.130644
 3343,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Department Stores,3,1000 litres,2007,"Monday, 31 December 2007",1475.1552530000001
@@ -3348,7 +3348,7 @@
 3349,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Department Stores,3,1000 litres,2013,"Tuesday, 31 December 2013",8071.608436
 3350,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Department Stores,3,1000 litres,2014,"Wednesday, 31 December 2014",9345.295094000001
 3351,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Department Stores,3,1000 litres,2015,"Thursday, 31 December 2015",9727.139199
-3352,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Department Stores,3,1000 litres,2016,"Saturday, 31 December 2016",10095.787199999999
+3352,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Department Stores,3,1000 litres,2016,"Saturday, 31 December 2016",10095.7872
 3353,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Department Stores,3,1000 litres,2017,"Sunday, 31 December 2017",9982.685794
 3354,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Department Stores,3,1000 litres,2018,"Monday, 31 December 2018",9908.129231
 3355,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Department Stores,3,1000 litres,2019,"Tuesday, 31 December 2019",10023.39217
@@ -3391,7 +3391,7 @@
 3392,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2010,"Friday, 31 December 2010",644.355487
 3393,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2011,"Saturday, 31 December 2011",753.023981
 3394,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2012,"Monday, 31 December 2012",830.96788
-3395,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2013,"Tuesday, 31 December 2013",941.3983969999999
+3395,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2013,"Tuesday, 31 December 2013",941.398397
 3396,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2014,"Wednesday, 31 December 2014",1132.477782
 3397,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2015,"Thursday, 31 December 2015",1095.291737
 3398,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2016,"Saturday, 31 December 2016",1117.763139
@@ -3449,14 +3449,14 @@
 3450,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2010,"Friday, 31 December 2010",181.602365
 3451,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2011,"Saturday, 31 December 2011",230.960979
 3452,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2012,"Monday, 31 December 2012",249.170823
-3453,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2013,"Tuesday, 31 December 2013",240.81559999999996
+3453,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2013,"Tuesday, 31 December 2013",240.8156
 3454,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2014,"Wednesday, 31 December 2014",286.621102
 3455,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2015,"Thursday, 31 December 2015",476.427144
 3456,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2016,"Saturday, 31 December 2016",558.086981
 3457,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2017,"Sunday, 31 December 2017",711.195017
 3458,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2018,"Monday, 31 December 2018",818.429293
 3459,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2019,"Tuesday, 31 December 2019",872.404996
-3460,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2020,"Thursday, 31 December 2020",928.8844570000001
+3460,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2020,"Thursday, 31 December 2020",928.884457
 3461,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Department Stores,3,1000 litres,2021,"Friday, 31 December 2021",1100.8235200000001
 3462,3,Alcoholic Drinks,2022,RTDs/High-Strength Premixes,RTDs/High-Strength Premixes,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2007,"Monday, 31 December 2007",0.001262516
 3463,3,Alcoholic Drinks,2022,RTDs/High-Strength Premixes,RTDs/High-Strength Premixes,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2008,"Wednesday, 31 December 2008",0.001312446
@@ -3504,7 +3504,7 @@
 3505,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2020,"Thursday, 31 December 2020",6655.603185999999
 3506,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2021,"Friday, 31 December 2021",7046.657295
 3507,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2007,"Monday, 31 December 2007",1760.659411
-3508,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2008,"Wednesday, 31 December 2008",1780.0784880000003
+3508,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2008,"Wednesday, 31 December 2008",1780.078488
 3509,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2009,"Thursday, 31 December 2009",1761.810029
 3510,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2010,"Friday, 31 December 2010",1770.125933
 3511,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2011,"Saturday, 31 December 2011",1553.5477609999998
@@ -3580,7 +3580,7 @@
 3581,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2021,"Friday, 31 December 2021",1960.3281319999999
 3582,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2007,"Monday, 31 December 2007",7210.525512
 3583,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2008,"Wednesday, 31 December 2008",7531.293374
-3584,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2009,"Thursday, 31 December 2009",7867.694442999999
+3584,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2009,"Thursday, 31 December 2009",7867.694443
 3585,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2010,"Friday, 31 December 2010",8846.885784
 3586,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2011,"Saturday, 31 December 2011",9363.944264
 3587,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Other Non-Grocery Alcoholic Drinks Specialists,3,1000 litres,2012,"Monday, 31 December 2012",8957.406996
@@ -3728,7 +3728,7 @@
 3729,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mass Merchandisers,3,1000 litres,2019,"Tuesday, 31 December 2019",14610.060660000001
 3730,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mass Merchandisers,3,1000 litres,2020,"Thursday, 31 December 2020",14493.59793
 3731,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mass Merchandisers,3,1000 litres,2021,"Friday, 31 December 2021",14582.11901
-3732,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mass Merchandisers,3,1000 litres,2007,"Monday, 31 December 2007",62436.382990000006
+3732,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mass Merchandisers,3,1000 litres,2007,"Monday, 31 December 2007",62436.38299
 3733,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mass Merchandisers,3,1000 litres,2008,"Wednesday, 31 December 2008",77975.69846
 3734,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mass Merchandisers,3,1000 litres,2009,"Thursday, 31 December 2009",95618.47512
 3735,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mass Merchandisers,3,1000 litres,2010,"Friday, 31 December 2010",117583.2267
@@ -3800,7 +3800,7 @@
 3801,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mass Merchandisers,3,1000 litres,2016,"Saturday, 31 December 2016",27172.91477
 3802,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mass Merchandisers,3,1000 litres,2017,"Sunday, 31 December 2017",27336.48546
 3803,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mass Merchandisers,3,1000 litres,2018,"Monday, 31 December 2018",26666.75553
-3804,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mass Merchandisers,3,1000 litres,2019,"Tuesday, 31 December 2019",25129.214570000004
+3804,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mass Merchandisers,3,1000 litres,2019,"Tuesday, 31 December 2019",25129.21457
 3805,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mass Merchandisers,3,1000 litres,2020,"Thursday, 31 December 2020",24549.740459999997
 3806,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mass Merchandisers,3,1000 litres,2021,"Friday, 31 December 2021",25360.92512
 3807,4,Alcoholic Drinks,2022,Spirits,Spirits,1,Off-trade Volume,Mass Merchandisers,3,1000 litres,2013,"Tuesday, 31 December 2013",0.03060323
@@ -3835,7 +3835,7 @@
 3836,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2012,"Monday, 31 December 2012",43783.634360000004
 3837,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2013,"Tuesday, 31 December 2013",45110.7216
 3838,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2014,"Wednesday, 31 December 2014",45748.52457
-3839,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2015,"Thursday, 31 December 2015",45926.09780000001
+3839,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2015,"Thursday, 31 December 2015",45926.0978
 3840,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2016,"Saturday, 31 December 2016",46598.50194
 3841,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2017,"Sunday, 31 December 2017",47155.50531
 3842,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2018,"Monday, 31 December 2018",47755.6822
@@ -3891,7 +3891,7 @@
 3892,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2015,"Thursday, 31 December 2015",113.519252
 3893,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2016,"Saturday, 31 December 2016",183.01882899999998
 3894,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2017,"Sunday, 31 December 2017",251.20887600000003
-3895,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2018,"Monday, 31 December 2018",321.43109499999997
+3895,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2018,"Monday, 31 December 2018",321.431095
 3896,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2019,"Tuesday, 31 December 2019",350.27168400000005
 3897,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2020,"Thursday, 31 December 2020",362.64491399999997
 3898,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2021,"Friday, 31 December 2021",366.892927
@@ -3900,7 +3900,7 @@
 3901,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2009,"Thursday, 31 December 2009",532080.3684
 3902,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2010,"Friday, 31 December 2010",510466.1398
 3903,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2011,"Saturday, 31 December 2011",500723.926
-3904,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2012,"Monday, 31 December 2012",563259.0745999998
+3904,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2012,"Monday, 31 December 2012",563259.0745999999
 3905,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2013,"Tuesday, 31 December 2013",539622.8492
 3906,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2014,"Wednesday, 31 December 2014",566743.9947
 3907,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Drugstores/parapharmacies,3,1000 litres,2015,"Thursday, 31 December 2015",574401.8412
@@ -4034,12 +4034,12 @@
 4035,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Variety Stores,3,1000 litres,2008,"Wednesday, 31 December 2008",6631.048669
 4036,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Variety Stores,3,1000 litres,2009,"Thursday, 31 December 2009",7155.519229
 4037,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Variety Stores,3,1000 litres,2010,"Friday, 31 December 2010",7247.335440999999
-4038,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Variety Stores,3,1000 litres,2011,"Saturday, 31 December 2011",7406.9755380000015
+4038,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Variety Stores,3,1000 litres,2011,"Saturday, 31 December 2011",7406.975538000001
 4039,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Variety Stores,3,1000 litres,2012,"Monday, 31 December 2012",7628.112258
 4040,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Variety Stores,3,1000 litres,2013,"Tuesday, 31 December 2013",7746.098595
 4041,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Variety Stores,3,1000 litres,2014,"Wednesday, 31 December 2014",8216.203974
 4042,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Variety Stores,3,1000 litres,2015,"Thursday, 31 December 2015",9308.90634
-4043,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Variety Stores,3,1000 litres,2016,"Saturday, 31 December 2016",9677.809855999998
+4043,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Variety Stores,3,1000 litres,2016,"Saturday, 31 December 2016",9677.809856
 4044,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Variety Stores,3,1000 litres,2017,"Sunday, 31 December 2017",8234.647049
 4045,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Variety Stores,3,1000 litres,2018,"Monday, 31 December 2018",7406.740329
 4046,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Variety Stores,3,1000 litres,2019,"Tuesday, 31 December 2019",6778.47653
@@ -4095,7 +4095,7 @@
 4096,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Direct Selling,2,1000 litres,2013,"Tuesday, 31 December 2013",211346.45560000002
 4097,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Direct Selling,2,1000 litres,2014,"Wednesday, 31 December 2014",208796.6601
 4098,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Direct Selling,2,1000 litres,2015,"Thursday, 31 December 2015",207817.5918
-4099,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Direct Selling,2,1000 litres,2016,"Saturday, 31 December 2016",203323.81939999995
+4099,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Direct Selling,2,1000 litres,2016,"Saturday, 31 December 2016",203323.81939999998
 4100,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Direct Selling,2,1000 litres,2017,"Sunday, 31 December 2017",197518.0583
 4101,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Direct Selling,2,1000 litres,2018,"Monday, 31 December 2018",193238.6683
 4102,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Direct Selling,2,1000 litres,2019,"Tuesday, 31 December 2019",196017.60820000002
@@ -4153,7 +4153,7 @@
 4154,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Homeshopping,2,1000 litres,2018,"Monday, 31 December 2018",165.65897600000002
 4155,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Homeshopping,2,1000 litres,2019,"Tuesday, 31 December 2019",152.954793
 4156,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Homeshopping,2,1000 litres,2020,"Thursday, 31 December 2020",146.77081
-4157,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Homeshopping,2,1000 litres,2021,"Friday, 31 December 2021",143.927904
+4157,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Homeshopping,2,1000 litres,2021,"Friday, 31 December 2021",143.92790399999998
 4158,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Homeshopping,2,1000 litres,2007,"Monday, 31 December 2007",1492.559946
 4159,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Homeshopping,2,1000 litres,2008,"Wednesday, 31 December 2008",1432.520204
 4160,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Homeshopping,2,1000 litres,2009,"Thursday, 31 December 2009",1429.7548689999999
@@ -4187,7 +4187,7 @@
 4188,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Homeshopping,2,1000 litres,2011,"Saturday, 31 December 2011",192628.4568
 4189,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Homeshopping,2,1000 litres,2012,"Monday, 31 December 2012",189414.1838
 4190,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Homeshopping,2,1000 litres,2013,"Tuesday, 31 December 2013",186971.0442
-4191,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Homeshopping,2,1000 litres,2014,"Wednesday, 31 December 2014",183344.52109999998
+4191,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Homeshopping,2,1000 litres,2014,"Wednesday, 31 December 2014",183344.5211
 4192,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Homeshopping,2,1000 litres,2015,"Thursday, 31 December 2015",176440.0212
 4193,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Homeshopping,2,1000 litres,2016,"Saturday, 31 December 2016",170537.3855
 4194,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Homeshopping,2,1000 litres,2017,"Sunday, 31 December 2017",165556.0641
@@ -4199,7 +4199,7 @@
 4200,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Vending,2,1000 litres,2008,"Wednesday, 31 December 2008",192630.34590000001
 4201,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Vending,2,1000 litres,2009,"Thursday, 31 December 2009",102375.01740000001
 4202,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Vending,2,1000 litres,2010,"Friday, 31 December 2010",98289.72429
-4203,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Vending,2,1000 litres,2011,"Saturday, 31 December 2011",84095.51459999998
+4203,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Vending,2,1000 litres,2011,"Saturday, 31 December 2011",84095.5146
 4204,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Vending,2,1000 litres,2012,"Monday, 31 December 2012",79737.53667
 4205,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Vending,2,1000 litres,2013,"Tuesday, 31 December 2013",55705.386320000005
 4206,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Vending,2,1000 litres,2014,"Wednesday, 31 December 2014",56561.22215
@@ -4237,7 +4237,7 @@
 4238,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Vending,2,1000 litres,2016,"Saturday, 31 December 2016",2571.547427
 4239,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Vending,2,1000 litres,2017,"Sunday, 31 December 2017",2059.36661
 4240,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Vending,2,1000 litres,2018,"Monday, 31 December 2018",1646.511932
-4241,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Vending,2,1000 litres,2019,"Tuesday, 31 December 2019",1224.6796030000003
+4241,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Vending,2,1000 litres,2019,"Tuesday, 31 December 2019",1224.679603
 4242,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Vending,2,1000 litres,2020,"Thursday, 31 December 2020",1165.0741540000001
 4243,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Vending,2,1000 litres,2021,"Friday, 31 December 2021",1120.560739
 4244,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Vending,2,1000 litres,2011,"Saturday, 31 December 2011",2523.4532870000003
@@ -4313,7 +4313,7 @@
 4314,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2012,"Monday, 31 December 2012",43783.634360000004
 4315,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2013,"Tuesday, 31 December 2013",45110.7216
 4316,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2014,"Wednesday, 31 December 2014",45748.52457
-4317,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2015,"Thursday, 31 December 2015",45926.09780000001
+4317,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2015,"Thursday, 31 December 2015",45926.0978
 4318,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2016,"Saturday, 31 December 2016",46598.50194
 4319,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2017,"Sunday, 31 December 2017",47155.50531
 4320,1,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2018,"Monday, 31 December 2018",47755.6822
@@ -4407,11 +4407,11 @@
 4408,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2016,"Saturday, 31 December 2016",5930.951088999999
 4409,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2017,"Sunday, 31 December 2017",6278.20142
 4410,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2018,"Monday, 31 December 2018",6590.848196999999
-4411,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2019,"Tuesday, 31 December 2019",6800.443157000001
+4411,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2019,"Tuesday, 31 December 2019",6800.443157
 4412,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2020,"Thursday, 31 December 2020",7018.248573
 4413,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2021,"Friday, 31 December 2021",7413.5508310000005
 4414,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2007,"Monday, 31 December 2007",1760.659411
-4415,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2008,"Wednesday, 31 December 2008",1780.0784880000003
+4415,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2008,"Wednesday, 31 December 2008",1780.078488
 4416,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2009,"Thursday, 31 December 2009",1761.810029
 4417,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2010,"Friday, 31 December 2010",1770.125933
 4418,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2011,"Saturday, 31 December 2011",1553.5477609999998
@@ -4487,7 +4487,7 @@
 4488,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2021,"Friday, 31 December 2021",1960.3281319999999
 4489,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2007,"Monday, 31 December 2007",7210.525512
 4490,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2008,"Wednesday, 31 December 2008",7531.293374
-4491,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2009,"Thursday, 31 December 2009",7867.694442999999
+4491,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2009,"Thursday, 31 December 2009",7867.694443
 4492,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2010,"Friday, 31 December 2010",8846.885784
 4493,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2011,"Saturday, 31 December 2011",9363.944264
 4494,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2012,"Monday, 31 December 2012",8957.406996
@@ -4565,7 +4565,7 @@
 4566,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2009,"Thursday, 31 December 2009",532080.3684
 4567,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2010,"Friday, 31 December 2010",510466.1398
 4568,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2011,"Saturday, 31 December 2011",500723.926
-4569,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2012,"Monday, 31 December 2012",563259.0745999998
+4569,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2012,"Monday, 31 December 2012",563259.0745999999
 4570,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2013,"Tuesday, 31 December 2013",539622.8492
 4571,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2014,"Wednesday, 31 December 2014",566743.9947
 4572,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Grocery Specialists,2,1000 litres,2015,"Thursday, 31 December 2015",574401.8412
@@ -4801,7 +4801,7 @@
 4802,7,Alcoholic Drinks,2022,Cider/Perry,Cider/Perry,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2019,"Tuesday, 31 December 2019",0.288519533
 4803,7,Alcoholic Drinks,2022,Cider/Perry,Cider/Perry,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2020,"Thursday, 31 December 2020",0.28455937
 4804,7,Alcoholic Drinks,2022,Cider/Perry,Cider/Perry,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2021,"Friday, 31 December 2021",0.285341718
-4805,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2007,"Monday, 31 December 2007",37504.21213000001
+4805,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2007,"Monday, 31 December 2007",37504.21213
 4806,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2008,"Wednesday, 31 December 2008",36534.37502
 4807,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2009,"Thursday, 31 December 2009",39154.13302
 4808,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2010,"Friday, 31 December 2010",39508.53885
@@ -4822,7 +4822,7 @@
 4823,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2010,"Friday, 31 December 2010",644.355487
 4824,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2011,"Saturday, 31 December 2011",753.023981
 4825,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2012,"Monday, 31 December 2012",830.96788
-4826,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2013,"Tuesday, 31 December 2013",941.3983969999999
+4826,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2013,"Tuesday, 31 December 2013",941.398397
 4827,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2014,"Wednesday, 31 December 2014",1132.477782
 4828,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2015,"Thursday, 31 December 2015",1095.291737
 4829,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2016,"Saturday, 31 December 2016",1117.763139
@@ -4888,7 +4888,7 @@
 4889,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2016,"Saturday, 31 December 2016",4702.553646
 4890,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2017,"Sunday, 31 December 2017",4590.264123
 4891,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2018,"Monday, 31 December 2018",4192.668041
-4892,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2019,"Tuesday, 31 December 2019",4513.810058999999
+4892,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2019,"Tuesday, 31 December 2019",4513.8100589999995
 4893,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2020,"Thursday, 31 December 2020",4759.812579
 4894,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2021,"Friday, 31 December 2021",4902.130644
 4895,1,Alcoholic Drinks,2022,Spirits,Spirits,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2007,"Monday, 31 December 2007",72.82427691
@@ -5005,7 +5005,7 @@
 5006,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2013,"Tuesday, 31 December 2013",8071.608436
 5007,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2014,"Wednesday, 31 December 2014",9345.295094000001
 5008,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2015,"Thursday, 31 December 2015",9727.139199
-5009,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2016,"Saturday, 31 December 2016",10095.787199999999
+5009,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2016,"Saturday, 31 December 2016",10095.7872
 5010,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2017,"Sunday, 31 December 2017",9982.685794
 5011,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2018,"Monday, 31 December 2018",9908.129231
 5012,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2019,"Tuesday, 31 December 2019",10023.39217
@@ -5023,7 +5023,7 @@
 5024,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2016,"Saturday, 31 December 2016",518639.41829999996
 5025,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2017,"Sunday, 31 December 2017",544566.7266
 5026,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2018,"Monday, 31 December 2018",607032.5961
-5027,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2019,"Tuesday, 31 December 2019",663331.1205999998
+5027,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2019,"Tuesday, 31 December 2019",663331.1205999999
 5028,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2020,"Thursday, 31 December 2020",676766.4485
 5029,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2021,"Friday, 31 December 2021",692874.888
 5030,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Mixed Retailers,2,1000 litres,2007,"Monday, 31 December 2007",272107.9079
@@ -5117,7 +5117,7 @@
 5118,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Internet Retailing,2,1000 litres,2011,"Saturday, 31 December 2011",17107.47816
 5119,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Internet Retailing,2,1000 litres,2012,"Monday, 31 December 2012",23246.0698
 5120,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Internet Retailing,2,1000 litres,2013,"Tuesday, 31 December 2013",26310.9718
-5121,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Internet Retailing,2,1000 litres,2014,"Wednesday, 31 December 2014",30235.395030000003
+5121,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Internet Retailing,2,1000 litres,2014,"Wednesday, 31 December 2014",30235.39503
 5122,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Internet Retailing,2,1000 litres,2015,"Thursday, 31 December 2015",33550.60733
 5123,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Internet Retailing,2,1000 litres,2016,"Saturday, 31 December 2016",56269.04058
 5124,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Internet Retailing,2,1000 litres,2017,"Sunday, 31 December 2017",64476.98512
@@ -5449,7 +5449,7 @@
 5450,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2019,"Tuesday, 31 December 2019",50232.66126
 5451,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2020,"Thursday, 31 December 2020",53129.3375
 5452,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2021,"Friday, 31 December 2021",56009.69099
-5453,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2007,"Monday, 31 December 2007",1462.6967589999997
+5453,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2007,"Monday, 31 December 2007",1462.696759
 5454,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2008,"Wednesday, 31 December 2008",1883.056211
 5455,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2009,"Thursday, 31 December 2009",2781.825064
 5456,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2010,"Friday, 31 December 2010",3277.446202
@@ -5488,11 +5488,11 @@
 5489,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2013,"Tuesday, 31 December 2013",1809.5078680000001
 5490,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2014,"Wednesday, 31 December 2014",2147.994
 5491,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2015,"Thursday, 31 December 2015",2196.8936609999996
-5492,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2016,"Saturday, 31 December 2016",2389.960484
+5492,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2016,"Saturday, 31 December 2016",2389.9604839999997
 5493,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2017,"Sunday, 31 December 2017",2618.365671
 5494,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2018,"Monday, 31 December 2018",3236.469494
 5495,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2019,"Tuesday, 31 December 2019",4697.211337
-5496,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2020,"Thursday, 31 December 2020",5216.6286949999985
+5496,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2020,"Thursday, 31 December 2020",5216.628694999999
 5497,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2021,"Friday, 31 December 2021",6136.668392
 5498,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2007,"Monday, 31 December 2007",15055.25762
 5499,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2008,"Wednesday, 31 December 2008",18104.84551
@@ -5513,7 +5513,7 @@
 5514,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2008,"Wednesday, 31 December 2008",96479.44873
 5515,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2009,"Thursday, 31 December 2009",117085.1459
 5516,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2010,"Friday, 31 December 2010",135649.645
-5517,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2011,"Saturday, 31 December 2011",154878.49520000003
+5517,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2011,"Saturday, 31 December 2011",154878.4952
 5518,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2012,"Monday, 31 December 2012",173588.7941
 5519,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2013,"Tuesday, 31 December 2013",194396.4542
 5520,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Internet Retailing,2,1000 litres,2014,"Wednesday, 31 December 2014",213796.6643
@@ -5856,7 +5856,7 @@
 5857,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Grocery Retailers,2,1000 litres,2021,"Friday, 31 December 2021",3580702.114
 5858,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Grocery Retailers,2,1000 litres,2007,"Monday, 31 December 2007",438672.36659999995
 5859,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Grocery Retailers,2,1000 litres,2008,"Wednesday, 31 December 2008",450692.8153
-5860,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Grocery Retailers,2,1000 litres,2009,"Thursday, 31 December 2009",457297.51660000003
+5860,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Grocery Retailers,2,1000 litres,2009,"Thursday, 31 December 2009",457297.5166
 5861,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Grocery Retailers,2,1000 litres,2010,"Friday, 31 December 2010",456712.463
 5862,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Grocery Retailers,2,1000 litres,2011,"Saturday, 31 December 2011",461429.32889999996
 5863,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Grocery Retailers,2,1000 litres,2012,"Monday, 31 December 2012",474142.1516
@@ -5899,7 +5899,7 @@
 5900,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Grocery Retailers,2,1000 litres,2019,"Tuesday, 31 December 2019",1661658.0650000002
 5901,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Grocery Retailers,2,1000 litres,2020,"Thursday, 31 December 2020",1600396.831
 5902,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Grocery Retailers,2,1000 litres,2021,"Friday, 31 December 2021",1574210.8490000002
-5903,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Grocery Retailers,2,1000 litres,2007,"Monday, 31 December 2007",438968.40179999993
+5903,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Grocery Retailers,2,1000 litres,2007,"Monday, 31 December 2007",438968.4018
 5904,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Grocery Retailers,2,1000 litres,2008,"Wednesday, 31 December 2008",448416.97729999997
 5905,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Grocery Retailers,2,1000 litres,2009,"Thursday, 31 December 2009",465049.64180000004
 5906,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Grocery Retailers,2,1000 litres,2010,"Friday, 31 December 2010",483101.58589999995
@@ -6070,10 +6070,10 @@
 6071,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2010,"Friday, 31 December 2010",6774.164579
 6072,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2011,"Saturday, 31 December 2011",6146.240435000001
 6073,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2012,"Monday, 31 December 2012",6298.015055
-6074,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2013,"Tuesday, 31 December 2013",6287.155758000001
+6074,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2013,"Tuesday, 31 December 2013",6287.155758
 6075,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2014,"Wednesday, 31 December 2014",6134.111975
 6076,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2015,"Thursday, 31 December 2015",6014.116446
-6077,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2016,"Saturday, 31 December 2016",5710.570738000001
+6077,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2016,"Saturday, 31 December 2016",5710.570738
 6078,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2017,"Sunday, 31 December 2017",5735.120282
 6079,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2018,"Monday, 31 December 2018",5878.529058
 6080,2,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2019,"Tuesday, 31 December 2019",4463.879064000001
@@ -6133,7 +6133,7 @@
 6134,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2013,"Tuesday, 31 December 2013",913795.0006
 6135,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2014,"Wednesday, 31 December 2014",910205.519
 6136,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2015,"Thursday, 31 December 2015",885340.5676
-6137,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2016,"Saturday, 31 December 2016",859120.0476999999
+6137,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2016,"Saturday, 31 December 2016",859120.0477
 6138,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2017,"Sunday, 31 December 2017",838763.8163000001
 6139,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2018,"Monday, 31 December 2018",851482.0115
 6140,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2019,"Tuesday, 31 December 2019",873038.149
@@ -6150,7 +6150,7 @@
 6151,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2015,"Thursday, 31 December 2015",970789.6551
 6152,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2016,"Saturday, 31 December 2016",955708.9454
 6153,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2017,"Sunday, 31 December 2017",914725.7936
-6154,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2018,"Monday, 31 December 2018",898833.2361999999
+6154,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2018,"Monday, 31 December 2018",898833.2362
 6155,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2019,"Tuesday, 31 December 2019",882676.0235
 6156,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2020,"Thursday, 31 December 2020",864280.3205
 6157,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2021,"Friday, 31 December 2021",857722.9781999999
@@ -6541,7 +6541,7 @@
 6542,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2016,"Saturday, 31 December 2016",31994.78089
 6543,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2017,"Sunday, 31 December 2017",33231.98211
 6544,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2018,"Monday, 31 December 2018",34159.472030000004
-6545,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2019,"Tuesday, 31 December 2019",34896.00454999999
+6545,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2019,"Tuesday, 31 December 2019",34896.00455
 6546,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2020,"Thursday, 31 December 2020",35278.26043
 6547,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2021,"Friday, 31 December 2021",35415.828779999996
 6548,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2007,"Monday, 31 December 2007",37110.21714
@@ -6555,7 +6555,7 @@
 6556,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2015,"Thursday, 31 December 2015",27757.67789
 6557,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2016,"Saturday, 31 December 2016",27820.6345
 6558,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2017,"Sunday, 31 December 2017",27744.879350000003
-6559,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2018,"Monday, 31 December 2018",28041.943359999997
+6559,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2018,"Monday, 31 December 2018",28041.94336
 6560,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2019,"Tuesday, 31 December 2019",29184.489700000002
 6561,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2020,"Thursday, 31 December 2020",28891.916380000002
 6562,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2021,"Friday, 31 December 2021",29857.57424
@@ -6569,7 +6569,7 @@
 6570,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2014,"Wednesday, 31 December 2014",277245.6313
 6571,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2015,"Thursday, 31 December 2015",263521.47559999995
 6572,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2016,"Saturday, 31 December 2016",252647.1375
-6573,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2017,"Sunday, 31 December 2017",244371.99990000002
+6573,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2017,"Sunday, 31 December 2017",244371.9999
 6574,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2018,"Monday, 31 December 2018",239148.0603
 6575,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2019,"Tuesday, 31 December 2019",238537.5177
 6576,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Independent Small Grocers,4,1000 litres,2020,"Thursday, 31 December 2020",236299.5274
@@ -6773,7 +6773,7 @@
 6774,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2008,"Wednesday, 31 December 2008",493694.2582
 6775,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2009,"Thursday, 31 December 2009",523722.76509999996
 6776,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2010,"Friday, 31 December 2010",546119.7241
-6777,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2011,"Saturday, 31 December 2011",975201.1663999999
+6777,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2011,"Saturday, 31 December 2011",975201.1664
 6778,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2012,"Monday, 31 December 2012",1015145.2359999999
 6779,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2013,"Tuesday, 31 December 2013",1077413.0869999998
 6780,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2014,"Wednesday, 31 December 2014",1088163.317
@@ -6789,7 +6789,7 @@
 6790,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2009,"Thursday, 31 December 2009",807041.4798000001
 6791,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2010,"Friday, 31 December 2010",871345.9242
 6792,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2011,"Saturday, 31 December 2011",952234.1152
-6793,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2012,"Monday, 31 December 2012",986614.9133000001
+6793,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2012,"Monday, 31 December 2012",986614.9133
 6794,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2013,"Tuesday, 31 December 2013",1015717.225
 6795,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2014,"Wednesday, 31 December 2014",989658.1462000001
 6796,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2015,"Thursday, 31 December 2015",996473.5672
@@ -6813,7 +6813,7 @@
 6814,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2018,"Monday, 31 December 2018",55724.03513
 6815,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2019,"Tuesday, 31 December 2019",60728.14918
 6816,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2020,"Thursday, 31 December 2020",63113.81048
-6817,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2021,"Friday, 31 December 2021",69741.49128999999
+6817,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2021,"Friday, 31 December 2021",69741.49129
 6818,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2007,"Monday, 31 December 2007",1369736.4849999999
 6819,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2008,"Wednesday, 31 December 2008",1300285.406
 6820,6,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Convenience Stores,4,1000 litres,2009,"Thursday, 31 December 2009",1264937.879
@@ -6870,7 +6870,7 @@
 6871,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2011,"Saturday, 31 December 2011",107786.4726
 6872,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2012,"Monday, 31 December 2012",106531.1743
 6873,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2013,"Tuesday, 31 December 2013",105971.92180000001
-6874,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2014,"Wednesday, 31 December 2014",104761.76090000001
+6874,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2014,"Wednesday, 31 December 2014",104761.7609
 6875,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2015,"Thursday, 31 December 2015",103420.6722
 6876,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2016,"Saturday, 31 December 2016",100183.25009999999
 6877,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2017,"Sunday, 31 December 2017",100277.95980000001
@@ -6884,7 +6884,7 @@
 6885,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2010,"Friday, 31 December 2010",1498.8157150000002
 6886,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2011,"Saturday, 31 December 2011",1776.373187
 6887,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2012,"Monday, 31 December 2012",2305.4038060000003
-6888,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2013,"Tuesday, 31 December 2013",2335.1902790000004
+6888,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2013,"Tuesday, 31 December 2013",2335.190279
 6889,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2014,"Wednesday, 31 December 2014",2376.3677
 6890,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2015,"Thursday, 31 December 2015",2087.256414
 6891,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2016,"Saturday, 31 December 2016",2141.735749
@@ -6901,7 +6901,7 @@
 6902,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2012,"Monday, 31 December 2012",20945.96246
 6903,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2013,"Tuesday, 31 December 2013",21577.42585
 6904,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2014,"Wednesday, 31 December 2014",21088.05577
-6905,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2015,"Thursday, 31 December 2015",21359.09541
+6905,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2015,"Thursday, 31 December 2015",21359.095409999998
 6906,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2016,"Saturday, 31 December 2016",22301.67819
 6907,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2017,"Sunday, 31 December 2017",23528.728600000002
 6908,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2018,"Monday, 31 December 2018",24532.687889999997
@@ -6924,7 +6924,7 @@
 6925,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2020,"Thursday, 31 December 2020",59329.73955
 6926,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2021,"Friday, 31 December 2021",62120.23585
 6927,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2007,"Monday, 31 December 2007",249412.5859
-6928,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2008,"Wednesday, 31 December 2008",243067.21129999997
+6928,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2008,"Wednesday, 31 December 2008",243067.2113
 6929,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2009,"Thursday, 31 December 2009",247346.91330000001
 6930,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2010,"Friday, 31 December 2010",248778.9421
 6931,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Convenience Stores,4,1000 litres,2011,"Saturday, 31 December 2011",258891.29350000003
@@ -7065,7 +7065,7 @@
 7066,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2018,"Monday, 31 December 2018",278231.6543
 7067,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2019,"Tuesday, 31 December 2019",277111.97349999996
 7068,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2020,"Thursday, 31 December 2020",276308.324
-7069,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2021,"Friday, 31 December 2021",273573.18270000006
+7069,3,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2021,"Friday, 31 December 2021",273573.1827
 7070,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2007,"Monday, 31 December 2007",137478.3219
 7071,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2008,"Wednesday, 31 December 2008",150173.0322
 7072,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2009,"Thursday, 31 December 2009",176741.4473
@@ -7121,7 +7121,7 @@
 7122,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2014,"Wednesday, 31 December 2014",556125.0434999999
 7123,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2015,"Thursday, 31 December 2015",538218.6933
 7124,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2016,"Saturday, 31 December 2016",502900.17390000005
-7125,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2017,"Sunday, 31 December 2017",482265.52320000005
+7125,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2017,"Sunday, 31 December 2017",482265.5232
 7126,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2018,"Monday, 31 December 2018",468400.1638
 7127,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2019,"Tuesday, 31 December 2019",464206.19570000004
 7128,7,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2020,"Thursday, 31 December 2020",464433.36
@@ -7409,7 +7409,7 @@
 7410,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2017,"Sunday, 31 December 2017",123.368215
 7411,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2018,"Monday, 31 December 2018",117.459584
 7412,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2019,"Tuesday, 31 December 2019",101.83253500000001
-7413,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2020,"Thursday, 31 December 2020",83.66531700000002
+7413,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2020,"Thursday, 31 December 2020",83.665317
 7414,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2021,"Friday, 31 December 2021",51.592625000000005
 7415,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2007,"Monday, 31 December 2007",9053.741905
 7416,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2008,"Wednesday, 31 December 2008",9926.88688
@@ -7452,12 +7452,12 @@
 7453,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2015,"Thursday, 31 December 2015",1711.731074
 7454,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2016,"Saturday, 31 December 2016",1892.599811
 7455,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2017,"Sunday, 31 December 2017",2057.8786600000003
-7456,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2018,"Monday, 31 December 2018",2146.4961049999997
+7456,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2018,"Monday, 31 December 2018",2146.496105
 7457,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2019,"Tuesday, 31 December 2019",2080.120612
 7458,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2020,"Thursday, 31 December 2020",1991.6141679999998
 7459,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2021,"Friday, 31 December 2021",1874.431936
 7460,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2007,"Monday, 31 December 2007",49622.40591
-7461,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2008,"Wednesday, 31 December 2008",55737.40295999999
+7461,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2008,"Wednesday, 31 December 2008",55737.40296
 7462,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2009,"Thursday, 31 December 2009",57257.95526
 7463,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2010,"Friday, 31 December 2010",63603.378769999996
 7464,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2011,"Saturday, 31 December 2011",65797.48296
@@ -7481,7 +7481,7 @@
 7482,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2014,"Wednesday, 31 December 2014",185833.753
 7483,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2015,"Thursday, 31 December 2015",175904.41939999998
 7484,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2016,"Saturday, 31 December 2016",170203.08349999998
-7485,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2017,"Sunday, 31 December 2017",167505.30780000004
+7485,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2017,"Sunday, 31 December 2017",167505.3078
 7486,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2018,"Monday, 31 December 2018",163714.8036
 7487,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2019,"Tuesday, 31 December 2019",160036.4686
 7488,7,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Forecourt Retailers,4,1000 litres,2020,"Thursday, 31 December 2020",153849.7415
@@ -7781,7 +7781,7 @@
 7783,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2012,"Monday, 31 December 2012",23246.0698
 7784,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2013,"Tuesday, 31 December 2013",26310.9718
 7785,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2014,"Wednesday, 31 December 2014",30268.43041
-7786,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2015,"Thursday, 31 December 2015",33591.948560000004
+7786,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2015,"Thursday, 31 December 2015",33591.94856
 7787,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2016,"Saturday, 31 December 2016",56317.58542
 7788,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2017,"Sunday, 31 December 2017",64527.47802
 7789,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2018,"Monday, 31 December 2018",69723.60896000001
@@ -7790,7 +7790,7 @@
 7792,4,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2021,"Friday, 31 December 2021",84897.28615
 7793,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2007,"Monday, 31 December 2007",117.96685
 7794,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2008,"Wednesday, 31 December 2008",190.984811
-7795,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2009,"Thursday, 31 December 2009",279.60728700000004
+7795,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2009,"Thursday, 31 December 2009",279.607287
 7796,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2010,"Friday, 31 December 2010",345.74323499999997
 7797,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2011,"Saturday, 31 December 2011",431.448133
 7798,5,Alcoholic Drinks,2022,Beer,Beer,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2012,"Monday, 31 December 2012",509.84811799999994
@@ -7863,7 +7863,7 @@
 7865,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2019,"Tuesday, 31 December 2019",50458.81472
 7866,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2020,"Thursday, 31 December 2020",53358.95233
 7867,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2021,"Friday, 31 December 2021",56243.68894
-7868,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2007,"Monday, 31 December 2007",1462.6967589999997
+7868,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2007,"Monday, 31 December 2007",1462.696759
 7869,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2008,"Wednesday, 31 December 2008",1883.056211
 7870,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2009,"Thursday, 31 December 2009",2781.825064
 7871,3,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2010,"Friday, 31 December 2010",3277.446202
@@ -7889,7 +7889,7 @@
 7891,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2015,"Thursday, 31 December 2015",21289.34114
 7892,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2016,"Saturday, 31 December 2016",23569.98374
 7893,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2017,"Sunday, 31 December 2017",25567.51452
-7894,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2018,"Monday, 31 December 2018",26223.634370000003
+7894,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2018,"Monday, 31 December 2018",26223.63437
 7895,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2019,"Tuesday, 31 December 2019",27421.45223
 7896,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2020,"Thursday, 31 December 2020",27650.87655
 7897,4,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Non-Store Retailing,1,1000 litres,2021,"Friday, 31 December 2021",27899.83094
@@ -8270,7 +8270,7 @@
 8272,1,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2021,"Friday, 31 December 2021",3622134.559
 8273,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2007,"Monday, 31 December 2007",438672.36659999995
 8274,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2008,"Wednesday, 31 December 2008",450692.8153
-8275,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2009,"Thursday, 31 December 2009",457297.51660000003
+8275,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2009,"Thursday, 31 December 2009",457297.5166
 8276,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2010,"Friday, 31 December 2010",456712.463
 8277,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2011,"Saturday, 31 December 2011",461429.32889999996
 8278,2,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2012,"Monday, 31 December 2012",474142.1516
@@ -8318,14 +8318,14 @@
 8320,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2009,"Thursday, 31 December 2009",526482.6414000001
 8321,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2010,"Friday, 31 December 2010",544257.521
 8322,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2011,"Saturday, 31 December 2011",566547.515
-8323,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2012,"Monday, 31 December 2012",587287.1042999999
+8323,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2012,"Monday, 31 December 2012",587287.1043
 8324,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2013,"Tuesday, 31 December 2013",620819.708
 8325,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2014,"Wednesday, 31 December 2014",619258.6961
 8326,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2015,"Thursday, 31 December 2015",655600.3736
 8327,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2016,"Saturday, 31 December 2016",679731.9732
 8328,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2017,"Sunday, 31 December 2017",708752.5118
 8329,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2018,"Monday, 31 December 2018",742464.1176
-8330,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2019,"Tuesday, 31 December 2019",777502.3628000001
+8330,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2019,"Tuesday, 31 December 2019",777502.3628
 8331,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2020,"Thursday, 31 December 2020",811574.8054
 8332,5,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2021,"Friday, 31 December 2021",849093.1605
 8333,6,Alcoholic Drinks,2022,Wine,Wine,1,Off-trade Volume,Store-Based Retailing,1,1000 litres,2007,"Monday, 31 December 2007",2096654.513
