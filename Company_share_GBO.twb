@@ -1,0 +1,2956 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0611.2007                               -->
+<workbook original-version='18.1' source-build='2023.2.0 (20232.23.0611.2007)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Company_Share_GBO_unit_clean_V1_3_3_1+' inline='true' name='federated.0av5pfb0pzv9701afx74q0mwh4qa' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Company_Share_GBO_unit_clean_V1_3_3_1' name='textscan.1hlkbef0k45kjp1eu5u3s1bcfgba'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/tadev/Desktop/Dragonyte/Company_Share_GBO_unit_clean_V1_3_3_1.csv' dataRefreshTime='' directory='C:/Users/tadev/Desktop/Dragonyte' filename='C:/Users/tadev/AppData/Local/Temp/TableauTemp/06jq4dj0i3qhij1btdnwc08hxf3k/Company_Share_GBO_unit_clean_V1_3_3_1.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[Subcategories.csv].[Category]' />
+              <expression op='[Categories.csv].[id]' />
+            </expression>
+          </clause>
+          <relation join='inner' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Subcategory_ID]' />
+                <expression op='[Subcategories.csv].[id]' />
+              </expression>
+            </clause>
+            <relation join='inner' type='join'>
+              <clause type='join'>
+                <expression op='='>
+                  <expression op='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Location]' />
+                  <expression op='[Locationsv1.0.csv].[id]' />
+                </expression>
+              </clause>
+              <relation connection='textscan.1hlkbef0k45kjp1eu5u3s1bcfgba' name='Company_Share_GBO_unit_clean_V1_3_3_1.csv' table='[Company_Share_GBO_unit_cl#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:K10001:no:A1:K10001:1' header='yes' locale='fr_BE'>
+                  <column datatype='integer' name='Location' ordinal='0' />
+                  <column datatype='string' name='Industry' ordinal='1' />
+                  <column datatype='integer' name='Subcategory_ID' ordinal='2' />
+                  <column datatype='integer' name='Hierarchy_Level' ordinal='3' />
+                  <column datatype='string' name='Data_Type' ordinal='4' />
+                  <column datatype='string' name='Global_Brand_Owner' ordinal='5' />
+                  <column datatype='string' name='Unit' ordinal='6' />
+                  <column datatype='integer' name='Year_text' ordinal='7' />
+                  <column datatype='real' name='Year_date' ordinal='8' />
+                  <column datatype='integer' name='Year_minus_2016' ordinal='9' />
+                  <column datatype='real' name='Volume' ordinal='10' />
+                </columns>
+              </relation>
+              <relation connection='textscan.1hlkbef0k45kjp1eu5u3s1bcfgba' name='Locationsv1.0.csv' table='[Locationsv1.0#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:C9:no:A1:C9:1' header='yes' locale='fr_BE'>
+                  <column datatype='integer' name='id' ordinal='0' />
+                  <column datatype='string' name='Region' ordinal='1' />
+                  <column datatype='string' name='Country' ordinal='2' />
+                </columns>
+              </relation>
+            </relation>
+            <relation connection='textscan.1hlkbef0k45kjp1eu5u3s1bcfgba' name='Subcategories.csv' table='[Subcategories#csv$]' type='table'>
+              <columns gridOrigin='A1:C35:no:A1:C35:1'>
+                <column datatype='integer' name='id' ordinal='0' />
+                <column datatype='integer' name='Category' ordinal='1' />
+                <column datatype='string' name='Name' ordinal='2' />
+              </columns>
+            </relation>
+          </relation>
+          <relation connection='textscan.1hlkbef0k45kjp1eu5u3s1bcfgba' name='Categories.csv' table='[Categories#csv$]' type='table'>
+            <columns gridOrigin='A1:B11:no:A1:B11:1'>
+              <column datatype='integer' name='id' ordinal='0' />
+              <column datatype='string' name='Name' ordinal='1' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[Subcategories.csv].[Category]' />
+              <expression op='[Categories.csv].[id]' />
+            </expression>
+          </clause>
+          <relation join='inner' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Subcategory_ID]' />
+                <expression op='[Subcategories.csv].[id]' />
+              </expression>
+            </clause>
+            <relation join='inner' type='join'>
+              <clause type='join'>
+                <expression op='='>
+                  <expression op='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Location]' />
+                  <expression op='[Locationsv1.0.csv].[id]' />
+                </expression>
+              </clause>
+              <relation connection='textscan.1hlkbef0k45kjp1eu5u3s1bcfgba' name='Company_Share_GBO_unit_clean_V1_3_3_1.csv' table='[Company_Share_GBO_unit_cl#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:K10001:no:A1:K10001:1' header='yes' locale='fr_BE'>
+                  <column datatype='integer' name='Location' ordinal='0' />
+                  <column datatype='string' name='Industry' ordinal='1' />
+                  <column datatype='integer' name='Subcategory_ID' ordinal='2' />
+                  <column datatype='integer' name='Hierarchy_Level' ordinal='3' />
+                  <column datatype='string' name='Data_Type' ordinal='4' />
+                  <column datatype='string' name='Global_Brand_Owner' ordinal='5' />
+                  <column datatype='string' name='Unit' ordinal='6' />
+                  <column datatype='integer' name='Year_text' ordinal='7' />
+                  <column datatype='real' name='Year_date' ordinal='8' />
+                  <column datatype='integer' name='Year_minus_2016' ordinal='9' />
+                  <column datatype='real' name='Volume' ordinal='10' />
+                </columns>
+              </relation>
+              <relation connection='textscan.1hlkbef0k45kjp1eu5u3s1bcfgba' name='Locationsv1.0.csv' table='[Locationsv1.0#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:C9:no:A1:C9:1' header='yes' locale='fr_BE'>
+                  <column datatype='integer' name='id' ordinal='0' />
+                  <column datatype='string' name='Region' ordinal='1' />
+                  <column datatype='string' name='Country' ordinal='2' />
+                </columns>
+              </relation>
+            </relation>
+            <relation connection='textscan.1hlkbef0k45kjp1eu5u3s1bcfgba' name='Subcategories.csv' table='[Subcategories#csv$]' type='table'>
+              <columns gridOrigin='A1:C35:no:A1:C35:1'>
+                <column datatype='integer' name='id' ordinal='0' />
+                <column datatype='integer' name='Category' ordinal='1' />
+                <column datatype='string' name='Name' ordinal='2' />
+              </columns>
+            </relation>
+          </relation>
+          <relation connection='textscan.1hlkbef0k45kjp1eu5u3s1bcfgba' name='Categories.csv' table='[Categories#csv$]' type='table'>
+            <columns gridOrigin='A1:B11:no:A1:B11:1'>
+              <column datatype='integer' name='id' ordinal='0' />
+              <column datatype='string' name='Name' ordinal='1' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[Category]' value='[Subcategories.csv].[Category]' />
+          <map key='[Country]' value='[Locationsv1.0.csv].[Country]' />
+          <map key='[Data_Type]' value='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Data_Type]' />
+          <map key='[Global_Brand_Owner]' value='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Global_Brand_Owner]' />
+          <map key='[Hierarchy_Level]' value='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Hierarchy_Level]' />
+          <map key='[Industry]' value='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Industry]' />
+          <map key='[Location]' value='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Location]' />
+          <map key='[Name (Categories.csv)]' value='[Categories.csv].[Name]' />
+          <map key='[Name]' value='[Subcategories.csv].[Name]' />
+          <map key='[Region]' value='[Locationsv1.0.csv].[Region]' />
+          <map key='[Subcategory_ID]' value='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Subcategory_ID]' />
+          <map key='[Unit]' value='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Unit]' />
+          <map key='[Volume]' value='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Volume]' />
+          <map key='[Year_date]' value='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Year_date]' />
+          <map key='[Year_minus_2016]' value='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Year_minus_2016]' />
+          <map key='[Year_text]' value='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Year_text]' />
+          <map key='[id (Categories.csv)]' value='[Categories.csv].[id]' />
+          <map key='[id (Subcategories.csv)]' value='[Subcategories.csv].[id]' />
+          <map key='[id]' value='[Locationsv1.0.csv].[id]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Company_Share_GBO_unit_clean_V1_3_3_1.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K10001:no:A1:K10001:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>59994</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Locationsv1.0.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C9:no:A1:C9:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>8</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Subcategories.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C35:no:A1:C35:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>34</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Categories.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B11:no:A1:B11:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>5</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[Company_Share_GBO_unit_clean_V1_3_3_1.csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Industry]</local-name>
+            <parent-name>[Company_Share_GBO_unit_clean_V1_3_3_1.csv]</parent-name>
+            <remote-alias>Industry</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RBE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Subcategory_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Subcategory_ID]</local-name>
+            <parent-name>[Company_Share_GBO_unit_clean_V1_3_3_1.csv]</parent-name>
+            <remote-alias>Subcategory_ID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hierarchy_Level</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hierarchy_Level]</local-name>
+            <parent-name>[Company_Share_GBO_unit_clean_V1_3_3_1.csv]</parent-name>
+            <remote-alias>Hierarchy_Level</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data_Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Data_Type]</local-name>
+            <parent-name>[Company_Share_GBO_unit_clean_V1_3_3_1.csv]</parent-name>
+            <remote-alias>Data_Type</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RBE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Global_Brand_Owner</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Global_Brand_Owner]</local-name>
+            <parent-name>[Company_Share_GBO_unit_clean_V1_3_3_1.csv]</parent-name>
+            <remote-alias>Global_Brand_Owner</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RBE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unit</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Unit]</local-name>
+            <parent-name>[Company_Share_GBO_unit_clean_V1_3_3_1.csv]</parent-name>
+            <remote-alias>Unit</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RBE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year_text</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year_text]</local-name>
+            <parent-name>[Company_Share_GBO_unit_clean_V1_3_3_1.csv]</parent-name>
+            <remote-alias>Year_text</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year_date</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Year_date]</local-name>
+            <parent-name>[Company_Share_GBO_unit_clean_V1_3_3_1.csv]</parent-name>
+            <remote-alias>Year_date</remote-alias>
+            <ordinal>8</ordinal>
+            <hidden>true</hidden>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year_minus_2016</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year_minus_2016]</local-name>
+            <parent-name>[Company_Share_GBO_unit_clean_V1_3_3_1.csv]</parent-name>
+            <remote-alias>Year_minus_2016</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Volume</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Volume]</local-name>
+            <parent-name>[Company_Share_GBO_unit_clean_V1_3_3_1.csv]</parent-name>
+            <remote-alias>Volume</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[Locationsv1.0.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Locationsv1.0.csv]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RBE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Locationsv1.0.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RBE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id (Subcategories.csv)]</local-name>
+            <parent-name>[Subcategories.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[Subcategories.csv]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[Subcategories.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RBE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id (Categories.csv)]</local-name>
+            <parent-name>[Categories.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Name (Categories.csv)]</local-name>
+            <parent-name>[Categories.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RBE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Data Type' datatype='string' name='[Data_Type]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Global Brand Owner (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Global_Brand_Owner]' new-bin='true'>
+          <bin default-name='false' value='&quot;Competition&quot;'>
+            <value>&quot;Aass P Ltz AS&quot;</value>
+            <value>&quot;Abbaye Notre Dame de Scourmont&quot;</value>
+            <value>&quot;Abbaye Notre Dame dOrval&quot;</value>
+            <value>&quot;ABC SA&quot;</value>
+            <value>&quot;Abdij der Trappisten van Westmalle&quot;</value>
+            <value>&quot;AbrauDurso JSC&quot;</value>
+            <value>&quot;Acciona SA&quot;</value>
+            <value>&quot;Accolade Wines Ltd&quot;</value>
+            <value>&quot;Achaia Clauss Wine Co SA&quot;</value>
+            <value>&quot;Adams Cider Co Ltd&quot;</value>
+            <value>&quot;Adnams  Co Plc&quot;</value>
+            <value>&quot;Adventis TOV&quot;</value>
+            <value>&quot;Advini SA&quot;</value>
+            <value>&quot;Afsar Co Ltd SP OOO&quot;</value>
+            <value>&quot;Agave Loco LLC&quot;</value>
+            <value>&quot;Agora SA&quot;</value>
+            <value>&quot;Agrial Groupe&quot;</value>
+            <value>&quot;Agrofirma Mehnat OAO&quot;</value>
+            <value>&quot;Agrofirma Tervete SIA&quot;</value>
+            <value>&quot;Aitor Ider Balbo SAACI&quot;</value>
+            <value>&quot;Aje Group&quot;</value>
+            <value>&quot;Akita Meijyo Co Ltd&quot;</value>
+            <value>&quot;Akita Shurui Seizoh Co Ltd&quot;</value>
+            <value>&quot;Akvadiv Malinovshchiznensky Spirtovodochny Zavod COOO&quot;</value>
+            <value>&quot;AlcoholControl OAO&quot;</value>
+            <value>&quot;AlefVinal Corp&quot;</value>
+            <value>&quot;Alexander Ltd&quot;</value>
+            <value>&quot;Alexandrion Group Romania SRL&quot;</value>
+            <value>&quot;Alita AB&quot;</value>
+            <value>&quot;Alkogolnaya Sibirskaya Gruppa OOO&quot;</value>
+            <value>&quot;AlkonM OOO&quot;</value>
+            <value>&quot;Alliance  VKZ OOO&quot;</value>
+            <value>&quot;Alliance Global Group Inc&quot;</value>
+            <value>&quot;Allied Blenders  Distillers Pvt Ltd&quot;</value>
+            <value>&quot;Altera Holding&quot;</value>
+            <value>&quot;Altia Oyj&quot;</value>
+            <value>&quot;Altria Group Inc&quot;</value>
+            <value>&quot;Alvisa SL&quot;</value>
+            <value>&quot;Amber Group&quot;</value>
+            <value>&quot;American Beverage Corp&quot;</value>
+            <value>&quot;Amrut Distilleries Pvt Ltd&quot;</value>
+            <value>&quot;Anadolu Group&quot;</value>
+            <value>&quot;Andrew Peller Ltd&quot;</value>
+            <value>&quot;Angoves Pty Ltd&quot;</value>
+            <value>&quot;AnheuserBusch InBev NV&quot;</value>
+            <value>&quot;Anhui Golden Seed Winery Co Ltd&quot;</value>
+            <value>&quot;Anhui Gujing Group Co Ltd&quot;</value>
+            <value>&quot;Anhui Kouzi Distillery Co Ltd&quot;</value>
+            <value>&quot;Anhui Yingjia Distillery Co Ltd&quot;</value>
+            <value>&quot;Anka Wines Sp zoo&quot;</value>
+            <value>&quot;Antalya Alkollu Iecek San ve Tic AS&quot;</value>
+            <value>&quot;Antnio Basso  Filhos Ltda&quot;</value>
+            <value>&quot;Aqualife PK OAO&quot;</value>
+            <value>&quot;Arbor Brasil Indstria de Bebidas Ltda&quot;</value>
+            <value>&quot;Arco Bodegas Unidas SA&quot;</value>
+            <value>&quot;ArcusGruppen AS&quot;</value>
+            <value>&quot;Argo Food  Beverage International&quot;</value>
+            <value>&quot;Ariant TSPI OOO&quot;</value>
+            <value>&quot;Arpanoosh Co&quot;</value>
+            <value>&quot;Artemivsk ZShV ZAT&quot;</value>
+            <value>&quot;As Vohu Vein&quot;</value>
+            <value>&quot;Asahi Group Holdings Ltd&quot;</value>
+            <value>&quot;Asahi Shuzo Co Ltd&quot;</value>
+            <value>&quot;Asia Brewery Inc&quot;</value>
+            <value>&quot;ASM Liquor Pty Ltd&quot;</value>
+            <value>&quot;Aston Manor Brewery Co Ltd&quot;</value>
+            <value>&quot;AugustinerBru Wagner KG&quot;</value>
+            <value>&quot;Aujan Industries Co Ltd&quot;</value>
+            <value>&quot;Australian Vintage Ltd&quot;</value>
+            <value>&quot;Averna SpA Flli&quot;</value>
+            <value>&quot;Azende Corp Ca Ltda&quot;</value>
+            <value>&quot;Azeri Brewery&quot;</value>
+            <value>&quot;B Beverages Pvt Ltd&quot;</value>
+            <value>&quot;Bacardi  Co Ltd&quot;</value>
+            <value>&quot;Badel  dd&quot;</value>
+            <value>&quot;Badische Staatsbrauerei Rothaus AG&quot;</value>
+            <value>&quot;Baesangmyun Brewery Place Co Ltd&quot;</value>
+            <value>&quot;Baikalfarm OAO&quot;</value>
+            <value>&quot;Bakhchysarai Krymskyi VynnoKoniachnyi Zavod ZAT&quot;</value>
+            <value>&quot;Bali Hai Brewery Indonesia PT&quot;</value>
+            <value>&quot;Banfi SpA&quot;</value>
+            <value>&quot;Banjalucka Pivara ad&quot;</value>
+            <value>&quot;Banskobystricky Pivovar as&quot;</value>
+            <value>&quot;Barbadillo Group&quot;</value>
+            <value>&quot;Barcel International SA&quot;</value>
+            <value>&quot;Baron Philippe de Rothschild SA&quot;</value>
+            <value>&quot;BartexBartol Sp zoo Sp k&quot;</value>
+            <value>&quot;Barton  Guestier SA&quot;</value>
+            <value>&quot;Bashspirt OAO&quot;</value>
+            <value>&quot;Bataillard SA&quot;</value>
+            <value>&quot;Bavaria NV&quot;</value>
+            <value>&quot;Bavarian State Brewery The&quot;</value>
+            <value>&quot;Bavick NV&quot;</value>
+            <value>&quot;Bayadera Holding TOV&quot;</value>
+            <value>&quot;Beam Inc&quot;</value>
+            <value>&quot;Bebidas Asteca Ltda&quot;</value>
+            <value>&quot;Bebidas da Serra SA&quot;</value>
+            <value>&quot;Bebidas Interandinas SAC&quot;</value>
+            <value>&quot;Becle SAB de CV&quot;</value>
+            <value>&quot;Behn Getrnke GmbH&quot;</value>
+            <value>&quot;Behnoush Iran Co&quot;</value>
+            <value>&quot;Beijing Shunxin Agriculture Co Ltd&quot;</value>
+            <value>&quot;Beijing Yanjing Brewery Co Ltd&quot;</value>
+            <value>&quot;Bel Mondo Italia Corp&quot;</value>
+            <value>&quot;Belalco Brestsky Likerovodochny Zavod OAO&quot;</value>
+            <value>&quot;Beluga Group PAO&quot;</value>
+            <value>&quot;Belvdre SA&quot;</value>
+            <value>&quot;BelVinGroup COOO&quot;</value>
+            <value>&quot;Bere Trei Stejari SA&quot;</value>
+            <value>&quot;BerentzenGruppe AG&quot;</value>
+            <value>&quot;berkinger GmbH&quot;</value>
+            <value>&quot;Bermas SA&quot;</value>
+            <value>&quot;Bernard Rodinny Pivovar&quot;</value>
+            <value>&quot;Best Global Brands Ltd&quot;</value>
+            <value>&quot;Beverage Brands UK Ltd&quot;</value>
+            <value>&quot;BGI Ethiopia Plc&quot;</value>
+            <value>&quot;Bierbrouwerij De Koningshoeven BV&quot;</value>
+            <value>&quot;Big Rock Brewery Inc&quot;</value>
+            <value>&quot;Binderer St Ursula Weinkellerei GmbH&quot;</value>
+            <value>&quot;Binyamina Wine Cellars&quot;</value>
+            <value>&quot;BIP Beograd ad&quot;</value>
+            <value>&quot;Birkenhead Brewery&quot;</value>
+            <value>&quot;Birra Castello SpA&quot;</value>
+            <value>&quot;Birra Forst SpA&quot;</value>
+            <value>&quot;Bitburger Braugruppe GmbH&quot;</value>
+            <value>&quot;Black Fly Beverage Co Inc&quot;</value>
+            <value>&quot;Blue Pyrenees Estate Ltd&quot;</value>
+            <value>&quot;Blue Ribbon Intermediate Holdings LLC&quot;</value>
+            <value>&quot;Boatrocker Brewing Co&quot;</value>
+            <value>&quot;Bodega Cruz de Piedra SA&quot;</value>
+            <value>&quot;Bodega Las Copas SL&quot;</value>
+            <value>&quot;Bodegas Angel Fallabrino SA&quot;</value>
+            <value>&quot;Bodegas Copa de Oro SA de CV&quot;</value>
+            <value>&quot;Bodegas Cuvillier SA&quot;</value>
+            <value>&quot;Bodegas de Villaviciosa SA&quot;</value>
+            <value>&quot;Bodegas del Rhin Ltda&quot;</value>
+            <value>&quot;Bodegas Esmeralda SA&quot;</value>
+            <value>&quot;Bodegas Martn Cdax SA&quot;</value>
+            <value>&quot;Bodegas Norton SA&quot;</value>
+            <value>&quot;Bodegas Roqueta SA&quot;</value>
+            <value>&quot;Bodegas ValdepabloNeva ZAO&quot;</value>
+            <value>&quot;Bodegas Valentin Bianchi SA&quot;</value>
+            <value>&quot;Bodegas y Bebidas SA Grupo&quot;</value>
+            <value>&quot;Bodegas y Viedos Garbin SA&quot;</value>
+            <value>&quot;Bodegas y Viedos Lpez SA&quot;</value>
+            <value>&quot;Bodegas y Viedos Santa Rosa&quot;</value>
+            <value>&quot;Bodegas y Viedos Tabernero SA&quot;</value>
+            <value>&quot;Bogot Beer Co SA&quot;</value>
+            <value>&quot;Bohae Brewery Co Ltd&quot;</value>
+            <value>&quot;Bohemia Regent as&quot;</value>
+            <value>&quot;Boisset  La Famille des Grands Vins SAS&quot;</value>
+            <value>&quot;Boland Kelder&quot;</value>
+            <value>&quot;Boland Wine Co Pty Ltd&quot;</value>
+            <value>&quot;Boliarka VT AD&quot;</value>
+            <value>&quot;Booker Cash  Carry Ltd&quot;</value>
+            <value>&quot;Boon Rawd Brewery Co Ltd&quot;</value>
+            <value>&quot;Borco Group&quot;</value>
+            <value>&quot;Bosca SpA&quot;</value>
+            <value>&quot;Boston Beer Co Inc The&quot;</value>
+            <value>&quot;Bottega SpA&quot;</value>
+            <value>&quot;Boutaris Group&quot;</value>
+            <value>&quot;Boyar Estates Holding&quot;</value>
+            <value>&quot;Branca Distillerie Srl Flli&quot;</value>
+            <value>&quot;Brand Phoenix Ltd&quot;</value>
+            <value>&quot;Brasserie Castelain&quot;</value>
+            <value>&quot;Brasserie De SaintOmer&quot;</value>
+            <value>&quot;Brasserie de SaintSylvestre SA&quot;</value>
+            <value>&quot;Brasseries Duyck SA&quot;</value>
+            <value>&quot;Brau Holding International AG&quot;</value>
+            <value>&quot;Brauerei C  A Veltins GmbH  Co KG&quot;</value>
+            <value>&quot;Brauerei Locher AG&quot;</value>
+            <value>&quot;Brauerei Maisel GmbH  Co KG&quot;</value>
+            <value>&quot;Brauerei Murau eGen&quot;</value>
+            <value>&quot;Brestskoye Pivo OAO&quot;</value>
+            <value>&quot;BrewDog plc&quot;</value>
+            <value>&quot;Brewery of Macedonia Thrace SA&quot;</value>
+            <value>&quot;Brewinvest SA&quot;</value>
+            <value>&quot;Brick Brewing Co Ltd&quot;</value>
+            <value>&quot;Bright Food Group Co Ltd&quot;</value>
+            <value>&quot;Britos EOOD&quot;</value>
+            <value>&quot;bro Bryggeri AB&quot;</value>
+            <value>&quot;Bronco Wine Co&quot;</value>
+            <value>&quot;Brothers Drinks Co Ltd&quot;</value>
+            <value>&quot;Brouwerij t IJ BV&quot;</value>
+            <value>&quot;Browar Amber Sp zoo Sp k&quot;</value>
+            <value>&quot;Browar Fortuna SP zoo&quot;</value>
+            <value>&quot;Browar Jablonowo L Buksowicz H Buksowicz W Parol Sp J&quot;</value>
+            <value>&quot;Browar Kormoran Sp zoo&quot;</value>
+            <value>&quot;Browar Wrezel Sp zoo&quot;</value>
+            <value>&quot;Browary Regionalne Jakubiak Sp zoo&quot;</value>
+            <value>&quot;Brown Bros Milawa Vineyards Pty Ltd&quot;</value>
+            <value>&quot;BrownForman Corp&quot;</value>
+            <value>&quot;Budejovicky Budvar np&quot;</value>
+            <value>&quot;Bulbash Zavod OOO&quot;</value>
+            <value>&quot;BusinessVyn TOV&quot;</value>
+            <value>&quot;Butcombe Brewery Ltd&quot;</value>
+            <value>&quot;BWS Polska Sp zoo&quot;</value>
+            <value>&quot;C  E Baitz Pty Ltd&quot;</value>
+            <value>&quot;Ca Cervecera Boliviana SA&quot;</value>
+            <value>&quot;Ca Cerveceras Unidas SA&quot;</value>
+            <value>&quot;Ca Licorera de Nicaragua SA&quot;</value>
+            <value>&quot;Caas Paraguayas SA&quot;</value>
+            <value>&quot;Campari Milano SpA Davide&quot;</value>
+            <value>&quot;Cantina La Vis e Valle di Cembra Scarl&quot;</value>
+            <value>&quot;Cantina Viticoltori Consorzio Cantine Sociali del Trentino CAVIT scarl&quot;</value>
+            <value>&quot;Cantine Riunite  CIV SC Agr&quot;</value>
+            <value>&quot;Cantine Ronco&quot;</value>
+            <value>&quot;Capital Wine Group Ltd&quot;</value>
+            <value>&quot;Caribbean Distillers Corp Ltd CDC&quot;</value>
+            <value>&quot;Carlsberg AS&quot;</value>
+            <value>&quot;Carlson Cos Inc&quot;</value>
+            <value>&quot;Carmel Mizrachi Wineries Ltd&quot;</value>
+            <value>&quot;Cartavio Rum Co SAC&quot;</value>
+            <value>&quot;Casa Dellepiane SA&quot;</value>
+            <value>&quot;Casa Di Conti Ltda&quot;</value>
+            <value>&quot;Casa Valduga de Vinhos Finos Ltda&quot;</value>
+            <value>&quot;Casa Vinicola Canella SpA&quot;</value>
+            <value>&quot;Casa Vinicola Zonin SpA&quot;</value>
+            <value>&quot;Casella Wines Pty Ltd&quot;</value>
+            <value>&quot;Castel Groupe&quot;</value>
+            <value>&quot;Cavaliere P Vena  Amaro Lucano SpA&quot;</value>
+            <value>&quot;CAVIRO  Cooperative Agricole VitiFrutticoltori Italiani Riuniti Organizzati Scarl&quot;</value>
+            <value>&quot;CC Group Plc&quot;</value>
+            <value>&quot;Celiveca CA&quot;</value>
+            <value>&quot;Celliers Associs&quot;</value>
+            <value>&quot;Central Bottling Co Ltd The&quot;</value>
+            <value>&quot;Central de Licores Unidos de Venezuela CA&quot;</value>
+            <value>&quot;Central European Distribution Corp CEDC&quot;</value>
+            <value>&quot;Cepas Argentinas SA&quot;</value>
+            <value>&quot;Cervecera Antares SA&quot;</value>
+            <value>&quot;Cervecera Artesanal del Uruguay SRL&quot;</value>
+            <value>&quot;Cervecera Centroamericana SA&quot;</value>
+            <value>&quot;Cervejaria Krill Ltda&quot;</value>
+            <value>&quot;Cervejaria Petrpolis SA&quot;</value>
+            <value>&quot;Chai Andrieux&quot;</value>
+            <value>&quot;Chatelle  Co&quot;</value>
+            <value>&quot;China National Cereals Oils  Foodstuffs Imp  Exp Corp COFCO&quot;</value>
+            <value>&quot;China Resources Enterprise Ltd&quot;</value>
+            <value>&quot;China Resources Holdings Co Ltd&quot;</value>
+            <value>&quot;China Tontine Wines Group Ltd&quot;</value>
+            <value>&quot;Chongqing Brewery Co Ltd&quot;</value>
+            <value>&quot;Choya Umeshu Co Ltd&quot;</value>
+            <value>&quot;CIA Compaa Embotelladora Tres Leones&quot;</value>
+            <value>&quot;Cia da Unio de Cervejas de Angola SA&quot;</value>
+            <value>&quot;Cia Muller de Bebidas Ltda&quot;</value>
+            <value>&quot;Cidre Le Brun Earl&quot;</value>
+            <value>&quot;Cimlyanskie Vina OAO&quot;</value>
+            <value>&quot;Cisneros Grupo&quot;</value>
+            <value>&quot;Citic Guoan Group&quot;</value>
+            <value>&quot;CL WorldBrands Ltd&quot;</value>
+            <value>&quot;Clarks Cider SRL&quot;</value>
+            <value>&quot;Clner Hofbru Frh&quot;</value>
+            <value>&quot;Co of Wine People Pty Ltd The&quot;</value>
+            <value>&quot;CocaCola Co The&quot;</value>
+            <value>&quot;Codornu SA&quot;</value>
+            <value>&quot;Complejo Licorero Ponche Crema CA&quot;</value>
+            <value>&quot;Consorcio Licorero Nacional CA&quot;</value>
+            <value>&quot;Constellation Brands Inc&quot;</value>
+            <value>&quot;Cool Beer Brewing Co Inc&quot;</value>
+            <value>&quot;Cooper Spirits Co&quot;</value>
+            <value>&quot;Cooperativa Agrcola Pisquera de Elqui Ltda&quot;</value>
+            <value>&quot;Cooperativa Vincola Aurora Ltda&quot;</value>
+            <value>&quot;Cooperativa Vincola Garibaldi Ltda&quot;</value>
+            <value>&quot;Coopers Brewery Ltd&quot;</value>
+            <value>&quot;Costa Rica Beer Factory Inc&quot;</value>
+            <value>&quot;Costa Ricas Craft Brewing Co&quot;</value>
+            <value>&quot;Cotnar SP VAT&quot;</value>
+            <value>&quot;Cotnari SA&quot;</value>
+            <value>&quot;Country Ltd&quot;</value>
+            <value>&quot;Covinal&quot;</value>
+            <value>&quot;Craft Brew Alliance Inc&quot;</value>
+            <value>&quot;Cramele Recas SA&quot;</value>
+            <value>&quot;Cricova SA&quot;</value>
+            <value>&quot;CRS Brands Indstria  Comrcio Ltda&quot;</value>
+            <value>&quot;Cult AS&quot;</value>
+            <value>&quot;Custom Drinks SLU&quot;</value>
+            <value>&quot;Cyder House Aspall The&quot;</value>
+            <value>&quot;Daegu Takju Association&quot;</value>
+            <value>&quot;Daesun Distilling Co Ltd&quot;</value>
+            <value>&quot;Dagon Beverages Co Ltd&quot;</value>
+            <value>&quot;Damianitza&quot;</value>
+            <value>&quot;Damm SA&quot;</value>
+            <value>&quot;Dancing Camel Brewing Co Ltd The&quot;</value>
+            <value>&quot;De Bortoli Wines Pty Ltd&quot;</value>
+            <value>&quot;De Kuyper Royal Distillers BV&quot;</value>
+            <value>&quot;Delegats Group Ltd&quot;</value>
+            <value>&quot;Delhaize Group SA&quot;</value>
+            <value>&quot;Deolarte SA de CV&quot;</value>
+            <value>&quot;Derbentskiy Konyachniy Kombinat OAO&quot;</value>
+            <value>&quot;Destilacin Motatn CA&quot;</value>
+            <value>&quot;Destilados Argentinos SA&quot;</value>
+            <value>&quot;Destilera Carupano CA&quot;</value>
+            <value>&quot;Destilera El Buen Gusto SA de CV&quot;</value>
+            <value>&quot;Destilera Sierra Unidas SA de CV&quot;</value>
+            <value>&quot;Destileras La Navarra SA&quot;</value>
+            <value>&quot;Destileras Unidas SA&quot;</value>
+            <value>&quot;Destileras Unidas SAC&quot;</value>
+            <value>&quot;Deutsche Sinalco GmbH Markengetrnke  Co KG&quot;</value>
+            <value>&quot;Devils Peak Brewing&quot;</value>
+            <value>&quot;DGB Pty Ltd&quot;</value>
+            <value>&quot;Diageo Plc&quot;</value>
+            <value>&quot;Dialog OOO&quot;</value>
+            <value>&quot;Diego Zamora SA&quot;</value>
+            <value>&quot;Difcom La Cave des Pres SA&quot;</value>
+            <value>&quot;Distell Group Ltd&quot;</value>
+            <value>&quot;Distilleria Bottega Srl&quot;</value>
+            <value>&quot;Distilleria Flli Caffo Srl&quot;</value>
+            <value>&quot;Distillerie Franciacorta SpA&quot;</value>
+            <value>&quot;Distillerie Girard&quot;</value>
+            <value>&quot;Distilleries Co of Sri Lanka Plc&quot;</value>
+            <value>&quot;Distilleries Winery Thrakis SA&quot;</value>
+            <value>&quot;Distillery Plomariou Isidorou Arvanitou&quot;</value>
+            <value>&quot;Distribuidora Istmania SA de CV&quot;</value>
+            <value>&quot;Distribuidora Salvadorea SA de CV&quot;</value>
+            <value>&quot;Diwisa Distillerie Willisau SA&quot;</value>
+            <value>&quot;Dnipropetrovska Produktova Kompaniya TOV&quot;</value>
+            <value>&quot;Doctor Brew Sp zoo&quot;</value>
+            <value>&quot;Dolina OOO&quot;</value>
+            <value>&quot;Doluca Bagcilik ve Sarapcilik&quot;</value>
+            <value>&quot;DomBrauerei AG&quot;</value>
+            <value>&quot;Domeniile Viticole Tohani SRL&quot;</value>
+            <value>&quot;Douglas Qingdao Wine  Spirits Co Ltd&quot;</value>
+            <value>&quot;Dr August Oetker KG&quot;</value>
+            <value>&quot;Dr Pepper Snapple Group Inc&quot;</value>
+            <value>&quot;Drambuie Liqueur Co Ltd John&quot;</value>
+            <value>&quot;Drinks  Food Vertriebs GmbH&quot;</value>
+            <value>&quot;Drive Beer Srl&quot;</value>
+            <value>&quot;Druskininku Rasa UAB&quot;</value>
+            <value>&quot;Duche de Longueville&quot;</value>
+            <value>&quot;Duvel Moortgat NV&quot;</value>
+            <value>&quot;Dynasty Winery Co Ltd&quot;</value>
+            <value>&quot;DZIV OAO&quot;</value>
+            <value>&quot;Eagle Distilleries Co&quot;</value>
+            <value>&quot;Eastern Beverage Company SA&quot;</value>
+            <value>&quot;Ebertec SA Morocco&quot;</value>
+            <value>&quot;Edrington Group&quot;</value>
+            <value>&quot;Efe Alkollu Icecekler Ticaret AS&quot;</value>
+            <value>&quot;Efrat Wine  Beverage Manufacturers Ltd&quot;</value>
+            <value>&quot;Egervin Borgazdasg Zrt&quot;</value>
+            <value>&quot;Egger Privatbrauerei&quot;</value>
+            <value>&quot;Egyptian International Beverage Co&quot;</value>
+            <value>&quot;Eichbaum GmbH  Co KG&quot;</value>
+            <value>&quot;EJ Gallo Winery Inc&quot;</value>
+            <value>&quot;Eliza Spring LLC&quot;</value>
+            <value>&quot;Embotelladora Azuaya SA&quot;</value>
+            <value>&quot;Empee Distilleries Ltd&quot;</value>
+            <value>&quot;Empresa de Licores de Cundinamarca SA&quot;</value>
+            <value>&quot;Empresas Polar CA&quot;</value>
+            <value>&quot;Endemit Ltd&quot;</value>
+            <value>&quot;Engarrafamento Pit Ltda&quot;</value>
+            <value>&quot;Envasados Eva SA&quot;</value>
+            <value>&quot;Erdinger Privatbrauerei Weissbru Werner Brombach GmbH&quot;</value>
+            <value>&quot;Erkmakon OOO&quot;</value>
+            <value>&quot;Ernst GmbH  Co August&quot;</value>
+            <value>&quot;Euro Group&quot;</value>
+            <value>&quot;European Food SA&quot;</value>
+            <value>&quot;Evoiki AS&quot;</value>
+            <value>&quot;EZA Protipos Hellenic Brewery SA&quot;</value>
+            <value>&quot;F Korbel  Bros Inc&quot;</value>
+            <value>&quot;Fabevine Lda&quot;</value>
+            <value>&quot;Fanagoriya APF OAO&quot;</value>
+            <value>&quot;Farovon OOO PTK&quot;</value>
+            <value>&quot;Farvab JV&quot;</value>
+            <value>&quot;Fbrica de Licores del Huila&quot;</value>
+            <value>&quot;Fbrica de Licores y Alcoholes de Antioquia&quot;</value>
+            <value>&quot;Fbrica Nacional de Licores&quot;</value>
+            <value>&quot;FCP Asconi SRL&quot;</value>
+            <value>&quot;FeCoVitA Coop Ltda&quot;</value>
+            <value>&quot;Feldschlsschen Getrnke AG&quot;</value>
+            <value>&quot;Fenjiu Group&quot;</value>
+            <value>&quot;Fentimans Ltd&quot;</value>
+            <value>&quot;Feral Brewing Co&quot;</value>
+            <value>&quot;Festa Holding AD&quot;</value>
+            <value>&quot;Fifth Generation Inc&quot;</value>
+            <value>&quot;Firma Poltavpivo PAT&quot;</value>
+            <value>&quot;Flensburger Brauereien Emil Petersen GmbH  Co KG&quot;</value>
+            <value>&quot;Flix Lavaque SA&quot;</value>
+            <value>&quot;Flix Sols Avantis SA&quot;</value>
+            <value>&quot;Flli Francoli SpA&quot;</value>
+            <value>&quot;Flli Gancia  C SpA&quot;</value>
+            <value>&quot;Florida Bebidas SA&quot;</value>
+            <value>&quot;Florida Ice  Farm Co SA&quot;</value>
+            <value>&quot;Fortin SA&quot;</value>
+            <value>&quot;Forty Creek Distillery Ltd&quot;</value>
+            <value>&quot;Frankfurter Brauhaus GmbH&quot;</value>
+            <value>&quot;Franz Wilhelm Langguth Erben GmbH  Co KG&quot;</value>
+            <value>&quot;Fratelli Martini Secondo Luigi SpA&quot;</value>
+            <value>&quot;Freixenet SA&quot;</value>
+            <value>&quot;Frucona Koice as&quot;</value>
+            <value>&quot;Fukuhara Honda Cia Ltda&quot;</value>
+            <value>&quot;Fuller Smith  Turner Plc&quot;</value>
+            <value>&quot;G  J Greenall Group Ltd&quot;</value>
+            <value>&quot;Gaffel Becker  Co oHG Privatbrauerei&quot;</value>
+            <value>&quot;Gage Road Brewing Co Ltd&quot;</value>
+            <value>&quot;Galatea Spirits AB&quot;</value>
+            <value>&quot;Galilee Wine Cellars Joseph Gold  Sons Ltd&quot;</value>
+            <value>&quot;Gambrinus Co The&quot;</value>
+            <value>&quot;GAS Familia sro&quot;</value>
+            <value>&quot;Gatchinsky Spirtovoy Zavod OOO&quot;</value>
+            <value>&quot;Gekkeikan Sake Co Ltd&quot;</value>
+            <value>&quot;Geloso Group&quot;</value>
+            <value>&quot;Georgievskoe LVZ ZAO&quot;</value>
+            <value>&quot;Gerrus Group&quot;</value>
+            <value>&quot;Giacobazzi Grandi Vini&quot;</value>
+            <value>&quot;Giesen Wine Estate Canterbury Ltd&quot;</value>
+            <value>&quot;GIHOC Distilleries Co Ltd&quot;</value>
+            <value>&quot;Giordano Vini SpA&quot;</value>
+            <value>&quot;GK KristallLefortovo OOO&quot;</value>
+            <value>&quot;Glaabsbru KG&quot;</value>
+            <value>&quot;Glazovsky LVZ OAO&quot;</value>
+            <value>&quot;Global Brands Ltd&quot;</value>
+            <value>&quot;Global Spirits AMG Holding Co&quot;</value>
+            <value>&quot;Globefill Ltd&quot;</value>
+            <value>&quot;Golan Brewery Ltd&quot;</value>
+            <value>&quot;Golan Heights Winery&quot;</value>
+            <value>&quot;Gomelsky Likerovodochny Zavod Radamir OAO&quot;</value>
+            <value>&quot;Gonzlez Byass SA&quot;</value>
+            <value>&quot;Goya Foods Inc&quot;</value>
+            <value>&quot;Grands Chais de France SA Les&quot;</value>
+            <value>&quot;Grands Vins JC Boisset&quot;</value>
+            <value>&quot;Granette  Starorezn Distilleries as&quot;</value>
+            <value>&quot;Grant Burge Wines Pty Ltd&quot;</value>
+            <value>&quot;GrapeVine Kft&quot;</value>
+            <value>&quot;Greek Wine Cellars D Kourtakis SA&quot;</value>
+            <value>&quot;Greene King Plc&quot;</value>
+            <value>&quot;Grflich von Hardenbergsche Kornbrennerei GmbH  Co KG&quot;</value>
+            <value>&quot;Groupe Chevrillon&quot;</value>
+            <value>&quot;Groupe des Boissons dAlgrie SpA GBA&quot;</value>
+            <value>&quot;Groupe Quartier Franais&quot;</value>
+            <value>&quot;Grupo AJ Vierci SA&quot;</value>
+            <value>&quot;Grupo Camin Lavandera SL&quot;</value>
+            <value>&quot;Grupo Corona Spirits SA de CV&quot;</value>
+            <value>&quot;Grupo Cuervo SA de CV&quot;</value>
+            <value>&quot;Grupo MahouSan Miguel SA&quot;</value>
+            <value>&quot;Grupo Osborne SA&quot;</value>
+            <value>&quot;Grupo Peaflor SA&quot;</value>
+            <value>&quot;Gruppo Italiano Vini SpA&quot;</value>
+            <value>&quot;Grusifas SA&quot;</value>
+            <value>&quot;Gruzinskoe Zastolie TOV&quot;</value>
+            <value>&quot;Guangdong Blue Ribbon Group Co Ltd&quot;</value>
+            <value>&quot;Guangdong Jiujiang Distillery Co Ltd&quot;</value>
+            <value>&quot;Guangzhou Zhujiang Brewery Co Ltd&quot;</value>
+            <value>&quot;Gubernija AB&quot;</value>
+            <value>&quot;Gulpener Bierbrouwerij BV&quot;</value>
+            <value>&quot;Gyori Likorgyr Zrt&quot;</value>
+            <value>&quot;H Weston  Sons Ltd&quot;</value>
+            <value>&quot;Habesha Breweries SC&quot;</value>
+            <value>&quot;Hainan Yedao Co Ltd&quot;</value>
+            <value>&quot;Hakubotan Shuzo Co Ltd&quot;</value>
+            <value>&quot;Hakushika Co Ltd&quot;</value>
+            <value>&quot;Hakutsuru Sake Brewing Co Ltd&quot;</value>
+            <value>&quot;Halewood International Ltd&quot;</value>
+            <value>&quot;Hamada Syuzou Co Ltd&quot;</value>
+            <value>&quot;Hangzhou Qiandaohu Brewery Co Ltd&quot;</value>
+            <value>&quot;Hanoi Alcohol Beer  Beverages Corp Habeco&quot;</value>
+            <value>&quot;Hansa Borg Bryggerier AS&quot;</value>
+            <value>&quot;Harboes Bryggeri AS&quot;</value>
+            <value>&quot;Heaven Hill Distilleries Inc&quot;</value>
+            <value>&quot;Hebei Hengshui Laobaigan Liquor Co Ltd&quot;</value>
+            <value>&quot;Heineken NV&quot;</value>
+            <value>&quot;Henan Jinxing Brewery Group&quot;</value>
+            <value>&quot;Herman Jansen Beverages Nederland BV&quot;</value>
+            <value>&quot;Herrljunga Cider AB&quot;</value>
+            <value>&quot;HeySong Corp&quot;</value>
+            <value>&quot;Hijos de Antonio Barcel SA&quot;</value>
+            <value>&quot;Hijos de Rivera SA&quot;</value>
+            <value>&quot;Hills Cider Co The&quot;</value>
+            <value>&quot;Hirt GmbH Brauerei&quot;</value>
+            <value>&quot;Hite Jinro Co Ltd&quot;</value>
+            <value>&quot;Hokkan Syuzou Co Ltd&quot;</value>
+            <value>&quot;Hooghoudt Distillery BV&quot;</value>
+            <value>&quot;House of JC le Roux Ltd&quot;</value>
+            <value>&quot;Hubei Zhijiang Distillery Co Ltd&quot;</value>
+            <value>&quot;Hurlimann AG Brauerei&quot;</value>
+            <value>&quot;Huyghebaert E Handelsmij NV&quot;</value>
+            <value>&quot;IBB Ltd&quot;</value>
+            <value>&quot;Iceberg SP TOV&quot;</value>
+            <value>&quot;Igristye Vina ZAO&quot;</value>
+            <value>&quot;Illva Saronno SpA&quot;</value>
+            <value>&quot;Imagen Drinks Ltd&quot;</value>
+            <value>&quot;Imperial Vin Moldova&quot;</value>
+            <value>&quot;IMSA&quot;</value>
+            <value>&quot;Indosarnia PT&quot;</value>
+            <value>&quot;Indstria Agrcola Tozan Ltda&quot;</value>
+            <value>&quot;Indstria de Bebidas Paris Ltda&quot;</value>
+            <value>&quot;Indstria de Bebidas Pirassununga Ltda&quot;</value>
+            <value>&quot;Indstria e Comrcio de Bebidas Primor Ltda&quot;</value>
+            <value>&quot;Indstrias Reunidas de Bebidas Tatuzinho   Fazendas Ltda&quot;</value>
+            <value>&quot;Industra Licorera Iberoamericana SA&quot;</value>
+            <value>&quot;Industria de Licores del Valle&quot;</value>
+            <value>&quot;Industria Licorera de Boyaca&quot;</value>
+            <value>&quot;Industria Licorera de Caldas&quot;</value>
+            <value>&quot;Industria Licorera del Cauca&quot;</value>
+            <value>&quot;Industria Licorera y Embotelladora del Norte SA&quot;</value>
+            <value>&quot;Industrias Bravo CA&quot;</value>
+            <value>&quot;Industrias El Carmen CA&quot;</value>
+            <value>&quot;Industrias Licoreras de Guatemala SA&quot;</value>
+            <value>&quot;Integrator Sp zoo&quot;</value>
+            <value>&quot;Intercontinental Brands Ltd&quot;</value>
+            <value>&quot;Intercontinental Distillers Ltd&quot;</value>
+            <value>&quot;International Beers  Beverages SA&quot;</value>
+            <value>&quot;IPECA&quot;</value>
+            <value>&quot;Ishimsky VVZ OOO&quot;</value>
+            <value>&quot;Istok OAO&quot;</value>
+            <value>&quot;Ital Magyarorszg Kft&quot;</value>
+            <value>&quot;Italiana LT UAB&quot;</value>
+            <value>&quot;Izberbashs VKZ ZAO&quot;</value>
+            <value>&quot;J Armando Bermdez  Co C por A&quot;</value>
+            <value>&quot;J Chatel Sarl&quot;</value>
+            <value>&quot;J Garca Carrin SA&quot;</value>
+            <value>&quot;Jacquin et Cie Charles&quot;</value>
+            <value>&quot;Jagatjit Industries Ltd&quot;</value>
+            <value>&quot;Jagodinska Pivara ad&quot;</value>
+            <value>&quot;Jansz Tasmania Wines Ltd&quot;</value>
+            <value>&quot;Janton SA SpK&quot;</value>
+            <value>&quot;Jeanjean SA&quot;</value>
+            <value>&quot;Jebsen  Co Ltd&quot;</value>
+            <value>&quot;Jelinek Group SE R&quot;</value>
+            <value>&quot;Jems Brewery Ltd&quot;</value>
+            <value>&quot;Jiangsu Kings Luck Brewery JSC Ltd&quot;</value>
+            <value>&quot;Jiangsu Zhangjiagang Brewery Co Ltd&quot;</value>
+            <value>&quot;Jidvei SRL&quot;</value>
+            <value>&quot;Jing Brand Co Ltd&quot;</value>
+            <value>&quot;JK Anastasopoulos  Son OE&quot;</value>
+            <value>&quot;John Distilleries Pvt Ltd&quot;</value>
+            <value>&quot;Jopen BV&quot;</value>
+            <value>&quot;Joseph Verdier SA&quot;</value>
+            <value>&quot;JRBB Sp zoo&quot;</value>
+            <value>&quot;K Brewery Group as&quot;</value>
+            <value>&quot;Kabbaj Groupe&quot;</value>
+            <value>&quot;Kagura Shuzo Co Ltd&quot;</value>
+            <value>&quot;Kaiserdom Privatbrauerei Wrner KG&quot;</value>
+            <value>&quot;Karlsberg Brauerei GmbH  Co KG&quot;</value>
+            <value>&quot;Kartuli Ludis Ko&quot;</value>
+            <value>&quot;Kasapreko Co Ltd&quot;</value>
+            <value>&quot;Kaskad OOO&quot;</value>
+            <value>&quot;Kassatly Chtaura SAL&quot;</value>
+            <value>&quot;Katlenburger Kellerei Dr Demuth GmbH  Co KG&quot;</value>
+            <value>&quot;Kauno Alus AB&quot;</value>
+            <value>&quot;Kavaklidere Saraplari AS&quot;</value>
+            <value>&quot;Kazbegi JSC&quot;</value>
+            <value>&quot;Kenbishi Sake Brewing Co Ltd&quot;</value>
+            <value>&quot;KendallJackson Wine Estates&quot;</value>
+            <value>&quot;Kenya Wine Agencies Ltd KWAL&quot;</value>
+            <value>&quot;Kerlin Products Ltd&quot;</value>
+            <value>&quot;Keroche Breweries Ltd&quot;</value>
+            <value>&quot;Ketel One Worldwide BV&quot;</value>
+            <value>&quot;Kharchovyk PRAT&quot;</value>
+            <value>&quot;Kharkivsky Zavod Shampanskykh Vyn DP&quot;</value>
+            <value>&quot;Khmer Beverages Co Ltd&quot;</value>
+            <value>&quot;Kikkoman Corp&quot;</value>
+            <value>&quot;KikuMasamune Sake Brewing Co Ltd&quot;</value>
+            <value>&quot;Kikusui Sake Co Ltd&quot;</value>
+            <value>&quot;Kin Moskovskiy VinnoKonyachny Zavod OAO&quot;</value>
+            <value>&quot;King Car Food Industrial Co Ltd&quot;</value>
+            <value>&quot;King Zyozou Co Ltd&quot;</value>
+            <value>&quot;Kings Bridge Royal Distillery&quot;</value>
+            <value>&quot;Kingway Brewery Holdings Ltd&quot;</value>
+            <value>&quot;Kinmen Kaoliang Liquor Inc&quot;</value>
+            <value>&quot;Kirin Holdings Co Ltd&quot;</value>
+            <value>&quot;Kirishima Corp&quot;</value>
+            <value>&quot;Kiss Mix Drinks Co The&quot;</value>
+            <value>&quot;Kiss s Trsai Kft&quot;</value>
+            <value>&quot;Kiyosuzakura Brewery Corp&quot;</value>
+            <value>&quot;Kizakura Sake Brewing Co Ltd&quot;</value>
+            <value>&quot;Kizlyarskiy Konyachny Zavod GUP&quot;</value>
+            <value>&quot;Klimovichsky Likerovodochny Zavod OAO&quot;</value>
+            <value>&quot;Knig Ludwig GmbH  Co KG&quot;</value>
+            <value>&quot;Kobrand Corp&quot;</value>
+            <value>&quot;Kokshetauminvody AO&quot;</value>
+            <value>&quot;Koktebel Zavod Marochnykh Vyn ta Konyakiv ZAT&quot;</value>
+            <value>&quot;Koninklijke Ahold Delhaize NV&quot;</value>
+            <value>&quot;Kooksoondang Brewery Co Ltd&quot;</value>
+            <value>&quot;Kopparbergs Bryggeri AB&quot;</value>
+            <value>&quot;Kotovsky VZ TOV&quot;</value>
+            <value>&quot;Koyama Honke Syuzou Co Ltd&quot;</value>
+            <value>&quot;Krasnoarmeisky RPK OOO&quot;</value>
+            <value>&quot;Krinitsa OAO&quot;</value>
+            <value>&quot;Krnleins Bryggeri AB&quot;</value>
+            <value>&quot;Krombacher Brauerei Bhd Schadeberg GmbH  Co KG&quot;</value>
+            <value>&quot;KronosInvest TPG&quot;</value>
+            <value>&quot;Kuai Ji Shan Shaoxing Wine Co Ltd&quot;</value>
+            <value>&quot;Kumbokju Co Ltd&quot;</value>
+            <value>&quot;Kunvin Borszati Kft&quot;</value>
+            <value>&quot;Kweichow Moutai Co Ltd&quot;</value>
+            <value>&quot;KWV Group&quot;</value>
+            <value>&quot;La Agricola SA&quot;</value>
+            <value>&quot;La Madrilea SA de CV&quot;</value>
+            <value>&quot;La Martiniquaise SVS&quot;</value>
+            <value>&quot;Ladoga Kholdingovaya Kompanya ZAO&quot;</value>
+            <value>&quot;Ladoga PG ZAO&quot;</value>
+            <value>&quot;Lagunitas Brewing Co&quot;</value>
+            <value>&quot;Laitilan Wirvoitusjuomatehdas Oy&quot;</value>
+            <value>&quot;Lako Grupa&quot;</value>
+            <value>&quot;Lang Jiu Group&quot;</value>
+            <value>&quot;LansonBCC SA&quot;</value>
+            <value>&quot;Lanzheron  Co TPK TOV&quot;</value>
+            <value>&quot;Lanzhou Huanghe Beer Co Ltd&quot;</value>
+            <value>&quot;Lapasan sro&quot;</value>
+            <value>&quot;Ledenika  MM Co&quot;</value>
+            <value>&quot;Lefebvre SA&quot;</value>
+            <value>&quot;Les Brasseries Ivoriennes&quot;</value>
+            <value>&quot;Les Celliers de Meknes&quot;</value>
+            <value>&quot;Les Vins Georges Duboeuf&quot;</value>
+            <value>&quot;Licoram Licores de America SA&quot;</value>
+            <value>&quot;Licores El Compadre SA de CV&quot;</value>
+            <value>&quot;Licores Mitjans SA&quot;</value>
+            <value>&quot;Lietuviskas Midus UAB&quot;</value>
+            <value>&quot;Lindemans Brouwerij NV&quot;</value>
+            <value>&quot;Linea Nivnice as&quot;</value>
+            <value>&quot;Lion Brewery Ceylon Plc&quot;</value>
+            <value>&quot;Listel SAS&quot;</value>
+            <value>&quot;Little Creatures Brewing Pty Ltd&quot;</value>
+            <value>&quot;Liviko AS&quot;</value>
+            <value>&quot;Liviz ZAO&quot;</value>
+            <value>&quot;Lixid Project SRL&quot;</value>
+            <value>&quot;Llorente y Ca SA J&quot;</value>
+            <value>&quot;Loch Lomond Distillery Co Ltd&quot;</value>
+            <value>&quot;Logos Corp&quot;</value>
+            <value>&quot;Lomsko Pivo AD&quot;</value>
+            <value>&quot;London Distillers Kenya Ltd&quot;</value>
+            <value>&quot;Lotte Group&quot;</value>
+            <value>&quot;Lovico Lozari EAD&quot;</value>
+            <value>&quot;Lovina Beach Brewery PT&quot;</value>
+            <value>&quot;Lucas Bols BV&quot;</value>
+            <value>&quot;Luis Caballero SA Grupo&quot;</value>
+            <value>&quot;Lup Lupini&quot;</value>
+            <value>&quot;Luxco Corp&quot;</value>
+            <value>&quot;Luzhou Lao Jiao Co Ltd&quot;</value>
+            <value>&quot;LVK Vinprom Targovishte AD&quot;</value>
+            <value>&quot;LVMH Mot Hennessy Louis Vuitton SA&quot;</value>
+            <value>&quot;LWC Drinks Ltd&quot;</value>
+            <value>&quot;Mad Apple sro&quot;</value>
+            <value>&quot;Mahou SA&quot;</value>
+            <value>&quot;Malka Beer Ltd&quot;</value>
+            <value>&quot;Manischewitz Co&quot;</value>
+            <value>&quot;Manuel Busto Amandi SA&quot;</value>
+            <value>&quot;Marie Brizard  Roger International SAS&quot;</value>
+            <value>&quot;Mark Anthony Brands Ltd&quot;</value>
+            <value>&quot;MarnierLapostolle SA&quot;</value>
+            <value>&quot;Marsiya Michel Ltd&quot;</value>
+            <value>&quot;Marstons Plc&quot;</value>
+            <value>&quot;Martens Brouwerij NV&quot;</value>
+            <value>&quot;Martnez Sopea Hermanos SL&quot;</value>
+            <value>&quot;Masi Agricola SpA&quot;</value>
+            <value>&quot;Massandra NPAO&quot;</value>
+            <value>&quot;MastJgermeister SE&quot;</value>
+            <value>&quot;Matsos Broome Brewery&quot;</value>
+            <value>&quot;Mazowiecka Wytwornia Wodek i Drozdzy Polmos SA Jozefow kBlonia&quot;</value>
+            <value>&quot;McCormick Distilling Co Inc&quot;</value>
+            <value>&quot;McLaren Vale Beer Co&quot;</value>
+            <value>&quot;McWilliams Wines Pty Ltd&quot;</value>
+            <value>&quot;Meantime Brewing Co Ltd&quot;</value>
+            <value>&quot;Medovarus OOO&quot;</value>
+            <value>&quot;Mertes KG Weinkellerei Peter&quot;</value>
+            <value>&quot;Miguel Torres SA&quot;</value>
+            <value>&quot;Miller Brands Germany GmbH&quot;</value>
+            <value>&quot;Minsk Kristall OAO&quot;</value>
+            <value>&quot;Minski Zavod Bezalcoholnyh Napitkov ZAO MZBN&quot;</value>
+            <value>&quot;Minski Zavod Vinogradnyh Vin ZAO&quot;</value>
+            <value>&quot;Mitchells Breweries&quot;</value>
+            <value>&quot;Mix SA&quot;</value>
+            <value>&quot;Mksv OAO&quot;</value>
+            <value>&quot;Moa Brewing Co Ltd&quot;</value>
+            <value>&quot;Modelo SA de CV Grupo&quot;</value>
+            <value>&quot;Mohan Meakin Ltd&quot;</value>
+            <value>&quot;Molinari Italia SpA&quot;</value>
+            <value>&quot;Molinos Ro de la Plata SA&quot;</value>
+            <value>&quot;Monte Xanic SA de CV&quot;</value>
+            <value>&quot;Montenegro Srl&quot;</value>
+            <value>&quot;Moosehead Breweries Ltd&quot;</value>
+            <value>&quot;Moskovskiy Mezhrespublikanskiy Vinodelcheskiy Zavod OAO&quot;</value>
+            <value>&quot;Mosterei Mhl AG&quot;</value>
+            <value>&quot;Mount Shivalik Industries Ltd&quot;</value>
+            <value>&quot;Mountain Goat Beer Pty Ltd&quot;</value>
+            <value>&quot;Mozart Distillerie GmbH&quot;</value>
+            <value>&quot;Mozyrsky Spirtovodochny Zavod OAO&quot;</value>
+            <value>&quot;Mrva  Stanko&quot;</value>
+            <value>&quot;Muhak Co Ltd&quot;</value>
+            <value>&quot;Multi Group MFPO&quot;</value>
+            <value>&quot;Murfatlar Romania SA&quot;</value>
+            <value>&quot;Murree Brewery Co Ltd&quot;</value>
+            <value>&quot;MV Group&quot;</value>
+            <value>&quot;MVinikom OOO&quot;</value>
+            <value>&quot;Namibia Breweries Ltd&quot;</value>
+            <value>&quot;Nantong Fuhao Alcohol Industry Co Ltd&quot;</value>
+            <value>&quot;Napitki Plius OOO&quot;</value>
+            <value>&quot;Negev Brewery Ltd&quot;</value>
+            <value>&quot;Nemanoff Grodnensky Likerovodochny Zavod OAO&quot;</value>
+            <value>&quot;Nemiroff UVK&quot;</value>
+            <value>&quot;New Belgium Brewing Co&quot;</value>
+            <value>&quot;New Silkroad Culturaltainment Ltd&quot;</value>
+            <value>&quot;Nigeria Distilleries Ltd&quot;</value>
+            <value>&quot;Nihonsakari Co Ltd&quot;</value>
+            <value>&quot;Nikaido Shuzo Co Ltd&quot;</value>
+            <value>&quot;Nippon Beer Co Ltd&quot;</value>
+            <value>&quot;Novi Produkty Group&quot;</value>
+            <value>&quot;NVP Nyva TOV&quot;</value>
+            <value>&quot;Nyva TOV&quot;</value>
+            <value>&quot;Obala Grupa doo&quot;</value>
+            <value>&quot;Obolon PAT&quot;</value>
+            <value>&quot;Ochakovo MPBK ZAO&quot;</value>
+            <value>&quot;Odessavynprom ZAT&quot;</value>
+            <value>&quot;Oenon Holdings Inc&quot;</value>
+            <value>&quot;OetkerGruppe&quot;</value>
+            <value>&quot;Oettinger Brauerei GmbH&quot;</value>
+            <value>&quot;Old Herold sro&quot;</value>
+            <value>&quot;Olimp Corp&quot;</value>
+            <value>&quot;Olvi Oyj&quot;</value>
+            <value>&quot;Olymp OOO&quot;</value>
+            <value>&quot;Olympic Brewery SA&quot;</value>
+            <value>&quot;Opal Ltda&quot;</value>
+            <value>&quot;Orang Tua Group&quot;</value>
+            <value>&quot;Orange River Cellars Ltd&quot;</value>
+            <value>&quot;Oriental Brewery Co Ltd&quot;</value>
+            <value>&quot;Orion Breweries Ltd&quot;</value>
+            <value>&quot;OstorosNovaj Bor Zrt&quot;</value>
+            <value>&quot;Others&quot;</value>
+            <value>&quot;Otro Mundo Brewing Co SA&quot;</value>
+            <value>&quot;Ottakringer Getrnke AG&quot;</value>
+            <value>&quot;Ovinto SA&quot;</value>
+            <value>&quot;Ozeki Co Ltd&quot;</value>
+            <value>&quot;Pabst Brewing Co&quot;</value>
+            <value>&quot;Packhams Cider Ltd&quot;</value>
+            <value>&quot;Palm Bay International Inc&quot;</value>
+            <value>&quot;Palm NV Brouwerij&quot;</value>
+            <value>&quot;Pando Grupo SA de CV&quot;</value>
+            <value>&quot;Paolyta Co Ltd&quot;</value>
+            <value>&quot;Partner Center Sp zoo&quot;</value>
+            <value>&quot;Paulaner Brauerei GmbH  Co KG&quot;</value>
+            <value>&quot;PBK Radomyshl OAO&quot;</value>
+            <value>&quot;Pedro Carricondo e Hijos SRL&quot;</value>
+            <value>&quot;Pelee Island Vineyard Inc&quot;</value>
+            <value>&quot;PepsiAmericas Inc&quot;</value>
+            <value>&quot;PepsiCo Inc&quot;</value>
+            <value>&quot;Perindustrian Bapak Djenggot PT&quot;</value>
+            <value>&quot;Perla Browary Lubelskie SA&quot;</value>
+            <value>&quot;Pernod Ricard Groupe&quot;</value>
+            <value>&quot;Persha Pryvatna Brovarnya AT&quot;</value>
+            <value>&quot;Peter Herres Wein  Sektkellerei GmbH&quot;</value>
+            <value>&quot;Peter Lehmann Wines Ltd&quot;</value>
+            <value>&quot;Peter Zwack Consorten AG&quot;</value>
+            <value>&quot;Petrus TOV&quot;</value>
+            <value>&quot;Peza Union&quot;</value>
+            <value>&quot;Phillips Distilling Co&quot;</value>
+            <value>&quot;Phusion Projects LLC&quot;</value>
+            <value>&quot;Pines Brewing Co&quot;</value>
+            <value>&quot;Pivara Tuzla dd&quot;</value>
+            <value>&quot;Pivovar Samson as&quot;</value>
+            <value>&quot;Pivovar Steiger Vyhne sro&quot;</value>
+            <value>&quot;Pivovar Svijany as&quot;</value>
+            <value>&quot;Pivovarnya Kozhevnikovo&quot;</value>
+            <value>&quot;Pivovary Lobkowicz Group as&quot;</value>
+            <value>&quot;Piwnice Win Importowanych Vinfort Sp zoo&quot;</value>
+            <value>&quot;Plus HO Drinki Sp zoo&quot;</value>
+            <value>&quot;PMS as Prerov&quot;</value>
+            <value>&quot;Polmos BielskoBiala SA&quot;</value>
+            <value>&quot;Polmos Wytwrnia Wodek Wratislavia Akwawit  Brasco SA&quot;</value>
+            <value>&quot;Pridvinye Vitebsky Likerovodochny Zavod OAO&quot;</value>
+            <value>&quot;Prilepska Pivarnica ad&quot;</value>
+            <value>&quot;Primtor as&quot;</value>
+            <value>&quot;PrivatBrauerei Schmucker GmbH  Co KG&quot;</value>
+            <value>&quot;Private Label&quot;</value>
+            <value>&quot;Prodal  SRL&quot;</value>
+            <value>&quot;Productora Enotria CA&quot;</value>
+            <value>&quot;Productos de Uva SA de CV&quot;</value>
+            <value>&quot;Productos Derivados del Vino SA&quot;</value>
+            <value>&quot;Produmen SA&quot;</value>
+            <value>&quot;Prodvinalco SA&quot;</value>
+            <value>&quot;Prokupac Beograd ad&quot;</value>
+            <value>&quot;Pulsar Group Brewery QK MChJ&quot;</value>
+            <value>&quot;Pusan Takju Association&quot;</value>
+            <value>&quot;Qinghai Huzhu Barley Wine Co Ltd&quot;</value>
+            <value>&quot;Racke GmbH  Co A&quot;</value>
+            <value>&quot;Radamir Gomelsky Likerovodochny Zavod OAO&quot;</value>
+            <value>&quot;Radico Khaitan Ltd&quot;</value>
+            <value>&quot;Raisin Social Ltd&quot;</value>
+            <value>&quot;Ramseier Suisse AG&quot;</value>
+            <value>&quot;Rauch Fruchtsfte GmbH  Co OG&quot;</value>
+            <value>&quot;Raupkhon JSC&quot;</value>
+            <value>&quot;Rebellion Brewing Pty Ltd&quot;</value>
+            <value>&quot;Refriango Lda&quot;</value>
+            <value>&quot;Reissdorf GmbH  Co Privatbrauerei&quot;</value>
+            <value>&quot;Reitangruppen AS&quot;</value>
+            <value>&quot;Renato Passarin  Filhos Ltda&quot;</value>
+            <value>&quot;Renmark SA&quot;</value>
+            <value>&quot;Rewe Group&quot;</value>
+            <value>&quot;Riks TOO&quot;</value>
+            <value>&quot;Rimuss  Weinkellerei Rahm AG&quot;</value>
+            <value>&quot;Rinkuskiu Alaus Darykla&quot;</value>
+            <value>&quot;Rmy Cointreau Group&quot;</value>
+            <value>&quot;Robertson Winery&quot;</value>
+            <value>&quot;Rodia SpA&quot;</value>
+            <value>&quot;Romaqua Group SA&quot;</value>
+            <value>&quot;Ron Santa Teresa CA&quot;</value>
+            <value>&quot;Rosspirtprom FGUP&quot;</value>
+            <value>&quot;Rostshampankombinat OOO&quot;</value>
+            <value>&quot;RotkppchenMumm Sektkellereien GmbH&quot;</value>
+            <value>&quot;Royal Ahold NV&quot;</value>
+            <value>&quot;Royal Fruit Garden TOV&quot;</value>
+            <value>&quot;Royal Unibrew AS&quot;</value>
+            <value>&quot;RPB SA&quot;</value>
+            <value>&quot;Rubin AD&quot;</value>
+            <value>&quot;Rum Co The&quot;</value>
+            <value>&quot;Russian Standard Corp&quot;</value>
+            <value>&quot;Russkiy VKZ OOO&quot;</value>
+            <value>&quot;SABMiller Plc&quot;</value>
+            <value>&quot;Saigon Alcohol Beer  Beverages Corp Sabeco&quot;</value>
+            <value>&quot;Samant Soma Wines Ltd&quot;</value>
+            <value>&quot;San Miguel Corp&quot;</value>
+            <value>&quot;Santa Helena SA&quot;</value>
+            <value>&quot;Santa Margherita SpA&quot;</value>
+            <value>&quot;Santiago Queirolo SA&quot;</value>
+            <value>&quot;Sanwa Shurui Co Ltd&quot;</value>
+            <value>&quot;Sapporo Holdings Ltd&quot;</value>
+            <value>&quot;Sarajevska Pivara dd&quot;</value>
+            <value>&quot;Satsuma Shuzo Co Ltd&quot;</value>
+            <value>&quot;Sawanotsuru Co Ltd&quot;</value>
+            <value>&quot;Saxer Brewing Co&quot;</value>
+            <value>&quot;Sazerac Co Inc&quot;</value>
+            <value>&quot;Schenk SA&quot;</value>
+            <value>&quot;Schtzengarten AG Brauerei&quot;</value>
+            <value>&quot;Schwarze  Schlichte Markenvertrieb GmbH  Co KG&quot;</value>
+            <value>&quot;Scorpios Sp zoo&quot;</value>
+            <value>&quot;Seagers Evans Co Ltd&quot;</value>
+            <value>&quot;Sektkellerei Schloss Wachenheim AG&quot;</value>
+            <value>&quot;Semak Industri PT&quot;</value>
+            <value>&quot;Senz Briones y Ca SAI y C&quot;</value>
+            <value>&quot;Seoul Takju Association&quot;</value>
+            <value>&quot;Shaanxi Xifeng Liquor Co Ltd&quot;</value>
+            <value>&quot;Shabo PromyslovoTorhivelna Kompaniia TOV&quot;</value>
+            <value>&quot;Shandong JingZhi Distillery Co Ltd&quot;</value>
+            <value>&quot;Shandong Kong Fu Jia Distillery Co Ltd&quot;</value>
+            <value>&quot;Shanghai Bacchus Liquor Co Ltd&quot;</value>
+            <value>&quot;Shanghai Donghai Brewery Co Ltd&quot;</value>
+            <value>&quot;Shanghai Jin Feng Wine Co&quot;</value>
+            <value>&quot;Shanhao Group Co&quot;</value>
+            <value>&quot;ShawRoss International Importers&quot;</value>
+            <value>&quot;Shepherd Neame Ltd&quot;</value>
+            <value>&quot;Shiva Distilleries Ltd&quot;</value>
+            <value>&quot;SHS Group&quot;</value>
+            <value>&quot;Siam Winery Co Ltd&quot;</value>
+            <value>&quot;Sichuan Jian Nan Chun Group Co Ltd&quot;</value>
+            <value>&quot;Sichuan Tuopai Shede Wine Co Ltd&quot;</value>
+            <value>&quot;Sichuan Yibin Wuliangye Distillery Co Ltd&quot;</value>
+            <value>&quot;Sidra Escanciador SA&quot;</value>
+            <value>&quot;Sidra Menndez SL&quot;</value>
+            <value>&quot;Sidrera La Carolina SA&quot;</value>
+            <value>&quot;Siebrand Groep BV&quot;</value>
+            <value>&quot;Sierra Nevada Brewing Co&quot;</value>
+            <value>&quot;Signal Hill Products&quot;</value>
+            <value>&quot;Siping Ginsber Draft Beer Co Ltd&quot;</value>
+            <value>&quot;SIS Industries OOD&quot;</value>
+            <value>&quot;SISI Group doo&quot;</value>
+            <value>&quot;SK Drink Kft&quot;</value>
+            <value>&quot;SkyOcean Group Holdings Co Ltd&quot;</value>
+            <value>&quot;Slaska Wytwrnia Wdek Gatunkowych POLMOS SA&quot;</value>
+            <value>&quot;Slavyanskiy RPK ZAO&quot;</value>
+            <value>&quot;Snell  Co Edward&quot;</value>
+            <value>&quot;Socit Commerciale de Brasserie SABrouwerij Handelsmaatschappij NV&quot;</value>
+            <value>&quot;Socit Frigorifique et Brasserie de Tunis&quot;</value>
+            <value>&quot;Socit nouvelle de Brasserie SONOBRA&quot;</value>
+            <value>&quot;Sodial CI&quot;</value>
+            <value>&quot;Sogrape Group&quot;</value>
+            <value>&quot;Sophia Polska Sp zoo&quot;</value>
+            <value>&quot;Sordis OOO&quot;</value>
+            <value>&quot;Soyuzplodimport ZAO&quot;</value>
+            <value>&quot;Spendrups Bryggeri AB&quot;</value>
+            <value>&quot;SPI Group&quot;</value>
+            <value>&quot;St Emiliana&quot;</value>
+            <value>&quot;St Nicolaus Trade as&quot;</value>
+            <value>&quot;Status Group OOO&quot;</value>
+            <value>&quot;Stieglbrauerei zu Riedenburg Franz Huemer  Co&quot;</value>
+            <value>&quot;Stock Spirits Group&quot;</value>
+            <value>&quot;Stone  Wood Brewing Co&quot;</value>
+            <value>&quot;Sublimar SA&quot;</value>
+            <value>&quot;Sujiu Group&quot;</value>
+            <value>&quot;Suministros Vinicos SL&quot;</value>
+            <value>&quot;Suntory Holdings Ltd&quot;</value>
+            <value>&quot;Super Bock Group SGPS SA&quot;</value>
+            <value>&quot;Sutton Group Holdings Ltd&quot;</value>
+            <value>&quot;Suzdalsky Medovarenny Zavod ZAO&quot;</value>
+            <value>&quot;Swisslion Takovo doo&quot;</value>
+            <value>&quot;Symington Family Estates&quot;</value>
+            <value>&quot;Synergya OAO&quot;</value>
+            <value>&quot;Taiwan Tobacco  Liquor Corp&quot;</value>
+            <value>&quot;Takara Holdings Inc&quot;</value>
+            <value>&quot;Tanduay Distillers Inc&quot;</value>
+            <value>&quot;Tarricone SpA&quot;</value>
+            <value>&quot;Tashkentvino OJSC&quot;</value>
+            <value>&quot;Tatspirtprom OAO&quot;</value>
+            <value>&quot;Taylors Wines Pty Ltd&quot;</value>
+            <value>&quot;Telish AD&quot;</value>
+            <value>&quot;Templarske sklepy Cejkovice&quot;</value>
+            <value>&quot;Tempo Beer Industries Ltd&quot;</value>
+            <value>&quot;Tenwow International Holdings Ltd&quot;</value>
+            <value>&quot;Tequila Centinela SA de CV&quot;</value>
+            <value>&quot;Tequila Orendain de Jalisco SA de CV&quot;</value>
+            <value>&quot;Tequila Supremo SA de CV&quot;</value>
+            <value>&quot;Tequilas del Seor SA de CV&quot;</value>
+            <value>&quot;Thai Beverage PCL&quot;</value>
+            <value>&quot;Thang Long Liquor JSC&quot;</value>
+            <value>&quot;Thatchers Cider Co Ltd&quot;</value>
+            <value>&quot;Thrre Town Ind Brewery&quot;</value>
+            <value>&quot;Tibet Galaxy Science  Technology Development Co Ltd&quot;</value>
+            <value>&quot;Tilaknagar Industries Ltd&quot;</value>
+            <value>&quot;Timothy Taylor  Co Ltd&quot;</value>
+            <value>&quot;Tokaj Kereskedohz Zrt&quot;</value>
+            <value>&quot;Toschi Vignola Srl&quot;</value>
+            <value>&quot;Treasury Wine Estates Ltd&quot;</value>
+            <value>&quot;Treintaycinco Fbrica de Cervezas SA&quot;</value>
+            <value>&quot;Trinchero Family Estates&quot;</value>
+            <value>&quot;Tsantalis E SA&quot;</value>
+            <value>&quot;Tsingtao Brewery Co Ltd&quot;</value>
+            <value>&quot;Tucher Bru GmbH  Co KG&quot;</value>
+            <value>&quot;UB Group&quot;</value>
+            <value>&quot;Uganda Breweries Ltd&quot;</value>
+            <value>&quot;Ukrprominvest ZAO&quot;</value>
+            <value>&quot;Ukrspirt&quot;</value>
+            <value>&quot;Underberg AG&quot;</value>
+            <value>&quot;Unicer  Bebidas de Portugal SA&quot;</value>
+            <value>&quot;Union Camerounaise de Brasseries&quot;</value>
+            <value>&quot;Union des Vignerons des Ctes du Rhne SCA&quot;</value>
+            <value>&quot;Union In Vivo Sca&quot;</value>
+            <value>&quot;United Bottling Group&quot;</value>
+            <value>&quot;United Brands sro&quot;</value>
+            <value>&quot;United Dutch Breweries BV&quot;</value>
+            <value>&quot;United Rum Merchants Ltd&quot;</value>
+            <value>&quot;Unkai Shuzo Co&quot;</value>
+            <value>&quot;Usovskie Vinnokonjachnye Podvaly OOO&quot;</value>
+            <value>&quot;V V Food  Beverage Co Ltd&quot;</value>
+            <value>&quot;Valjevska Pivara ad&quot;</value>
+            <value>&quot;Valle Ballina  Fernndez SA&quot;</value>
+            <value>&quot;Valle Redondo SA de CV&quot;</value>
+            <value>&quot;Valmiermuizas Alus SIA&quot;</value>
+            <value>&quot;Van Loveren Wines&quot;</value>
+            <value>&quot;Van Pur SA&quot;</value>
+            <value>&quot;Vanguard Group&quot;</value>
+            <value>&quot;Varela Hermanos SA&quot;</value>
+            <value>&quot;Varga Pincszet Kft&quot;</value>
+            <value>&quot;Vats Group&quot;</value>
+            <value>&quot;Veda ZAO&quot;</value>
+            <value>&quot;Veles OOO&quot;</value>
+            <value>&quot;Verpoorten GmbH  Co KG&quot;</value>
+            <value>&quot;Via Concha y Toro SA&quot;</value>
+            <value>&quot;Via Santa Carolina SA&quot;</value>
+            <value>&quot;Via Santa Rita SA&quot;</value>
+            <value>&quot;Via Tacama SA&quot;</value>
+            <value>&quot;Via Undurraga SA&quot;</value>
+            <value>&quot;Via Valdivieso SA&quot;</value>
+            <value>&quot;Vicente Ganda Pl SA&quot;</value>
+            <value>&quot;Victoria ZAT&quot;</value>
+            <value>&quot;Viktoria TD OOO&quot;</value>
+            <value>&quot;Vilash ZAO&quot;</value>
+            <value>&quot;Villa Manquehue&quot;</value>
+            <value>&quot;Villa Maria Estate Ltd&quot;</value>
+            <value>&quot;Vilniaus Alus UAB&quot;</value>
+            <value>&quot;Vinarske Zavody Topolcianky sro&quot;</value>
+            <value>&quot;Vincola Campestre Ltda&quot;</value>
+            <value>&quot;Vincola LA Cetto SA de CV&quot;</value>
+            <value>&quot;Vincola Miolo Ltda&quot;</value>
+            <value>&quot;Vincon Vrancea SA&quot;</value>
+            <value>&quot;Vinex Slavyantsi AD&quot;</value>
+            <value>&quot;Vinhos Piagentini SA&quot;</value>
+            <value>&quot;Vinhos Salton SA Indstria e Comrcio&quot;</value>
+            <value>&quot;Vinia SA&quot;</value>
+            <value>&quot;Vinicolas de Tecate D de RL&quot;</value>
+            <value>&quot;Vinimark&quot;</value>
+            <value>&quot;Vinium as&quot;</value>
+            <value>&quot;VinKon SA&quot;</value>
+            <value>&quot;Vino Nitra spol sro&quot;</value>
+            <value>&quot;VinoproduktCoka doo&quot;</value>
+            <value>&quot;Vinpol Sp zoo&quot;</value>
+            <value>&quot;Vinprom Peshtera AD&quot;</value>
+            <value>&quot;Vinprom Yambol&quot;</value>
+            <value>&quot;Viticoltori Ponte Srl&quot;</value>
+            <value>&quot;Vitivincola Cereser SA&quot;</value>
+            <value>&quot;Vno Matyk sro&quot;</value>
+            <value>&quot;Vok Beverages Pty Ltd&quot;</value>
+            <value>&quot;VrankenPommery Monopole SA&quot;</value>
+            <value>&quot;Vyna Livadiyi TOV&quot;</value>
+            <value>&quot;Wadworth  Co Ltd&quot;</value>
+            <value>&quot;Warburn Estate Pty Ltd&quot;</value>
+            <value>&quot;Warsteiner Brauerei Haus Cramer GmbH  Co KG&quot;</value>
+            <value>&quot;Warwin SA&quot;</value>
+            <value>&quot;Weinhaus Kft&quot;</value>
+            <value>&quot;Weinkellerei Lenz Moser AG&quot;</value>
+            <value>&quot;Weissbierbrauerei Georg Schneider  Sohn GmbH&quot;</value>
+            <value>&quot;Wells  Youngs Brewing Co Ltd&quot;</value>
+            <value>&quot;Wenneker Distillery BV&quot;</value>
+            <value>&quot;White Rock Distilleries Inc&quot;</value>
+            <value>&quot;William Grant  Sons Ltd&quot;</value>
+            <value>&quot;Wimpex TOO&quot;</value>
+            <value>&quot;Wine Group Inc The&quot;</value>
+            <value>&quot;Wither Hills Vineyards Marlborough Ltd&quot;</value>
+            <value>&quot;WJ Deutsch  Sons&quot;</value>
+            <value>&quot;Wuxi Zhentai Winery Co Ltd&quot;</value>
+            <value>&quot;Xayal Brewery Azerbaijan&quot;</value>
+            <value>&quot;Xinjiang Yilite Industry Co Ltd&quot;</value>
+            <value>&quot;Yablochnyj Spas OOO&quot;</value>
+            <value>&quot;Yalumba Wine Co&quot;</value>
+            <value>&quot;Yantai Changyu Group Co Ltd&quot;</value>
+            <value>&quot;Yantai Pengzhu Winery Co Ltd&quot;</value>
+            <value>&quot;Yantai Weilong Grape Wine Co Ltd&quot;</value>
+            <value>&quot;Young  Co Brewery Plc&quot;</value>
+            <value>&quot;Yuengling Brewery&quot;</value>
+            <value>&quot;Zakarpatvynprom&quot;</value>
+            <value>&quot;Zapiain SAT&quot;</value>
+            <value>&quot;Zavod Vinogradnyh Vin Dionis COOO&quot;</value>
+            <value>&quot;Zeleny Gai VAT&quot;</value>
+            <value>&quot;Zhejiang Anji Wuzhanmao Wine Co Ltd&quot;</value>
+            <value>&quot;Zhejiang Guyue Longshan Shaoxing Wine Co Ltd&quot;</value>
+            <value>&quot;Zhejiang Pagoda Brand Shaoxing Wine Factory&quot;</value>
+            <value>&quot;Zhejiang Shaoxing Baita Brewery&quot;</value>
+            <value>&quot;Zhejiang Tangsong Wine Co Ltd&quot;</value>
+            <value>&quot;Ziyobahsh Uni Trading JV&quot;</value>
+            <value>&quot;Znovin Znojmo as&quot;</value>
+            <value>&quot;Zolota Balka Agrofirma TOV&quot;</value>
+            <value>&quot;Zolotaya Manufaktura OOO&quot;</value>
+            <value>&quot;Zolotonisky LGZ Zlatogor TOV&quot;</value>
+            <value>&quot;Zwettl Privatbrauerei&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='Global Brand Owner' datatype='string' name='[Global_Brand_Owner]' role='dimension' type='nominal' />
+      <column caption='Hierarchy Level' datatype='integer' name='[Hierarchy_Level]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+      <column caption='Subcategory ID' datatype='integer' name='[Subcategory_ID]' role='dimension' type='ordinal' />
+      <column caption='Year date' datatype='real' hidden='true' name='[Year_date]' role='dimension' type='ordinal' />
+      <column caption='Year minus 2016' datatype='integer' name='[Year_minus_2016]' role='dimension' type='quantitative' />
+      <column caption='Year text' datatype='integer' name='[Year_text]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Company_Share_GBO_unit_clean_V1_3_3_1.csv' datatype='table' name='[__tableau_internal_object_id__].[Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[id (Categories.csv)]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[id (Subcategories.csv)]' role='dimension' type='ordinal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Name:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Non Alcoholic Beer&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Ale&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Economy Lager&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Spirits&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Premium Lager&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Flavoured/Mixed Lager&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Beer&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Wine&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Lager&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Standard Lager&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Stout&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;RTDs/High-Strength Premixes&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mid-Priced Lager&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cider/Perry&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Weissbier/Weizen/Wheat Beer&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sorghum&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Dark Beer&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Belgium&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Company_Share_GBO_unit_clean_V1_3_3_1.csv' id='Company_Share_GBO_unit_clean_V1_3_3_1.csv_CEBA4A4B2BB54FF7ABA1BF7FB9475E10'>
+            <properties context=''>
+              <relation join='inner' type='join'>
+                <clause type='join'>
+                  <expression op='='>
+                    <expression op='[Subcategories.csv].[Category]' />
+                    <expression op='[Categories.csv].[id]' />
+                  </expression>
+                </clause>
+                <relation join='inner' type='join'>
+                  <clause type='join'>
+                    <expression op='='>
+                      <expression op='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Subcategory_ID]' />
+                      <expression op='[Subcategories.csv].[id]' />
+                    </expression>
+                  </clause>
+                  <relation join='inner' type='join'>
+                    <clause type='join'>
+                      <expression op='='>
+                        <expression op='[Company_Share_GBO_unit_clean_V1_3_3_1.csv].[Location]' />
+                        <expression op='[Locationsv1.0.csv].[id]' />
+                      </expression>
+                    </clause>
+                    <relation connection='textscan.1hlkbef0k45kjp1eu5u3s1bcfgba' name='Company_Share_GBO_unit_clean_V1_3_3_1.csv' table='[Company_Share_GBO_unit_cl#csv$]' type='table'>
+                      <columns character-set='UTF-8' gridOrigin='A1:K10001:no:A1:K10001:1' header='yes' locale='fr_BE'>
+                        <column datatype='integer' name='Location' ordinal='0' />
+                        <column datatype='string' name='Industry' ordinal='1' />
+                        <column datatype='integer' name='Subcategory_ID' ordinal='2' />
+                        <column datatype='integer' name='Hierarchy_Level' ordinal='3' />
+                        <column datatype='string' name='Data_Type' ordinal='4' />
+                        <column datatype='string' name='Global_Brand_Owner' ordinal='5' />
+                        <column datatype='string' name='Unit' ordinal='6' />
+                        <column datatype='integer' name='Year_text' ordinal='7' />
+                        <column datatype='real' name='Year_date' ordinal='8' />
+                        <column datatype='integer' name='Year_minus_2016' ordinal='9' />
+                        <column datatype='real' name='Volume' ordinal='10' />
+                      </columns>
+                    </relation>
+                    <relation connection='textscan.1hlkbef0k45kjp1eu5u3s1bcfgba' name='Locationsv1.0.csv' table='[Locationsv1.0#csv$]' type='table'>
+                      <columns character-set='UTF-8' gridOrigin='A1:C9:no:A1:C9:1' header='yes' locale='fr_BE'>
+                        <column datatype='integer' name='id' ordinal='0' />
+                        <column datatype='string' name='Region' ordinal='1' />
+                        <column datatype='string' name='Country' ordinal='2' />
+                      </columns>
+                    </relation>
+                  </relation>
+                  <relation connection='textscan.1hlkbef0k45kjp1eu5u3s1bcfgba' name='Subcategories.csv' table='[Subcategories#csv$]' type='table'>
+                    <columns gridOrigin='A1:C35:no:A1:C35:1'>
+                      <column datatype='integer' name='id' ordinal='0' />
+                      <column datatype='integer' name='Category' ordinal='1' />
+                      <column datatype='string' name='Name' ordinal='2' />
+                    </columns>
+                  </relation>
+                </relation>
+                <relation connection='textscan.1hlkbef0k45kjp1eu5u3s1bcfgba' name='Categories.csv' table='[Categories#csv$]' type='table'>
+                  <columns gridOrigin='A1:B11:no:A1:B11:1'>
+                    <column datatype='integer' name='id' ordinal='0' />
+                    <column datatype='string' name='Name' ordinal='1' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Dragonyte_VS_competition'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Company_Share_GBO_unit_clean_V1_3_3_1+' name='federated.0av5pfb0pzv9701afx74q0mwh4qa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0av5pfb0pzv9701afx74q0mwh4qa'>
+            <column datatype='string' name='[Global Brand Owner (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Global_Brand_Owner]' new-bin='true'>
+                <bin default-name='false' value='&quot;Competition&quot;'>
+                  <value>&quot;Aass P Ltz AS&quot;</value>
+                  <value>&quot;Abbaye Notre Dame de Scourmont&quot;</value>
+                  <value>&quot;Abbaye Notre Dame dOrval&quot;</value>
+                  <value>&quot;ABC SA&quot;</value>
+                  <value>&quot;Abdij der Trappisten van Westmalle&quot;</value>
+                  <value>&quot;AbrauDurso JSC&quot;</value>
+                  <value>&quot;Acciona SA&quot;</value>
+                  <value>&quot;Accolade Wines Ltd&quot;</value>
+                  <value>&quot;Achaia Clauss Wine Co SA&quot;</value>
+                  <value>&quot;Adams Cider Co Ltd&quot;</value>
+                  <value>&quot;Adnams  Co Plc&quot;</value>
+                  <value>&quot;Adventis TOV&quot;</value>
+                  <value>&quot;Advini SA&quot;</value>
+                  <value>&quot;Afsar Co Ltd SP OOO&quot;</value>
+                  <value>&quot;Agave Loco LLC&quot;</value>
+                  <value>&quot;Agora SA&quot;</value>
+                  <value>&quot;Agrial Groupe&quot;</value>
+                  <value>&quot;Agrofirma Mehnat OAO&quot;</value>
+                  <value>&quot;Agrofirma Tervete SIA&quot;</value>
+                  <value>&quot;Aitor Ider Balbo SAACI&quot;</value>
+                  <value>&quot;Aje Group&quot;</value>
+                  <value>&quot;Akita Meijyo Co Ltd&quot;</value>
+                  <value>&quot;Akita Shurui Seizoh Co Ltd&quot;</value>
+                  <value>&quot;Akvadiv Malinovshchiznensky Spirtovodochny Zavod COOO&quot;</value>
+                  <value>&quot;AlcoholControl OAO&quot;</value>
+                  <value>&quot;AlefVinal Corp&quot;</value>
+                  <value>&quot;Alexander Ltd&quot;</value>
+                  <value>&quot;Alexandrion Group Romania SRL&quot;</value>
+                  <value>&quot;Alita AB&quot;</value>
+                  <value>&quot;Alkogolnaya Sibirskaya Gruppa OOO&quot;</value>
+                  <value>&quot;AlkonM OOO&quot;</value>
+                  <value>&quot;Alliance  VKZ OOO&quot;</value>
+                  <value>&quot;Alliance Global Group Inc&quot;</value>
+                  <value>&quot;Allied Blenders  Distillers Pvt Ltd&quot;</value>
+                  <value>&quot;Altera Holding&quot;</value>
+                  <value>&quot;Altia Oyj&quot;</value>
+                  <value>&quot;Altria Group Inc&quot;</value>
+                  <value>&quot;Alvisa SL&quot;</value>
+                  <value>&quot;Amber Group&quot;</value>
+                  <value>&quot;American Beverage Corp&quot;</value>
+                  <value>&quot;Amrut Distilleries Pvt Ltd&quot;</value>
+                  <value>&quot;Anadolu Group&quot;</value>
+                  <value>&quot;Andrew Peller Ltd&quot;</value>
+                  <value>&quot;Angoves Pty Ltd&quot;</value>
+                  <value>&quot;AnheuserBusch InBev NV&quot;</value>
+                  <value>&quot;Anhui Golden Seed Winery Co Ltd&quot;</value>
+                  <value>&quot;Anhui Gujing Group Co Ltd&quot;</value>
+                  <value>&quot;Anhui Kouzi Distillery Co Ltd&quot;</value>
+                  <value>&quot;Anhui Yingjia Distillery Co Ltd&quot;</value>
+                  <value>&quot;Anka Wines Sp zoo&quot;</value>
+                  <value>&quot;Antalya Alkollu Iecek San ve Tic AS&quot;</value>
+                  <value>&quot;Antnio Basso  Filhos Ltda&quot;</value>
+                  <value>&quot;Aqualife PK OAO&quot;</value>
+                  <value>&quot;Arbor Brasil Indstria de Bebidas Ltda&quot;</value>
+                  <value>&quot;Arco Bodegas Unidas SA&quot;</value>
+                  <value>&quot;ArcusGruppen AS&quot;</value>
+                  <value>&quot;Argo Food  Beverage International&quot;</value>
+                  <value>&quot;Ariant TSPI OOO&quot;</value>
+                  <value>&quot;Arpanoosh Co&quot;</value>
+                  <value>&quot;Artemivsk ZShV ZAT&quot;</value>
+                  <value>&quot;As Vohu Vein&quot;</value>
+                  <value>&quot;Asahi Group Holdings Ltd&quot;</value>
+                  <value>&quot;Asahi Shuzo Co Ltd&quot;</value>
+                  <value>&quot;Asia Brewery Inc&quot;</value>
+                  <value>&quot;ASM Liquor Pty Ltd&quot;</value>
+                  <value>&quot;Aston Manor Brewery Co Ltd&quot;</value>
+                  <value>&quot;AugustinerBru Wagner KG&quot;</value>
+                  <value>&quot;Aujan Industries Co Ltd&quot;</value>
+                  <value>&quot;Australian Vintage Ltd&quot;</value>
+                  <value>&quot;Averna SpA Flli&quot;</value>
+                  <value>&quot;Azende Corp Ca Ltda&quot;</value>
+                  <value>&quot;Azeri Brewery&quot;</value>
+                  <value>&quot;B Beverages Pvt Ltd&quot;</value>
+                  <value>&quot;Bacardi  Co Ltd&quot;</value>
+                  <value>&quot;Badel  dd&quot;</value>
+                  <value>&quot;Badische Staatsbrauerei Rothaus AG&quot;</value>
+                  <value>&quot;Baesangmyun Brewery Place Co Ltd&quot;</value>
+                  <value>&quot;Baikalfarm OAO&quot;</value>
+                  <value>&quot;Bakhchysarai Krymskyi VynnoKoniachnyi Zavod ZAT&quot;</value>
+                  <value>&quot;Bali Hai Brewery Indonesia PT&quot;</value>
+                  <value>&quot;Banfi SpA&quot;</value>
+                  <value>&quot;Banjalucka Pivara ad&quot;</value>
+                  <value>&quot;Banskobystricky Pivovar as&quot;</value>
+                  <value>&quot;Barbadillo Group&quot;</value>
+                  <value>&quot;Barcel International SA&quot;</value>
+                  <value>&quot;Baron Philippe de Rothschild SA&quot;</value>
+                  <value>&quot;BartexBartol Sp zoo Sp k&quot;</value>
+                  <value>&quot;Barton  Guestier SA&quot;</value>
+                  <value>&quot;Bashspirt OAO&quot;</value>
+                  <value>&quot;Bataillard SA&quot;</value>
+                  <value>&quot;Bavaria NV&quot;</value>
+                  <value>&quot;Bavarian State Brewery The&quot;</value>
+                  <value>&quot;Bavick NV&quot;</value>
+                  <value>&quot;Bayadera Holding TOV&quot;</value>
+                  <value>&quot;Beam Inc&quot;</value>
+                  <value>&quot;Bebidas Asteca Ltda&quot;</value>
+                  <value>&quot;Bebidas da Serra SA&quot;</value>
+                  <value>&quot;Bebidas Interandinas SAC&quot;</value>
+                  <value>&quot;Becle SAB de CV&quot;</value>
+                  <value>&quot;Behn Getrnke GmbH&quot;</value>
+                  <value>&quot;Behnoush Iran Co&quot;</value>
+                  <value>&quot;Beijing Shunxin Agriculture Co Ltd&quot;</value>
+                  <value>&quot;Beijing Yanjing Brewery Co Ltd&quot;</value>
+                  <value>&quot;Bel Mondo Italia Corp&quot;</value>
+                  <value>&quot;Belalco Brestsky Likerovodochny Zavod OAO&quot;</value>
+                  <value>&quot;Beluga Group PAO&quot;</value>
+                  <value>&quot;Belvdre SA&quot;</value>
+                  <value>&quot;BelVinGroup COOO&quot;</value>
+                  <value>&quot;Bere Trei Stejari SA&quot;</value>
+                  <value>&quot;BerentzenGruppe AG&quot;</value>
+                  <value>&quot;berkinger GmbH&quot;</value>
+                  <value>&quot;Bermas SA&quot;</value>
+                  <value>&quot;Bernard Rodinny Pivovar&quot;</value>
+                  <value>&quot;Best Global Brands Ltd&quot;</value>
+                  <value>&quot;Beverage Brands UK Ltd&quot;</value>
+                  <value>&quot;BGI Ethiopia Plc&quot;</value>
+                  <value>&quot;Bierbrouwerij De Koningshoeven BV&quot;</value>
+                  <value>&quot;Big Rock Brewery Inc&quot;</value>
+                  <value>&quot;Binderer St Ursula Weinkellerei GmbH&quot;</value>
+                  <value>&quot;Binyamina Wine Cellars&quot;</value>
+                  <value>&quot;BIP Beograd ad&quot;</value>
+                  <value>&quot;Birkenhead Brewery&quot;</value>
+                  <value>&quot;Birra Castello SpA&quot;</value>
+                  <value>&quot;Birra Forst SpA&quot;</value>
+                  <value>&quot;Bitburger Braugruppe GmbH&quot;</value>
+                  <value>&quot;Black Fly Beverage Co Inc&quot;</value>
+                  <value>&quot;Blue Pyrenees Estate Ltd&quot;</value>
+                  <value>&quot;Blue Ribbon Intermediate Holdings LLC&quot;</value>
+                  <value>&quot;Boatrocker Brewing Co&quot;</value>
+                  <value>&quot;Bodega Cruz de Piedra SA&quot;</value>
+                  <value>&quot;Bodega Las Copas SL&quot;</value>
+                  <value>&quot;Bodegas Angel Fallabrino SA&quot;</value>
+                  <value>&quot;Bodegas Copa de Oro SA de CV&quot;</value>
+                  <value>&quot;Bodegas Cuvillier SA&quot;</value>
+                  <value>&quot;Bodegas de Villaviciosa SA&quot;</value>
+                  <value>&quot;Bodegas del Rhin Ltda&quot;</value>
+                  <value>&quot;Bodegas Esmeralda SA&quot;</value>
+                  <value>&quot;Bodegas Martn Cdax SA&quot;</value>
+                  <value>&quot;Bodegas Norton SA&quot;</value>
+                  <value>&quot;Bodegas Roqueta SA&quot;</value>
+                  <value>&quot;Bodegas ValdepabloNeva ZAO&quot;</value>
+                  <value>&quot;Bodegas Valentin Bianchi SA&quot;</value>
+                  <value>&quot;Bodegas y Bebidas SA Grupo&quot;</value>
+                  <value>&quot;Bodegas y Viedos Garbin SA&quot;</value>
+                  <value>&quot;Bodegas y Viedos Lpez SA&quot;</value>
+                  <value>&quot;Bodegas y Viedos Santa Rosa&quot;</value>
+                  <value>&quot;Bodegas y Viedos Tabernero SA&quot;</value>
+                  <value>&quot;Bogot Beer Co SA&quot;</value>
+                  <value>&quot;Bohae Brewery Co Ltd&quot;</value>
+                  <value>&quot;Bohemia Regent as&quot;</value>
+                  <value>&quot;Boisset  La Famille des Grands Vins SAS&quot;</value>
+                  <value>&quot;Boland Kelder&quot;</value>
+                  <value>&quot;Boland Wine Co Pty Ltd&quot;</value>
+                  <value>&quot;Boliarka VT AD&quot;</value>
+                  <value>&quot;Booker Cash  Carry Ltd&quot;</value>
+                  <value>&quot;Boon Rawd Brewery Co Ltd&quot;</value>
+                  <value>&quot;Borco Group&quot;</value>
+                  <value>&quot;Bosca SpA&quot;</value>
+                  <value>&quot;Boston Beer Co Inc The&quot;</value>
+                  <value>&quot;Bottega SpA&quot;</value>
+                  <value>&quot;Boutaris Group&quot;</value>
+                  <value>&quot;Boyar Estates Holding&quot;</value>
+                  <value>&quot;Branca Distillerie Srl Flli&quot;</value>
+                  <value>&quot;Brand Phoenix Ltd&quot;</value>
+                  <value>&quot;Brasserie Castelain&quot;</value>
+                  <value>&quot;Brasserie De SaintOmer&quot;</value>
+                  <value>&quot;Brasserie de SaintSylvestre SA&quot;</value>
+                  <value>&quot;Brasseries Duyck SA&quot;</value>
+                  <value>&quot;Brau Holding International AG&quot;</value>
+                  <value>&quot;Brauerei C  A Veltins GmbH  Co KG&quot;</value>
+                  <value>&quot;Brauerei Locher AG&quot;</value>
+                  <value>&quot;Brauerei Maisel GmbH  Co KG&quot;</value>
+                  <value>&quot;Brauerei Murau eGen&quot;</value>
+                  <value>&quot;Brestskoye Pivo OAO&quot;</value>
+                  <value>&quot;BrewDog plc&quot;</value>
+                  <value>&quot;Brewery of Macedonia Thrace SA&quot;</value>
+                  <value>&quot;Brewinvest SA&quot;</value>
+                  <value>&quot;Brick Brewing Co Ltd&quot;</value>
+                  <value>&quot;Bright Food Group Co Ltd&quot;</value>
+                  <value>&quot;Britos EOOD&quot;</value>
+                  <value>&quot;bro Bryggeri AB&quot;</value>
+                  <value>&quot;Bronco Wine Co&quot;</value>
+                  <value>&quot;Brothers Drinks Co Ltd&quot;</value>
+                  <value>&quot;Brouwerij t IJ BV&quot;</value>
+                  <value>&quot;Browar Amber Sp zoo Sp k&quot;</value>
+                  <value>&quot;Browar Fortuna SP zoo&quot;</value>
+                  <value>&quot;Browar Jablonowo L Buksowicz H Buksowicz W Parol Sp J&quot;</value>
+                  <value>&quot;Browar Kormoran Sp zoo&quot;</value>
+                  <value>&quot;Browar Wrezel Sp zoo&quot;</value>
+                  <value>&quot;Browary Regionalne Jakubiak Sp zoo&quot;</value>
+                  <value>&quot;Brown Bros Milawa Vineyards Pty Ltd&quot;</value>
+                  <value>&quot;BrownForman Corp&quot;</value>
+                  <value>&quot;Budejovicky Budvar np&quot;</value>
+                  <value>&quot;Bulbash Zavod OOO&quot;</value>
+                  <value>&quot;BusinessVyn TOV&quot;</value>
+                  <value>&quot;Butcombe Brewery Ltd&quot;</value>
+                  <value>&quot;BWS Polska Sp zoo&quot;</value>
+                  <value>&quot;C  E Baitz Pty Ltd&quot;</value>
+                  <value>&quot;Ca Cervecera Boliviana SA&quot;</value>
+                  <value>&quot;Ca Cerveceras Unidas SA&quot;</value>
+                  <value>&quot;Ca Licorera de Nicaragua SA&quot;</value>
+                  <value>&quot;Caas Paraguayas SA&quot;</value>
+                  <value>&quot;Campari Milano SpA Davide&quot;</value>
+                  <value>&quot;Cantina La Vis e Valle di Cembra Scarl&quot;</value>
+                  <value>&quot;Cantina Viticoltori Consorzio Cantine Sociali del Trentino CAVIT scarl&quot;</value>
+                  <value>&quot;Cantine Riunite  CIV SC Agr&quot;</value>
+                  <value>&quot;Cantine Ronco&quot;</value>
+                  <value>&quot;Capital Wine Group Ltd&quot;</value>
+                  <value>&quot;Caribbean Distillers Corp Ltd CDC&quot;</value>
+                  <value>&quot;Carlsberg AS&quot;</value>
+                  <value>&quot;Carlson Cos Inc&quot;</value>
+                  <value>&quot;Carmel Mizrachi Wineries Ltd&quot;</value>
+                  <value>&quot;Cartavio Rum Co SAC&quot;</value>
+                  <value>&quot;Casa Dellepiane SA&quot;</value>
+                  <value>&quot;Casa Di Conti Ltda&quot;</value>
+                  <value>&quot;Casa Valduga de Vinhos Finos Ltda&quot;</value>
+                  <value>&quot;Casa Vinicola Canella SpA&quot;</value>
+                  <value>&quot;Casa Vinicola Zonin SpA&quot;</value>
+                  <value>&quot;Casella Wines Pty Ltd&quot;</value>
+                  <value>&quot;Castel Groupe&quot;</value>
+                  <value>&quot;Cavaliere P Vena  Amaro Lucano SpA&quot;</value>
+                  <value>&quot;CAVIRO  Cooperative Agricole VitiFrutticoltori Italiani Riuniti Organizzati Scarl&quot;</value>
+                  <value>&quot;CC Group Plc&quot;</value>
+                  <value>&quot;Celiveca CA&quot;</value>
+                  <value>&quot;Celliers Associs&quot;</value>
+                  <value>&quot;Central Bottling Co Ltd The&quot;</value>
+                  <value>&quot;Central de Licores Unidos de Venezuela CA&quot;</value>
+                  <value>&quot;Central European Distribution Corp CEDC&quot;</value>
+                  <value>&quot;Cepas Argentinas SA&quot;</value>
+                  <value>&quot;Cervecera Antares SA&quot;</value>
+                  <value>&quot;Cervecera Artesanal del Uruguay SRL&quot;</value>
+                  <value>&quot;Cervecera Centroamericana SA&quot;</value>
+                  <value>&quot;Cervejaria Krill Ltda&quot;</value>
+                  <value>&quot;Cervejaria Petrpolis SA&quot;</value>
+                  <value>&quot;Chai Andrieux&quot;</value>
+                  <value>&quot;Chatelle  Co&quot;</value>
+                  <value>&quot;China National Cereals Oils  Foodstuffs Imp  Exp Corp COFCO&quot;</value>
+                  <value>&quot;China Resources Enterprise Ltd&quot;</value>
+                  <value>&quot;China Resources Holdings Co Ltd&quot;</value>
+                  <value>&quot;China Tontine Wines Group Ltd&quot;</value>
+                  <value>&quot;Chongqing Brewery Co Ltd&quot;</value>
+                  <value>&quot;Choya Umeshu Co Ltd&quot;</value>
+                  <value>&quot;CIA Compaa Embotelladora Tres Leones&quot;</value>
+                  <value>&quot;Cia da Unio de Cervejas de Angola SA&quot;</value>
+                  <value>&quot;Cia Muller de Bebidas Ltda&quot;</value>
+                  <value>&quot;Cidre Le Brun Earl&quot;</value>
+                  <value>&quot;Cimlyanskie Vina OAO&quot;</value>
+                  <value>&quot;Cisneros Grupo&quot;</value>
+                  <value>&quot;Citic Guoan Group&quot;</value>
+                  <value>&quot;CL WorldBrands Ltd&quot;</value>
+                  <value>&quot;Clarks Cider SRL&quot;</value>
+                  <value>&quot;Clner Hofbru Frh&quot;</value>
+                  <value>&quot;Co of Wine People Pty Ltd The&quot;</value>
+                  <value>&quot;CocaCola Co The&quot;</value>
+                  <value>&quot;Codornu SA&quot;</value>
+                  <value>&quot;Complejo Licorero Ponche Crema CA&quot;</value>
+                  <value>&quot;Consorcio Licorero Nacional CA&quot;</value>
+                  <value>&quot;Constellation Brands Inc&quot;</value>
+                  <value>&quot;Cool Beer Brewing Co Inc&quot;</value>
+                  <value>&quot;Cooper Spirits Co&quot;</value>
+                  <value>&quot;Cooperativa Agrcola Pisquera de Elqui Ltda&quot;</value>
+                  <value>&quot;Cooperativa Vincola Aurora Ltda&quot;</value>
+                  <value>&quot;Cooperativa Vincola Garibaldi Ltda&quot;</value>
+                  <value>&quot;Coopers Brewery Ltd&quot;</value>
+                  <value>&quot;Costa Rica Beer Factory Inc&quot;</value>
+                  <value>&quot;Costa Ricas Craft Brewing Co&quot;</value>
+                  <value>&quot;Cotnar SP VAT&quot;</value>
+                  <value>&quot;Cotnari SA&quot;</value>
+                  <value>&quot;Country Ltd&quot;</value>
+                  <value>&quot;Covinal&quot;</value>
+                  <value>&quot;Craft Brew Alliance Inc&quot;</value>
+                  <value>&quot;Cramele Recas SA&quot;</value>
+                  <value>&quot;Cricova SA&quot;</value>
+                  <value>&quot;CRS Brands Indstria  Comrcio Ltda&quot;</value>
+                  <value>&quot;Cult AS&quot;</value>
+                  <value>&quot;Custom Drinks SLU&quot;</value>
+                  <value>&quot;Cyder House Aspall The&quot;</value>
+                  <value>&quot;Daegu Takju Association&quot;</value>
+                  <value>&quot;Daesun Distilling Co Ltd&quot;</value>
+                  <value>&quot;Dagon Beverages Co Ltd&quot;</value>
+                  <value>&quot;Damianitza&quot;</value>
+                  <value>&quot;Damm SA&quot;</value>
+                  <value>&quot;Dancing Camel Brewing Co Ltd The&quot;</value>
+                  <value>&quot;De Bortoli Wines Pty Ltd&quot;</value>
+                  <value>&quot;De Kuyper Royal Distillers BV&quot;</value>
+                  <value>&quot;Delegats Group Ltd&quot;</value>
+                  <value>&quot;Delhaize Group SA&quot;</value>
+                  <value>&quot;Deolarte SA de CV&quot;</value>
+                  <value>&quot;Derbentskiy Konyachniy Kombinat OAO&quot;</value>
+                  <value>&quot;Destilacin Motatn CA&quot;</value>
+                  <value>&quot;Destilados Argentinos SA&quot;</value>
+                  <value>&quot;Destilera Carupano CA&quot;</value>
+                  <value>&quot;Destilera El Buen Gusto SA de CV&quot;</value>
+                  <value>&quot;Destilera Sierra Unidas SA de CV&quot;</value>
+                  <value>&quot;Destileras La Navarra SA&quot;</value>
+                  <value>&quot;Destileras Unidas SA&quot;</value>
+                  <value>&quot;Destileras Unidas SAC&quot;</value>
+                  <value>&quot;Deutsche Sinalco GmbH Markengetrnke  Co KG&quot;</value>
+                  <value>&quot;Devils Peak Brewing&quot;</value>
+                  <value>&quot;DGB Pty Ltd&quot;</value>
+                  <value>&quot;Diageo Plc&quot;</value>
+                  <value>&quot;Dialog OOO&quot;</value>
+                  <value>&quot;Diego Zamora SA&quot;</value>
+                  <value>&quot;Difcom La Cave des Pres SA&quot;</value>
+                  <value>&quot;Distell Group Ltd&quot;</value>
+                  <value>&quot;Distilleria Bottega Srl&quot;</value>
+                  <value>&quot;Distilleria Flli Caffo Srl&quot;</value>
+                  <value>&quot;Distillerie Franciacorta SpA&quot;</value>
+                  <value>&quot;Distillerie Girard&quot;</value>
+                  <value>&quot;Distilleries Co of Sri Lanka Plc&quot;</value>
+                  <value>&quot;Distilleries Winery Thrakis SA&quot;</value>
+                  <value>&quot;Distillery Plomariou Isidorou Arvanitou&quot;</value>
+                  <value>&quot;Distribuidora Istmania SA de CV&quot;</value>
+                  <value>&quot;Distribuidora Salvadorea SA de CV&quot;</value>
+                  <value>&quot;Diwisa Distillerie Willisau SA&quot;</value>
+                  <value>&quot;Dnipropetrovska Produktova Kompaniya TOV&quot;</value>
+                  <value>&quot;Doctor Brew Sp zoo&quot;</value>
+                  <value>&quot;Dolina OOO&quot;</value>
+                  <value>&quot;Doluca Bagcilik ve Sarapcilik&quot;</value>
+                  <value>&quot;DomBrauerei AG&quot;</value>
+                  <value>&quot;Domeniile Viticole Tohani SRL&quot;</value>
+                  <value>&quot;Douglas Qingdao Wine  Spirits Co Ltd&quot;</value>
+                  <value>&quot;Dr August Oetker KG&quot;</value>
+                  <value>&quot;Dr Pepper Snapple Group Inc&quot;</value>
+                  <value>&quot;Drambuie Liqueur Co Ltd John&quot;</value>
+                  <value>&quot;Drinks  Food Vertriebs GmbH&quot;</value>
+                  <value>&quot;Drive Beer Srl&quot;</value>
+                  <value>&quot;Druskininku Rasa UAB&quot;</value>
+                  <value>&quot;Duche de Longueville&quot;</value>
+                  <value>&quot;Duvel Moortgat NV&quot;</value>
+                  <value>&quot;Dynasty Winery Co Ltd&quot;</value>
+                  <value>&quot;DZIV OAO&quot;</value>
+                  <value>&quot;Eagle Distilleries Co&quot;</value>
+                  <value>&quot;Eastern Beverage Company SA&quot;</value>
+                  <value>&quot;Ebertec SA Morocco&quot;</value>
+                  <value>&quot;Edrington Group&quot;</value>
+                  <value>&quot;Efe Alkollu Icecekler Ticaret AS&quot;</value>
+                  <value>&quot;Efrat Wine  Beverage Manufacturers Ltd&quot;</value>
+                  <value>&quot;Egervin Borgazdasg Zrt&quot;</value>
+                  <value>&quot;Egger Privatbrauerei&quot;</value>
+                  <value>&quot;Egyptian International Beverage Co&quot;</value>
+                  <value>&quot;Eichbaum GmbH  Co KG&quot;</value>
+                  <value>&quot;EJ Gallo Winery Inc&quot;</value>
+                  <value>&quot;Eliza Spring LLC&quot;</value>
+                  <value>&quot;Embotelladora Azuaya SA&quot;</value>
+                  <value>&quot;Empee Distilleries Ltd&quot;</value>
+                  <value>&quot;Empresa de Licores de Cundinamarca SA&quot;</value>
+                  <value>&quot;Empresas Polar CA&quot;</value>
+                  <value>&quot;Endemit Ltd&quot;</value>
+                  <value>&quot;Engarrafamento Pit Ltda&quot;</value>
+                  <value>&quot;Envasados Eva SA&quot;</value>
+                  <value>&quot;Erdinger Privatbrauerei Weissbru Werner Brombach GmbH&quot;</value>
+                  <value>&quot;Erkmakon OOO&quot;</value>
+                  <value>&quot;Ernst GmbH  Co August&quot;</value>
+                  <value>&quot;Euro Group&quot;</value>
+                  <value>&quot;European Food SA&quot;</value>
+                  <value>&quot;Evoiki AS&quot;</value>
+                  <value>&quot;EZA Protipos Hellenic Brewery SA&quot;</value>
+                  <value>&quot;F Korbel  Bros Inc&quot;</value>
+                  <value>&quot;Fabevine Lda&quot;</value>
+                  <value>&quot;Fanagoriya APF OAO&quot;</value>
+                  <value>&quot;Farovon OOO PTK&quot;</value>
+                  <value>&quot;Farvab JV&quot;</value>
+                  <value>&quot;Fbrica de Licores del Huila&quot;</value>
+                  <value>&quot;Fbrica de Licores y Alcoholes de Antioquia&quot;</value>
+                  <value>&quot;Fbrica Nacional de Licores&quot;</value>
+                  <value>&quot;FCP Asconi SRL&quot;</value>
+                  <value>&quot;FeCoVitA Coop Ltda&quot;</value>
+                  <value>&quot;Feldschlsschen Getrnke AG&quot;</value>
+                  <value>&quot;Fenjiu Group&quot;</value>
+                  <value>&quot;Fentimans Ltd&quot;</value>
+                  <value>&quot;Feral Brewing Co&quot;</value>
+                  <value>&quot;Festa Holding AD&quot;</value>
+                  <value>&quot;Fifth Generation Inc&quot;</value>
+                  <value>&quot;Firma Poltavpivo PAT&quot;</value>
+                  <value>&quot;Flensburger Brauereien Emil Petersen GmbH  Co KG&quot;</value>
+                  <value>&quot;Flix Lavaque SA&quot;</value>
+                  <value>&quot;Flix Sols Avantis SA&quot;</value>
+                  <value>&quot;Flli Francoli SpA&quot;</value>
+                  <value>&quot;Flli Gancia  C SpA&quot;</value>
+                  <value>&quot;Florida Bebidas SA&quot;</value>
+                  <value>&quot;Florida Ice  Farm Co SA&quot;</value>
+                  <value>&quot;Fortin SA&quot;</value>
+                  <value>&quot;Forty Creek Distillery Ltd&quot;</value>
+                  <value>&quot;Frankfurter Brauhaus GmbH&quot;</value>
+                  <value>&quot;Franz Wilhelm Langguth Erben GmbH  Co KG&quot;</value>
+                  <value>&quot;Fratelli Martini Secondo Luigi SpA&quot;</value>
+                  <value>&quot;Freixenet SA&quot;</value>
+                  <value>&quot;Frucona Koice as&quot;</value>
+                  <value>&quot;Fukuhara Honda Cia Ltda&quot;</value>
+                  <value>&quot;Fuller Smith  Turner Plc&quot;</value>
+                  <value>&quot;G  J Greenall Group Ltd&quot;</value>
+                  <value>&quot;Gaffel Becker  Co oHG Privatbrauerei&quot;</value>
+                  <value>&quot;Gage Road Brewing Co Ltd&quot;</value>
+                  <value>&quot;Galatea Spirits AB&quot;</value>
+                  <value>&quot;Galilee Wine Cellars Joseph Gold  Sons Ltd&quot;</value>
+                  <value>&quot;Gambrinus Co The&quot;</value>
+                  <value>&quot;GAS Familia sro&quot;</value>
+                  <value>&quot;Gatchinsky Spirtovoy Zavod OOO&quot;</value>
+                  <value>&quot;Gekkeikan Sake Co Ltd&quot;</value>
+                  <value>&quot;Geloso Group&quot;</value>
+                  <value>&quot;Georgievskoe LVZ ZAO&quot;</value>
+                  <value>&quot;Gerrus Group&quot;</value>
+                  <value>&quot;Giacobazzi Grandi Vini&quot;</value>
+                  <value>&quot;Giesen Wine Estate Canterbury Ltd&quot;</value>
+                  <value>&quot;GIHOC Distilleries Co Ltd&quot;</value>
+                  <value>&quot;Giordano Vini SpA&quot;</value>
+                  <value>&quot;GK KristallLefortovo OOO&quot;</value>
+                  <value>&quot;Glaabsbru KG&quot;</value>
+                  <value>&quot;Glazovsky LVZ OAO&quot;</value>
+                  <value>&quot;Global Brands Ltd&quot;</value>
+                  <value>&quot;Global Spirits AMG Holding Co&quot;</value>
+                  <value>&quot;Globefill Ltd&quot;</value>
+                  <value>&quot;Golan Brewery Ltd&quot;</value>
+                  <value>&quot;Golan Heights Winery&quot;</value>
+                  <value>&quot;Gomelsky Likerovodochny Zavod Radamir OAO&quot;</value>
+                  <value>&quot;Gonzlez Byass SA&quot;</value>
+                  <value>&quot;Goya Foods Inc&quot;</value>
+                  <value>&quot;Grands Chais de France SA Les&quot;</value>
+                  <value>&quot;Grands Vins JC Boisset&quot;</value>
+                  <value>&quot;Granette  Starorezn Distilleries as&quot;</value>
+                  <value>&quot;Grant Burge Wines Pty Ltd&quot;</value>
+                  <value>&quot;GrapeVine Kft&quot;</value>
+                  <value>&quot;Greek Wine Cellars D Kourtakis SA&quot;</value>
+                  <value>&quot;Greene King Plc&quot;</value>
+                  <value>&quot;Grflich von Hardenbergsche Kornbrennerei GmbH  Co KG&quot;</value>
+                  <value>&quot;Groupe Chevrillon&quot;</value>
+                  <value>&quot;Groupe des Boissons dAlgrie SpA GBA&quot;</value>
+                  <value>&quot;Groupe Quartier Franais&quot;</value>
+                  <value>&quot;Grupo AJ Vierci SA&quot;</value>
+                  <value>&quot;Grupo Camin Lavandera SL&quot;</value>
+                  <value>&quot;Grupo Corona Spirits SA de CV&quot;</value>
+                  <value>&quot;Grupo Cuervo SA de CV&quot;</value>
+                  <value>&quot;Grupo MahouSan Miguel SA&quot;</value>
+                  <value>&quot;Grupo Osborne SA&quot;</value>
+                  <value>&quot;Grupo Peaflor SA&quot;</value>
+                  <value>&quot;Gruppo Italiano Vini SpA&quot;</value>
+                  <value>&quot;Grusifas SA&quot;</value>
+                  <value>&quot;Gruzinskoe Zastolie TOV&quot;</value>
+                  <value>&quot;Guangdong Blue Ribbon Group Co Ltd&quot;</value>
+                  <value>&quot;Guangdong Jiujiang Distillery Co Ltd&quot;</value>
+                  <value>&quot;Guangzhou Zhujiang Brewery Co Ltd&quot;</value>
+                  <value>&quot;Gubernija AB&quot;</value>
+                  <value>&quot;Gulpener Bierbrouwerij BV&quot;</value>
+                  <value>&quot;Gyori Likorgyr Zrt&quot;</value>
+                  <value>&quot;H Weston  Sons Ltd&quot;</value>
+                  <value>&quot;Habesha Breweries SC&quot;</value>
+                  <value>&quot;Hainan Yedao Co Ltd&quot;</value>
+                  <value>&quot;Hakubotan Shuzo Co Ltd&quot;</value>
+                  <value>&quot;Hakushika Co Ltd&quot;</value>
+                  <value>&quot;Hakutsuru Sake Brewing Co Ltd&quot;</value>
+                  <value>&quot;Halewood International Ltd&quot;</value>
+                  <value>&quot;Hamada Syuzou Co Ltd&quot;</value>
+                  <value>&quot;Hangzhou Qiandaohu Brewery Co Ltd&quot;</value>
+                  <value>&quot;Hanoi Alcohol Beer  Beverages Corp Habeco&quot;</value>
+                  <value>&quot;Hansa Borg Bryggerier AS&quot;</value>
+                  <value>&quot;Harboes Bryggeri AS&quot;</value>
+                  <value>&quot;Heaven Hill Distilleries Inc&quot;</value>
+                  <value>&quot;Hebei Hengshui Laobaigan Liquor Co Ltd&quot;</value>
+                  <value>&quot;Heineken NV&quot;</value>
+                  <value>&quot;Henan Jinxing Brewery Group&quot;</value>
+                  <value>&quot;Herman Jansen Beverages Nederland BV&quot;</value>
+                  <value>&quot;Herrljunga Cider AB&quot;</value>
+                  <value>&quot;HeySong Corp&quot;</value>
+                  <value>&quot;Hijos de Antonio Barcel SA&quot;</value>
+                  <value>&quot;Hijos de Rivera SA&quot;</value>
+                  <value>&quot;Hills Cider Co The&quot;</value>
+                  <value>&quot;Hirt GmbH Brauerei&quot;</value>
+                  <value>&quot;Hite Jinro Co Ltd&quot;</value>
+                  <value>&quot;Hokkan Syuzou Co Ltd&quot;</value>
+                  <value>&quot;Hooghoudt Distillery BV&quot;</value>
+                  <value>&quot;House of JC le Roux Ltd&quot;</value>
+                  <value>&quot;Hubei Zhijiang Distillery Co Ltd&quot;</value>
+                  <value>&quot;Hurlimann AG Brauerei&quot;</value>
+                  <value>&quot;Huyghebaert E Handelsmij NV&quot;</value>
+                  <value>&quot;IBB Ltd&quot;</value>
+                  <value>&quot;Iceberg SP TOV&quot;</value>
+                  <value>&quot;Igristye Vina ZAO&quot;</value>
+                  <value>&quot;Illva Saronno SpA&quot;</value>
+                  <value>&quot;Imagen Drinks Ltd&quot;</value>
+                  <value>&quot;Imperial Vin Moldova&quot;</value>
+                  <value>&quot;IMSA&quot;</value>
+                  <value>&quot;Indosarnia PT&quot;</value>
+                  <value>&quot;Indstria Agrcola Tozan Ltda&quot;</value>
+                  <value>&quot;Indstria de Bebidas Paris Ltda&quot;</value>
+                  <value>&quot;Indstria de Bebidas Pirassununga Ltda&quot;</value>
+                  <value>&quot;Indstria e Comrcio de Bebidas Primor Ltda&quot;</value>
+                  <value>&quot;Indstrias Reunidas de Bebidas Tatuzinho   Fazendas Ltda&quot;</value>
+                  <value>&quot;Industra Licorera Iberoamericana SA&quot;</value>
+                  <value>&quot;Industria de Licores del Valle&quot;</value>
+                  <value>&quot;Industria Licorera de Boyaca&quot;</value>
+                  <value>&quot;Industria Licorera de Caldas&quot;</value>
+                  <value>&quot;Industria Licorera del Cauca&quot;</value>
+                  <value>&quot;Industria Licorera y Embotelladora del Norte SA&quot;</value>
+                  <value>&quot;Industrias Bravo CA&quot;</value>
+                  <value>&quot;Industrias El Carmen CA&quot;</value>
+                  <value>&quot;Industrias Licoreras de Guatemala SA&quot;</value>
+                  <value>&quot;Integrator Sp zoo&quot;</value>
+                  <value>&quot;Intercontinental Brands Ltd&quot;</value>
+                  <value>&quot;Intercontinental Distillers Ltd&quot;</value>
+                  <value>&quot;International Beers  Beverages SA&quot;</value>
+                  <value>&quot;IPECA&quot;</value>
+                  <value>&quot;Ishimsky VVZ OOO&quot;</value>
+                  <value>&quot;Istok OAO&quot;</value>
+                  <value>&quot;Ital Magyarorszg Kft&quot;</value>
+                  <value>&quot;Italiana LT UAB&quot;</value>
+                  <value>&quot;Izberbashs VKZ ZAO&quot;</value>
+                  <value>&quot;J Armando Bermdez  Co C por A&quot;</value>
+                  <value>&quot;J Chatel Sarl&quot;</value>
+                  <value>&quot;J Garca Carrin SA&quot;</value>
+                  <value>&quot;Jacquin et Cie Charles&quot;</value>
+                  <value>&quot;Jagatjit Industries Ltd&quot;</value>
+                  <value>&quot;Jagodinska Pivara ad&quot;</value>
+                  <value>&quot;Jansz Tasmania Wines Ltd&quot;</value>
+                  <value>&quot;Janton SA SpK&quot;</value>
+                  <value>&quot;Jeanjean SA&quot;</value>
+                  <value>&quot;Jebsen  Co Ltd&quot;</value>
+                  <value>&quot;Jelinek Group SE R&quot;</value>
+                  <value>&quot;Jems Brewery Ltd&quot;</value>
+                  <value>&quot;Jiangsu Kings Luck Brewery JSC Ltd&quot;</value>
+                  <value>&quot;Jiangsu Zhangjiagang Brewery Co Ltd&quot;</value>
+                  <value>&quot;Jidvei SRL&quot;</value>
+                  <value>&quot;Jing Brand Co Ltd&quot;</value>
+                  <value>&quot;JK Anastasopoulos  Son OE&quot;</value>
+                  <value>&quot;John Distilleries Pvt Ltd&quot;</value>
+                  <value>&quot;Jopen BV&quot;</value>
+                  <value>&quot;Joseph Verdier SA&quot;</value>
+                  <value>&quot;JRBB Sp zoo&quot;</value>
+                  <value>&quot;K Brewery Group as&quot;</value>
+                  <value>&quot;Kabbaj Groupe&quot;</value>
+                  <value>&quot;Kagura Shuzo Co Ltd&quot;</value>
+                  <value>&quot;Kaiserdom Privatbrauerei Wrner KG&quot;</value>
+                  <value>&quot;Karlsberg Brauerei GmbH  Co KG&quot;</value>
+                  <value>&quot;Kartuli Ludis Ko&quot;</value>
+                  <value>&quot;Kasapreko Co Ltd&quot;</value>
+                  <value>&quot;Kaskad OOO&quot;</value>
+                  <value>&quot;Kassatly Chtaura SAL&quot;</value>
+                  <value>&quot;Katlenburger Kellerei Dr Demuth GmbH  Co KG&quot;</value>
+                  <value>&quot;Kauno Alus AB&quot;</value>
+                  <value>&quot;Kavaklidere Saraplari AS&quot;</value>
+                  <value>&quot;Kazbegi JSC&quot;</value>
+                  <value>&quot;Kenbishi Sake Brewing Co Ltd&quot;</value>
+                  <value>&quot;KendallJackson Wine Estates&quot;</value>
+                  <value>&quot;Kenya Wine Agencies Ltd KWAL&quot;</value>
+                  <value>&quot;Kerlin Products Ltd&quot;</value>
+                  <value>&quot;Keroche Breweries Ltd&quot;</value>
+                  <value>&quot;Ketel One Worldwide BV&quot;</value>
+                  <value>&quot;Kharchovyk PRAT&quot;</value>
+                  <value>&quot;Kharkivsky Zavod Shampanskykh Vyn DP&quot;</value>
+                  <value>&quot;Khmer Beverages Co Ltd&quot;</value>
+                  <value>&quot;Kikkoman Corp&quot;</value>
+                  <value>&quot;KikuMasamune Sake Brewing Co Ltd&quot;</value>
+                  <value>&quot;Kikusui Sake Co Ltd&quot;</value>
+                  <value>&quot;Kin Moskovskiy VinnoKonyachny Zavod OAO&quot;</value>
+                  <value>&quot;King Car Food Industrial Co Ltd&quot;</value>
+                  <value>&quot;King Zyozou Co Ltd&quot;</value>
+                  <value>&quot;Kings Bridge Royal Distillery&quot;</value>
+                  <value>&quot;Kingway Brewery Holdings Ltd&quot;</value>
+                  <value>&quot;Kinmen Kaoliang Liquor Inc&quot;</value>
+                  <value>&quot;Kirin Holdings Co Ltd&quot;</value>
+                  <value>&quot;Kirishima Corp&quot;</value>
+                  <value>&quot;Kiss Mix Drinks Co The&quot;</value>
+                  <value>&quot;Kiss s Trsai Kft&quot;</value>
+                  <value>&quot;Kiyosuzakura Brewery Corp&quot;</value>
+                  <value>&quot;Kizakura Sake Brewing Co Ltd&quot;</value>
+                  <value>&quot;Kizlyarskiy Konyachny Zavod GUP&quot;</value>
+                  <value>&quot;Klimovichsky Likerovodochny Zavod OAO&quot;</value>
+                  <value>&quot;Knig Ludwig GmbH  Co KG&quot;</value>
+                  <value>&quot;Kobrand Corp&quot;</value>
+                  <value>&quot;Kokshetauminvody AO&quot;</value>
+                  <value>&quot;Koktebel Zavod Marochnykh Vyn ta Konyakiv ZAT&quot;</value>
+                  <value>&quot;Koninklijke Ahold Delhaize NV&quot;</value>
+                  <value>&quot;Kooksoondang Brewery Co Ltd&quot;</value>
+                  <value>&quot;Kopparbergs Bryggeri AB&quot;</value>
+                  <value>&quot;Kotovsky VZ TOV&quot;</value>
+                  <value>&quot;Koyama Honke Syuzou Co Ltd&quot;</value>
+                  <value>&quot;Krasnoarmeisky RPK OOO&quot;</value>
+                  <value>&quot;Krinitsa OAO&quot;</value>
+                  <value>&quot;Krnleins Bryggeri AB&quot;</value>
+                  <value>&quot;Krombacher Brauerei Bhd Schadeberg GmbH  Co KG&quot;</value>
+                  <value>&quot;KronosInvest TPG&quot;</value>
+                  <value>&quot;Kuai Ji Shan Shaoxing Wine Co Ltd&quot;</value>
+                  <value>&quot;Kumbokju Co Ltd&quot;</value>
+                  <value>&quot;Kunvin Borszati Kft&quot;</value>
+                  <value>&quot;Kweichow Moutai Co Ltd&quot;</value>
+                  <value>&quot;KWV Group&quot;</value>
+                  <value>&quot;La Agricola SA&quot;</value>
+                  <value>&quot;La Madrilea SA de CV&quot;</value>
+                  <value>&quot;La Martiniquaise SVS&quot;</value>
+                  <value>&quot;Ladoga Kholdingovaya Kompanya ZAO&quot;</value>
+                  <value>&quot;Ladoga PG ZAO&quot;</value>
+                  <value>&quot;Lagunitas Brewing Co&quot;</value>
+                  <value>&quot;Laitilan Wirvoitusjuomatehdas Oy&quot;</value>
+                  <value>&quot;Lako Grupa&quot;</value>
+                  <value>&quot;Lang Jiu Group&quot;</value>
+                  <value>&quot;LansonBCC SA&quot;</value>
+                  <value>&quot;Lanzheron  Co TPK TOV&quot;</value>
+                  <value>&quot;Lanzhou Huanghe Beer Co Ltd&quot;</value>
+                  <value>&quot;Lapasan sro&quot;</value>
+                  <value>&quot;Ledenika  MM Co&quot;</value>
+                  <value>&quot;Lefebvre SA&quot;</value>
+                  <value>&quot;Les Brasseries Ivoriennes&quot;</value>
+                  <value>&quot;Les Celliers de Meknes&quot;</value>
+                  <value>&quot;Les Vins Georges Duboeuf&quot;</value>
+                  <value>&quot;Licoram Licores de America SA&quot;</value>
+                  <value>&quot;Licores El Compadre SA de CV&quot;</value>
+                  <value>&quot;Licores Mitjans SA&quot;</value>
+                  <value>&quot;Lietuviskas Midus UAB&quot;</value>
+                  <value>&quot;Lindemans Brouwerij NV&quot;</value>
+                  <value>&quot;Linea Nivnice as&quot;</value>
+                  <value>&quot;Lion Brewery Ceylon Plc&quot;</value>
+                  <value>&quot;Listel SAS&quot;</value>
+                  <value>&quot;Little Creatures Brewing Pty Ltd&quot;</value>
+                  <value>&quot;Liviko AS&quot;</value>
+                  <value>&quot;Liviz ZAO&quot;</value>
+                  <value>&quot;Lixid Project SRL&quot;</value>
+                  <value>&quot;Llorente y Ca SA J&quot;</value>
+                  <value>&quot;Loch Lomond Distillery Co Ltd&quot;</value>
+                  <value>&quot;Logos Corp&quot;</value>
+                  <value>&quot;Lomsko Pivo AD&quot;</value>
+                  <value>&quot;London Distillers Kenya Ltd&quot;</value>
+                  <value>&quot;Lotte Group&quot;</value>
+                  <value>&quot;Lovico Lozari EAD&quot;</value>
+                  <value>&quot;Lovina Beach Brewery PT&quot;</value>
+                  <value>&quot;Lucas Bols BV&quot;</value>
+                  <value>&quot;Luis Caballero SA Grupo&quot;</value>
+                  <value>&quot;Lup Lupini&quot;</value>
+                  <value>&quot;Luxco Corp&quot;</value>
+                  <value>&quot;Luzhou Lao Jiao Co Ltd&quot;</value>
+                  <value>&quot;LVK Vinprom Targovishte AD&quot;</value>
+                  <value>&quot;LVMH Mot Hennessy Louis Vuitton SA&quot;</value>
+                  <value>&quot;LWC Drinks Ltd&quot;</value>
+                  <value>&quot;Mad Apple sro&quot;</value>
+                  <value>&quot;Mahou SA&quot;</value>
+                  <value>&quot;Malka Beer Ltd&quot;</value>
+                  <value>&quot;Manischewitz Co&quot;</value>
+                  <value>&quot;Manuel Busto Amandi SA&quot;</value>
+                  <value>&quot;Marie Brizard  Roger International SAS&quot;</value>
+                  <value>&quot;Mark Anthony Brands Ltd&quot;</value>
+                  <value>&quot;MarnierLapostolle SA&quot;</value>
+                  <value>&quot;Marsiya Michel Ltd&quot;</value>
+                  <value>&quot;Marstons Plc&quot;</value>
+                  <value>&quot;Martens Brouwerij NV&quot;</value>
+                  <value>&quot;Martnez Sopea Hermanos SL&quot;</value>
+                  <value>&quot;Masi Agricola SpA&quot;</value>
+                  <value>&quot;Massandra NPAO&quot;</value>
+                  <value>&quot;MastJgermeister SE&quot;</value>
+                  <value>&quot;Matsos Broome Brewery&quot;</value>
+                  <value>&quot;Mazowiecka Wytwornia Wodek i Drozdzy Polmos SA Jozefow kBlonia&quot;</value>
+                  <value>&quot;McCormick Distilling Co Inc&quot;</value>
+                  <value>&quot;McLaren Vale Beer Co&quot;</value>
+                  <value>&quot;McWilliams Wines Pty Ltd&quot;</value>
+                  <value>&quot;Meantime Brewing Co Ltd&quot;</value>
+                  <value>&quot;Medovarus OOO&quot;</value>
+                  <value>&quot;Mertes KG Weinkellerei Peter&quot;</value>
+                  <value>&quot;Miguel Torres SA&quot;</value>
+                  <value>&quot;Miller Brands Germany GmbH&quot;</value>
+                  <value>&quot;Minsk Kristall OAO&quot;</value>
+                  <value>&quot;Minski Zavod Bezalcoholnyh Napitkov ZAO MZBN&quot;</value>
+                  <value>&quot;Minski Zavod Vinogradnyh Vin ZAO&quot;</value>
+                  <value>&quot;Mitchells Breweries&quot;</value>
+                  <value>&quot;Mix SA&quot;</value>
+                  <value>&quot;Mksv OAO&quot;</value>
+                  <value>&quot;Moa Brewing Co Ltd&quot;</value>
+                  <value>&quot;Modelo SA de CV Grupo&quot;</value>
+                  <value>&quot;Mohan Meakin Ltd&quot;</value>
+                  <value>&quot;Molinari Italia SpA&quot;</value>
+                  <value>&quot;Molinos Ro de la Plata SA&quot;</value>
+                  <value>&quot;Monte Xanic SA de CV&quot;</value>
+                  <value>&quot;Montenegro Srl&quot;</value>
+                  <value>&quot;Moosehead Breweries Ltd&quot;</value>
+                  <value>&quot;Moskovskiy Mezhrespublikanskiy Vinodelcheskiy Zavod OAO&quot;</value>
+                  <value>&quot;Mosterei Mhl AG&quot;</value>
+                  <value>&quot;Mount Shivalik Industries Ltd&quot;</value>
+                  <value>&quot;Mountain Goat Beer Pty Ltd&quot;</value>
+                  <value>&quot;Mozart Distillerie GmbH&quot;</value>
+                  <value>&quot;Mozyrsky Spirtovodochny Zavod OAO&quot;</value>
+                  <value>&quot;Mrva  Stanko&quot;</value>
+                  <value>&quot;Muhak Co Ltd&quot;</value>
+                  <value>&quot;Multi Group MFPO&quot;</value>
+                  <value>&quot;Murfatlar Romania SA&quot;</value>
+                  <value>&quot;Murree Brewery Co Ltd&quot;</value>
+                  <value>&quot;MV Group&quot;</value>
+                  <value>&quot;MVinikom OOO&quot;</value>
+                  <value>&quot;Namibia Breweries Ltd&quot;</value>
+                  <value>&quot;Nantong Fuhao Alcohol Industry Co Ltd&quot;</value>
+                  <value>&quot;Napitki Plius OOO&quot;</value>
+                  <value>&quot;Negev Brewery Ltd&quot;</value>
+                  <value>&quot;Nemanoff Grodnensky Likerovodochny Zavod OAO&quot;</value>
+                  <value>&quot;Nemiroff UVK&quot;</value>
+                  <value>&quot;New Belgium Brewing Co&quot;</value>
+                  <value>&quot;New Silkroad Culturaltainment Ltd&quot;</value>
+                  <value>&quot;Nigeria Distilleries Ltd&quot;</value>
+                  <value>&quot;Nihonsakari Co Ltd&quot;</value>
+                  <value>&quot;Nikaido Shuzo Co Ltd&quot;</value>
+                  <value>&quot;Nippon Beer Co Ltd&quot;</value>
+                  <value>&quot;Novi Produkty Group&quot;</value>
+                  <value>&quot;NVP Nyva TOV&quot;</value>
+                  <value>&quot;Nyva TOV&quot;</value>
+                  <value>&quot;Obala Grupa doo&quot;</value>
+                  <value>&quot;Obolon PAT&quot;</value>
+                  <value>&quot;Ochakovo MPBK ZAO&quot;</value>
+                  <value>&quot;Odessavynprom ZAT&quot;</value>
+                  <value>&quot;Oenon Holdings Inc&quot;</value>
+                  <value>&quot;OetkerGruppe&quot;</value>
+                  <value>&quot;Oettinger Brauerei GmbH&quot;</value>
+                  <value>&quot;Old Herold sro&quot;</value>
+                  <value>&quot;Olimp Corp&quot;</value>
+                  <value>&quot;Olvi Oyj&quot;</value>
+                  <value>&quot;Olymp OOO&quot;</value>
+                  <value>&quot;Olympic Brewery SA&quot;</value>
+                  <value>&quot;Opal Ltda&quot;</value>
+                  <value>&quot;Orang Tua Group&quot;</value>
+                  <value>&quot;Orange River Cellars Ltd&quot;</value>
+                  <value>&quot;Oriental Brewery Co Ltd&quot;</value>
+                  <value>&quot;Orion Breweries Ltd&quot;</value>
+                  <value>&quot;OstorosNovaj Bor Zrt&quot;</value>
+                  <value>&quot;Others&quot;</value>
+                  <value>&quot;Otro Mundo Brewing Co SA&quot;</value>
+                  <value>&quot;Ottakringer Getrnke AG&quot;</value>
+                  <value>&quot;Ovinto SA&quot;</value>
+                  <value>&quot;Ozeki Co Ltd&quot;</value>
+                  <value>&quot;Pabst Brewing Co&quot;</value>
+                  <value>&quot;Packhams Cider Ltd&quot;</value>
+                  <value>&quot;Palm Bay International Inc&quot;</value>
+                  <value>&quot;Palm NV Brouwerij&quot;</value>
+                  <value>&quot;Pando Grupo SA de CV&quot;</value>
+                  <value>&quot;Paolyta Co Ltd&quot;</value>
+                  <value>&quot;Partner Center Sp zoo&quot;</value>
+                  <value>&quot;Paulaner Brauerei GmbH  Co KG&quot;</value>
+                  <value>&quot;PBK Radomyshl OAO&quot;</value>
+                  <value>&quot;Pedro Carricondo e Hijos SRL&quot;</value>
+                  <value>&quot;Pelee Island Vineyard Inc&quot;</value>
+                  <value>&quot;PepsiAmericas Inc&quot;</value>
+                  <value>&quot;PepsiCo Inc&quot;</value>
+                  <value>&quot;Perindustrian Bapak Djenggot PT&quot;</value>
+                  <value>&quot;Perla Browary Lubelskie SA&quot;</value>
+                  <value>&quot;Pernod Ricard Groupe&quot;</value>
+                  <value>&quot;Persha Pryvatna Brovarnya AT&quot;</value>
+                  <value>&quot;Peter Herres Wein  Sektkellerei GmbH&quot;</value>
+                  <value>&quot;Peter Lehmann Wines Ltd&quot;</value>
+                  <value>&quot;Peter Zwack Consorten AG&quot;</value>
+                  <value>&quot;Petrus TOV&quot;</value>
+                  <value>&quot;Peza Union&quot;</value>
+                  <value>&quot;Phillips Distilling Co&quot;</value>
+                  <value>&quot;Phusion Projects LLC&quot;</value>
+                  <value>&quot;Pines Brewing Co&quot;</value>
+                  <value>&quot;Pivara Tuzla dd&quot;</value>
+                  <value>&quot;Pivovar Samson as&quot;</value>
+                  <value>&quot;Pivovar Steiger Vyhne sro&quot;</value>
+                  <value>&quot;Pivovar Svijany as&quot;</value>
+                  <value>&quot;Pivovarnya Kozhevnikovo&quot;</value>
+                  <value>&quot;Pivovary Lobkowicz Group as&quot;</value>
+                  <value>&quot;Piwnice Win Importowanych Vinfort Sp zoo&quot;</value>
+                  <value>&quot;Plus HO Drinki Sp zoo&quot;</value>
+                  <value>&quot;PMS as Prerov&quot;</value>
+                  <value>&quot;Polmos BielskoBiala SA&quot;</value>
+                  <value>&quot;Polmos Wytwrnia Wodek Wratislavia Akwawit  Brasco SA&quot;</value>
+                  <value>&quot;Pridvinye Vitebsky Likerovodochny Zavod OAO&quot;</value>
+                  <value>&quot;Prilepska Pivarnica ad&quot;</value>
+                  <value>&quot;Primtor as&quot;</value>
+                  <value>&quot;PrivatBrauerei Schmucker GmbH  Co KG&quot;</value>
+                  <value>&quot;Private Label&quot;</value>
+                  <value>&quot;Prodal  SRL&quot;</value>
+                  <value>&quot;Productora Enotria CA&quot;</value>
+                  <value>&quot;Productos de Uva SA de CV&quot;</value>
+                  <value>&quot;Productos Derivados del Vino SA&quot;</value>
+                  <value>&quot;Produmen SA&quot;</value>
+                  <value>&quot;Prodvinalco SA&quot;</value>
+                  <value>&quot;Prokupac Beograd ad&quot;</value>
+                  <value>&quot;Pulsar Group Brewery QK MChJ&quot;</value>
+                  <value>&quot;Pusan Takju Association&quot;</value>
+                  <value>&quot;Qinghai Huzhu Barley Wine Co Ltd&quot;</value>
+                  <value>&quot;Racke GmbH  Co A&quot;</value>
+                  <value>&quot;Radamir Gomelsky Likerovodochny Zavod OAO&quot;</value>
+                  <value>&quot;Radico Khaitan Ltd&quot;</value>
+                  <value>&quot;Raisin Social Ltd&quot;</value>
+                  <value>&quot;Ramseier Suisse AG&quot;</value>
+                  <value>&quot;Rauch Fruchtsfte GmbH  Co OG&quot;</value>
+                  <value>&quot;Raupkhon JSC&quot;</value>
+                  <value>&quot;Rebellion Brewing Pty Ltd&quot;</value>
+                  <value>&quot;Refriango Lda&quot;</value>
+                  <value>&quot;Reissdorf GmbH  Co Privatbrauerei&quot;</value>
+                  <value>&quot;Reitangruppen AS&quot;</value>
+                  <value>&quot;Renato Passarin  Filhos Ltda&quot;</value>
+                  <value>&quot;Renmark SA&quot;</value>
+                  <value>&quot;Rewe Group&quot;</value>
+                  <value>&quot;Riks TOO&quot;</value>
+                  <value>&quot;Rimuss  Weinkellerei Rahm AG&quot;</value>
+                  <value>&quot;Rinkuskiu Alaus Darykla&quot;</value>
+                  <value>&quot;Rmy Cointreau Group&quot;</value>
+                  <value>&quot;Robertson Winery&quot;</value>
+                  <value>&quot;Rodia SpA&quot;</value>
+                  <value>&quot;Romaqua Group SA&quot;</value>
+                  <value>&quot;Ron Santa Teresa CA&quot;</value>
+                  <value>&quot;Rosspirtprom FGUP&quot;</value>
+                  <value>&quot;Rostshampankombinat OOO&quot;</value>
+                  <value>&quot;RotkppchenMumm Sektkellereien GmbH&quot;</value>
+                  <value>&quot;Royal Ahold NV&quot;</value>
+                  <value>&quot;Royal Fruit Garden TOV&quot;</value>
+                  <value>&quot;Royal Unibrew AS&quot;</value>
+                  <value>&quot;RPB SA&quot;</value>
+                  <value>&quot;Rubin AD&quot;</value>
+                  <value>&quot;Rum Co The&quot;</value>
+                  <value>&quot;Russian Standard Corp&quot;</value>
+                  <value>&quot;Russkiy VKZ OOO&quot;</value>
+                  <value>&quot;SABMiller Plc&quot;</value>
+                  <value>&quot;Saigon Alcohol Beer  Beverages Corp Sabeco&quot;</value>
+                  <value>&quot;Samant Soma Wines Ltd&quot;</value>
+                  <value>&quot;San Miguel Corp&quot;</value>
+                  <value>&quot;Santa Helena SA&quot;</value>
+                  <value>&quot;Santa Margherita SpA&quot;</value>
+                  <value>&quot;Santiago Queirolo SA&quot;</value>
+                  <value>&quot;Sanwa Shurui Co Ltd&quot;</value>
+                  <value>&quot;Sapporo Holdings Ltd&quot;</value>
+                  <value>&quot;Sarajevska Pivara dd&quot;</value>
+                  <value>&quot;Satsuma Shuzo Co Ltd&quot;</value>
+                  <value>&quot;Sawanotsuru Co Ltd&quot;</value>
+                  <value>&quot;Saxer Brewing Co&quot;</value>
+                  <value>&quot;Sazerac Co Inc&quot;</value>
+                  <value>&quot;Schenk SA&quot;</value>
+                  <value>&quot;Schtzengarten AG Brauerei&quot;</value>
+                  <value>&quot;Schwarze  Schlichte Markenvertrieb GmbH  Co KG&quot;</value>
+                  <value>&quot;Scorpios Sp zoo&quot;</value>
+                  <value>&quot;Seagers Evans Co Ltd&quot;</value>
+                  <value>&quot;Sektkellerei Schloss Wachenheim AG&quot;</value>
+                  <value>&quot;Semak Industri PT&quot;</value>
+                  <value>&quot;Senz Briones y Ca SAI y C&quot;</value>
+                  <value>&quot;Seoul Takju Association&quot;</value>
+                  <value>&quot;Shaanxi Xifeng Liquor Co Ltd&quot;</value>
+                  <value>&quot;Shabo PromyslovoTorhivelna Kompaniia TOV&quot;</value>
+                  <value>&quot;Shandong JingZhi Distillery Co Ltd&quot;</value>
+                  <value>&quot;Shandong Kong Fu Jia Distillery Co Ltd&quot;</value>
+                  <value>&quot;Shanghai Bacchus Liquor Co Ltd&quot;</value>
+                  <value>&quot;Shanghai Donghai Brewery Co Ltd&quot;</value>
+                  <value>&quot;Shanghai Jin Feng Wine Co&quot;</value>
+                  <value>&quot;Shanhao Group Co&quot;</value>
+                  <value>&quot;ShawRoss International Importers&quot;</value>
+                  <value>&quot;Shepherd Neame Ltd&quot;</value>
+                  <value>&quot;Shiva Distilleries Ltd&quot;</value>
+                  <value>&quot;SHS Group&quot;</value>
+                  <value>&quot;Siam Winery Co Ltd&quot;</value>
+                  <value>&quot;Sichuan Jian Nan Chun Group Co Ltd&quot;</value>
+                  <value>&quot;Sichuan Tuopai Shede Wine Co Ltd&quot;</value>
+                  <value>&quot;Sichuan Yibin Wuliangye Distillery Co Ltd&quot;</value>
+                  <value>&quot;Sidra Escanciador SA&quot;</value>
+                  <value>&quot;Sidra Menndez SL&quot;</value>
+                  <value>&quot;Sidrera La Carolina SA&quot;</value>
+                  <value>&quot;Siebrand Groep BV&quot;</value>
+                  <value>&quot;Sierra Nevada Brewing Co&quot;</value>
+                  <value>&quot;Signal Hill Products&quot;</value>
+                  <value>&quot;Siping Ginsber Draft Beer Co Ltd&quot;</value>
+                  <value>&quot;SIS Industries OOD&quot;</value>
+                  <value>&quot;SISI Group doo&quot;</value>
+                  <value>&quot;SK Drink Kft&quot;</value>
+                  <value>&quot;SkyOcean Group Holdings Co Ltd&quot;</value>
+                  <value>&quot;Slaska Wytwrnia Wdek Gatunkowych POLMOS SA&quot;</value>
+                  <value>&quot;Slavyanskiy RPK ZAO&quot;</value>
+                  <value>&quot;Snell  Co Edward&quot;</value>
+                  <value>&quot;Socit Commerciale de Brasserie SABrouwerij Handelsmaatschappij NV&quot;</value>
+                  <value>&quot;Socit Frigorifique et Brasserie de Tunis&quot;</value>
+                  <value>&quot;Socit nouvelle de Brasserie SONOBRA&quot;</value>
+                  <value>&quot;Sodial CI&quot;</value>
+                  <value>&quot;Sogrape Group&quot;</value>
+                  <value>&quot;Sophia Polska Sp zoo&quot;</value>
+                  <value>&quot;Sordis OOO&quot;</value>
+                  <value>&quot;Soyuzplodimport ZAO&quot;</value>
+                  <value>&quot;Spendrups Bryggeri AB&quot;</value>
+                  <value>&quot;SPI Group&quot;</value>
+                  <value>&quot;St Emiliana&quot;</value>
+                  <value>&quot;St Nicolaus Trade as&quot;</value>
+                  <value>&quot;Status Group OOO&quot;</value>
+                  <value>&quot;Stieglbrauerei zu Riedenburg Franz Huemer  Co&quot;</value>
+                  <value>&quot;Stock Spirits Group&quot;</value>
+                  <value>&quot;Stone  Wood Brewing Co&quot;</value>
+                  <value>&quot;Sublimar SA&quot;</value>
+                  <value>&quot;Sujiu Group&quot;</value>
+                  <value>&quot;Suministros Vinicos SL&quot;</value>
+                  <value>&quot;Suntory Holdings Ltd&quot;</value>
+                  <value>&quot;Super Bock Group SGPS SA&quot;</value>
+                  <value>&quot;Sutton Group Holdings Ltd&quot;</value>
+                  <value>&quot;Suzdalsky Medovarenny Zavod ZAO&quot;</value>
+                  <value>&quot;Swisslion Takovo doo&quot;</value>
+                  <value>&quot;Symington Family Estates&quot;</value>
+                  <value>&quot;Synergya OAO&quot;</value>
+                  <value>&quot;Taiwan Tobacco  Liquor Corp&quot;</value>
+                  <value>&quot;Takara Holdings Inc&quot;</value>
+                  <value>&quot;Tanduay Distillers Inc&quot;</value>
+                  <value>&quot;Tarricone SpA&quot;</value>
+                  <value>&quot;Tashkentvino OJSC&quot;</value>
+                  <value>&quot;Tatspirtprom OAO&quot;</value>
+                  <value>&quot;Taylors Wines Pty Ltd&quot;</value>
+                  <value>&quot;Telish AD&quot;</value>
+                  <value>&quot;Templarske sklepy Cejkovice&quot;</value>
+                  <value>&quot;Tempo Beer Industries Ltd&quot;</value>
+                  <value>&quot;Tenwow International Holdings Ltd&quot;</value>
+                  <value>&quot;Tequila Centinela SA de CV&quot;</value>
+                  <value>&quot;Tequila Orendain de Jalisco SA de CV&quot;</value>
+                  <value>&quot;Tequila Supremo SA de CV&quot;</value>
+                  <value>&quot;Tequilas del Seor SA de CV&quot;</value>
+                  <value>&quot;Thai Beverage PCL&quot;</value>
+                  <value>&quot;Thang Long Liquor JSC&quot;</value>
+                  <value>&quot;Thatchers Cider Co Ltd&quot;</value>
+                  <value>&quot;Thrre Town Ind Brewery&quot;</value>
+                  <value>&quot;Tibet Galaxy Science  Technology Development Co Ltd&quot;</value>
+                  <value>&quot;Tilaknagar Industries Ltd&quot;</value>
+                  <value>&quot;Timothy Taylor  Co Ltd&quot;</value>
+                  <value>&quot;Tokaj Kereskedohz Zrt&quot;</value>
+                  <value>&quot;Toschi Vignola Srl&quot;</value>
+                  <value>&quot;Treasury Wine Estates Ltd&quot;</value>
+                  <value>&quot;Treintaycinco Fbrica de Cervezas SA&quot;</value>
+                  <value>&quot;Trinchero Family Estates&quot;</value>
+                  <value>&quot;Tsantalis E SA&quot;</value>
+                  <value>&quot;Tsingtao Brewery Co Ltd&quot;</value>
+                  <value>&quot;Tucher Bru GmbH  Co KG&quot;</value>
+                  <value>&quot;UB Group&quot;</value>
+                  <value>&quot;Uganda Breweries Ltd&quot;</value>
+                  <value>&quot;Ukrprominvest ZAO&quot;</value>
+                  <value>&quot;Ukrspirt&quot;</value>
+                  <value>&quot;Underberg AG&quot;</value>
+                  <value>&quot;Unicer  Bebidas de Portugal SA&quot;</value>
+                  <value>&quot;Union Camerounaise de Brasseries&quot;</value>
+                  <value>&quot;Union des Vignerons des Ctes du Rhne SCA&quot;</value>
+                  <value>&quot;Union In Vivo Sca&quot;</value>
+                  <value>&quot;United Bottling Group&quot;</value>
+                  <value>&quot;United Brands sro&quot;</value>
+                  <value>&quot;United Dutch Breweries BV&quot;</value>
+                  <value>&quot;United Rum Merchants Ltd&quot;</value>
+                  <value>&quot;Unkai Shuzo Co&quot;</value>
+                  <value>&quot;Usovskie Vinnokonjachnye Podvaly OOO&quot;</value>
+                  <value>&quot;V V Food  Beverage Co Ltd&quot;</value>
+                  <value>&quot;Valjevska Pivara ad&quot;</value>
+                  <value>&quot;Valle Ballina  Fernndez SA&quot;</value>
+                  <value>&quot;Valle Redondo SA de CV&quot;</value>
+                  <value>&quot;Valmiermuizas Alus SIA&quot;</value>
+                  <value>&quot;Van Loveren Wines&quot;</value>
+                  <value>&quot;Van Pur SA&quot;</value>
+                  <value>&quot;Vanguard Group&quot;</value>
+                  <value>&quot;Varela Hermanos SA&quot;</value>
+                  <value>&quot;Varga Pincszet Kft&quot;</value>
+                  <value>&quot;Vats Group&quot;</value>
+                  <value>&quot;Veda ZAO&quot;</value>
+                  <value>&quot;Veles OOO&quot;</value>
+                  <value>&quot;Verpoorten GmbH  Co KG&quot;</value>
+                  <value>&quot;Via Concha y Toro SA&quot;</value>
+                  <value>&quot;Via Santa Carolina SA&quot;</value>
+                  <value>&quot;Via Santa Rita SA&quot;</value>
+                  <value>&quot;Via Tacama SA&quot;</value>
+                  <value>&quot;Via Undurraga SA&quot;</value>
+                  <value>&quot;Via Valdivieso SA&quot;</value>
+                  <value>&quot;Vicente Ganda Pl SA&quot;</value>
+                  <value>&quot;Victoria ZAT&quot;</value>
+                  <value>&quot;Viktoria TD OOO&quot;</value>
+                  <value>&quot;Vilash ZAO&quot;</value>
+                  <value>&quot;Villa Manquehue&quot;</value>
+                  <value>&quot;Villa Maria Estate Ltd&quot;</value>
+                  <value>&quot;Vilniaus Alus UAB&quot;</value>
+                  <value>&quot;Vinarske Zavody Topolcianky sro&quot;</value>
+                  <value>&quot;Vincola Campestre Ltda&quot;</value>
+                  <value>&quot;Vincola LA Cetto SA de CV&quot;</value>
+                  <value>&quot;Vincola Miolo Ltda&quot;</value>
+                  <value>&quot;Vincon Vrancea SA&quot;</value>
+                  <value>&quot;Vinex Slavyantsi AD&quot;</value>
+                  <value>&quot;Vinhos Piagentini SA&quot;</value>
+                  <value>&quot;Vinhos Salton SA Indstria e Comrcio&quot;</value>
+                  <value>&quot;Vinia SA&quot;</value>
+                  <value>&quot;Vinicolas de Tecate D de RL&quot;</value>
+                  <value>&quot;Vinimark&quot;</value>
+                  <value>&quot;Vinium as&quot;</value>
+                  <value>&quot;VinKon SA&quot;</value>
+                  <value>&quot;Vino Nitra spol sro&quot;</value>
+                  <value>&quot;VinoproduktCoka doo&quot;</value>
+                  <value>&quot;Vinpol Sp zoo&quot;</value>
+                  <value>&quot;Vinprom Peshtera AD&quot;</value>
+                  <value>&quot;Vinprom Yambol&quot;</value>
+                  <value>&quot;Viticoltori Ponte Srl&quot;</value>
+                  <value>&quot;Vitivincola Cereser SA&quot;</value>
+                  <value>&quot;Vno Matyk sro&quot;</value>
+                  <value>&quot;Vok Beverages Pty Ltd&quot;</value>
+                  <value>&quot;VrankenPommery Monopole SA&quot;</value>
+                  <value>&quot;Vyna Livadiyi TOV&quot;</value>
+                  <value>&quot;Wadworth  Co Ltd&quot;</value>
+                  <value>&quot;Warburn Estate Pty Ltd&quot;</value>
+                  <value>&quot;Warsteiner Brauerei Haus Cramer GmbH  Co KG&quot;</value>
+                  <value>&quot;Warwin SA&quot;</value>
+                  <value>&quot;Weinhaus Kft&quot;</value>
+                  <value>&quot;Weinkellerei Lenz Moser AG&quot;</value>
+                  <value>&quot;Weissbierbrauerei Georg Schneider  Sohn GmbH&quot;</value>
+                  <value>&quot;Wells  Youngs Brewing Co Ltd&quot;</value>
+                  <value>&quot;Wenneker Distillery BV&quot;</value>
+                  <value>&quot;White Rock Distilleries Inc&quot;</value>
+                  <value>&quot;William Grant  Sons Ltd&quot;</value>
+                  <value>&quot;Wimpex TOO&quot;</value>
+                  <value>&quot;Wine Group Inc The&quot;</value>
+                  <value>&quot;Wither Hills Vineyards Marlborough Ltd&quot;</value>
+                  <value>&quot;WJ Deutsch  Sons&quot;</value>
+                  <value>&quot;Wuxi Zhentai Winery Co Ltd&quot;</value>
+                  <value>&quot;Xayal Brewery Azerbaijan&quot;</value>
+                  <value>&quot;Xinjiang Yilite Industry Co Ltd&quot;</value>
+                  <value>&quot;Yablochnyj Spas OOO&quot;</value>
+                  <value>&quot;Yalumba Wine Co&quot;</value>
+                  <value>&quot;Yantai Changyu Group Co Ltd&quot;</value>
+                  <value>&quot;Yantai Pengzhu Winery Co Ltd&quot;</value>
+                  <value>&quot;Yantai Weilong Grape Wine Co Ltd&quot;</value>
+                  <value>&quot;Young  Co Brewery Plc&quot;</value>
+                  <value>&quot;Yuengling Brewery&quot;</value>
+                  <value>&quot;Zakarpatvynprom&quot;</value>
+                  <value>&quot;Zapiain SAT&quot;</value>
+                  <value>&quot;Zavod Vinogradnyh Vin Dionis COOO&quot;</value>
+                  <value>&quot;Zeleny Gai VAT&quot;</value>
+                  <value>&quot;Zhejiang Anji Wuzhanmao Wine Co Ltd&quot;</value>
+                  <value>&quot;Zhejiang Guyue Longshan Shaoxing Wine Co Ltd&quot;</value>
+                  <value>&quot;Zhejiang Pagoda Brand Shaoxing Wine Factory&quot;</value>
+                  <value>&quot;Zhejiang Shaoxing Baita Brewery&quot;</value>
+                  <value>&quot;Zhejiang Tangsong Wine Co Ltd&quot;</value>
+                  <value>&quot;Ziyobahsh Uni Trading JV&quot;</value>
+                  <value>&quot;Znovin Znojmo as&quot;</value>
+                  <value>&quot;Zolota Balka Agrofirma TOV&quot;</value>
+                  <value>&quot;Zolotaya Manufaktura OOO&quot;</value>
+                  <value>&quot;Zolotonisky LGZ Zlatogor TOV&quot;</value>
+                  <value>&quot;Zwettl Privatbrauerei&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Global Brand Owner' datatype='string' name='[Global_Brand_Owner]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Unit]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Volume]' role='measure' type='quantitative' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Unit]' derivation='None' name='[none:Unit:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Volume]' derivation='Sum' name='[sum:Volume:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0av5pfb0pzv9701afx74q0mwh4qa].[none:Name:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;Ale&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;Flavoured/Mixed Lager&quot;' />
+              <groupfilter function='member' level='[none:Name:nk]' member='&quot;Weissbier/Weizen/Wheat Beer&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0av5pfb0pzv9701afx74q0mwh4qa].[none:Region:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Region:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Region:nk]' member='&quot;World&quot;' />
+                <groupfilter function='member' level='[none:Region:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0av5pfb0pzv9701afx74q0mwh4qa].[none:Region:nk]' direction='DESC' measure-to-sort-by='[federated.0av5pfb0pzv9701afx74q0mwh4qa].[sum:Volume:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0av5pfb0pzv9701afx74q0mwh4qa].[none:Name:nk]</column>
+            <column>[federated.0av5pfb0pzv9701afx74q0mwh4qa].[none:Region:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0av5pfb0pzv9701afx74q0mwh4qa].[sum:Volume:qk]' field-type='quantitative' range-type='independent' scope='rows' type='space' />
+            <format attr='width' field='[federated.0av5pfb0pzv9701afx74q0mwh4qa].[sum:Volume:qk]' value='80' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' value='453' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0av5pfb0pzv9701afx74q0mwh4qa].[none:Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='1041' />
+                <format attr='maxwidth' value='1041' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='614' />
+                <format attr='maxheight' value='614' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='1041' />
+                <format attr='maxwidth' value='1041' />
+                <format attr='minheight' value='614' />
+                <format attr='maxheight' value='614' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0av5pfb0pzv9701afx74q0mwh4qa].[none:Unit:nk] * [federated.0av5pfb0pzv9701afx74q0mwh4qa].[sum:Volume:qk])</rows>
+        <cols>([federated.0av5pfb0pzv9701afx74q0mwh4qa].[none:Region:nk] / [federated.0av5pfb0pzv9701afx74q0mwh4qa].[Global Brand Owner (group)])</cols>
+      </table>
+      <simple-id uuid='{DC090062-C407-4D83-8EB8-28B5E2B064D9}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Dragonyte_VS_competition'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0av5pfb0pzv9701afx74q0mwh4qa].[none:Region:nk]' type='filter' />
+            <card param='[federated.0av5pfb0pzv9701afx74q0mwh4qa].[none:Name:nk]' type='filter' />
+            <card pane-specification-id='6' param='[federated.0av5pfb0pzv9701afx74q0mwh4qa].[none:Name:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0av5pfb0pzv9701afx74q0mwh4qa].[Global Brand Owner (group)]</field>
+            <field>[federated.0av5pfb0pzv9701afx74q0mwh4qa].[none:Name:nk]</field>
+            <field>[federated.0av5pfb0pzv9701afx74q0mwh4qa].[none:Region:nk]</field>
+            <field>[federated.0av5pfb0pzv9701afx74q0mwh4qa].[none:Unit:nk]</field>
+            <field>[federated.0av5pfb0pzv9701afx74q0mwh4qa].[none:Year_text:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{203BDCD1-A795-488C-BAB5-04AFD9B68DD6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dragonyte_VS_competition' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAS/ElEQVR4nO3dy3cb53nH8e/M4EYABAiCJHgTSZGirnZkJ2kc2/FJc3ra401Oumn33XXX
+      XVfd9k/orqv29HTR9JyeJmkaJ3VrJ/X9JksUSVG8ggBJEMQdGAwwM28XcmWpimpLQogh5vms
+      qBkS8+Dym3femUcDTSmlEMKn9H4XIEQ/nekANJvNfpcgzrgzHQDbtvtdgngG23dWePf9D2m0
+      u4+utE229w//378v57c5qJgAdNoNPv7gffaPSmSz2fu/47Rr5I6rD/1d16xxUKyA0ybw7E9D
+      iKezsrLGy6+9xJtvv8eFTISGG2UxE2N9a5+pmSn2D2t0q4cUGw4zo0McVZsk0rNcPj8FwOrd
+      Xb75yjwAv/z5z3nt9R+hOx1+8es3CWtd1rbyXDyX4Ke/2eTb16+SGYa7ewWeWxzjRtZh6pvj
+      Z3sEEGdbp1Xjxz/+V65emeXN//qE7P4e77z7Ec8vjXJz64BCPs+tu3kSTpG3//tjxmfnuHV7
+      DQDXNukQIhy49xE2bTBP9vmXn/0KgHc/+JRvXJvhvfdvMjW3zP7mKsdHBY63P2fnxLpfg4wA
+      om+m5pZ4dXGW1WyZ5cUMiakZEtT59LM19KFZJiYzBOwq+zWHq8sLRCNhxtMjABxt3iazeA3t
+      i8d68eoSK5v7nDs3i9ZtMpEc4qOP17l6/Xlu3s2RGp+h2TwhNT7FcCyOGzRAD6Gd5dOg1WqV
+      ZDLZ7zJED+V3N7izmeW577zKWDz82N/bWF9n6eIldO2xv/K1SACEr8kc4Axb+fRjmpbN3s7e
+      I+vMRpWmZZM/OHho+e7aZ+RLra987GathnNmd41fn4wAZ9jG6i3cYAzHahMybGpNi8npCXZ2
+      i8QCber6KKMBE0c5jM1eZTIVYn1jE5TGUBBqtSoNWyceTzCktSlWLWbHhzloKNJhg2gywlGh
+      xrnZDDs724xOnGdhdqzfT7unZAQ4w4zgEFHNotFxadtwYXaMcsPi/IXLzE5lWFyYIxRLcvnK
+      Ep1mG7NaoFCsUigUaasAl5fPM5qZJRbSyOUPSMTjKDQuX7mEsrucVOtcvHyRRumEYDBA4bjY
+      76fcczICnGH1Wp14PELu4IRk1OCg1GR+dgKXECHd5u5OnqnJceLREC0TNMckOJzEadVodDXS
+      8RD1jkJ3u9hWi0KlzWxmlFAsQbtWIRIbYntrl0xmjKNimfToGOnRwXq97weg0WjgOE6/63ki
+      lmURDj/+TIEQX+VMjwBCPCuZAwhfkwAIX5MACF/zXACUcigcHWF1HZr1KqVqHbvTpmV2AEW1
+      Wv3KxxDi6/LcJLheLtLs2BwXy3StFiEU0VSaUr3N9cU0//7uHX74h9/rd5liQHiuGzSeSJBd
+      XWdm7jw7azepuwYJTScSUGzlq8xNp1BK4bouHsuuOIM8F4CttRVatoHZaqLQCBkKW2lMToyy
+      uVckGQ+iaRqGYfS7VDEAPHcIJMRp8twkWIjTJAEQviYBEL4mARC+JgEQviYBEL4mARC+5rkA
+      2B2T9dVVqs029UqRO5u7mI0Kx6U6KJednd1+lygGiOcC0Ol0mT8/z972NrdX1wiFglTLNbK5
+      LK1SnvVsod8ligHiuVaIoKFx+842yxeXWLnVJGiVOO5GiQY17hZazKSj0gskesZzAcjtZ9F0
+      RaXWJBWPUGwqMpkYQ0MpsgcnDEfj0gskekZ6gYSveW4OIMRpkgAIX5MACF+TAAhfkwAIX5MA
+      CF+TAAhf81wAmtUTbt28ycFxBeVYfH5rjXqpwG7+GJTNjRu3+l2iGCCeuxIciY+wdN5g96BM
+      u3JI1+7SarY5qTRI0qBk2SilpA1C9ITnRgCrXmIrX2JpPsNhoUQhv0/d7JAcMtgsdZiIB/td
+      ohggnhsBKrU6qtPiuNLm5Vdf4ejoiGg4hBEKoRcrRMMBNE1D057x6wGFQHqBhM957hBIiNMk
+      ARC+JgEQviYBEL4mARC+JgEQviYBEL7muQth9fIxO/uHxEfGUGaFasNianKMsulyeWGCt9+9
+      wfe/91K/yxQDwnMBiI+MMdOxKFuKhcUl1m6vYnVc2q0Ghf0uwZjcFkX0jucCUD7ap+qEWTw3
+      xtrKCucvXaNeyJMeDrNdapMM63JbFNEzngsAuk6zWOAgoGPoip3NDWbPzZEKB4gOtwgGZNoi
+      ekd6gYSvye5U+JoEQPiaBED4mgRA+JoEQPiaBED4mgRA+JrnLoTVSwV2cocEIsPYjRPatsFM
+      JslhzeaFi5P87M2P+eHrP+h3mWJAeC4Aw6PjJMoljGgMU3eZCdscNAMYtMnuHzE1My69QKJn
+      PBeA3OYqpjbMbCJGqZAnX1cMp4YIDcfYztdIxqQXSPSO51ohzGadar1JNJ4gpLt0XJ1oOIim
+      63S6NroG4XC432WKAeG5AAhxmuQskPA1CYDwNQmA8DUJgPA1CYDwNQmA8DVPBqBtmijAbDWo
+      NVo4XYu21QUUjUaj3+WJAeK5ALRqZd57/xMc12F1dY3d9RV2s3lurd/FbhZ5851P+l2iGCCe
+      a4WIJlJMjY+CBsruUnd1RgydiKHYylWYn0lLL5DoGc8FoFYqsJvdI5RMoBSEDYVlQ2Y8xd1s
+      kZFYQHqBRM9IK4TwNc/NAYQ4TRIA4WsSAOFrEgDhaxIA4WsSAOFrEgDha54MgOM4KMB1HTqd
+      Lq7r4DguoLBtu9/liQHiuQC0amXeevsdHOWytnKTvf08R/s7fLKyjmOW+ekbb/e7RDFAPNcK
+      EU2kmJkYQ7kOxWKRmGnBaIawrtjJnTA/l5FeINEzpx4A5XT41U/+ifkX/4DUSILxZPSh9Y1q
+      idxBntj4OIlEAkM3cJUiM5bgbrbESNyQXiDRM6feC9RtnvCTf/5H3JFlnnvx21w+l35ovWPb
+      dG0b3QgQ0MF2FQHj3ofedV3QwNDlwy9649RHgMDQCOnMOfZOqkyk4o+sNwIBjMCXZYUe+KzL
+      Xl/02iMBODnc57BmcWVhkhsrdxgZmyLkNjgut7h4aYmN9Q3iqQkW56fRnmKDjlmhG07z2iuz
+      RILygRb99chZoEQ6A06bQjbP4nPX6bQqNNouVy5Ms/rZGrPLV3Ha9WfaaPEox+bmJi2r+0yP
+      I8SzemQECAaDAIRDGo2miW27aDiYrRaRaJhmy6RrO0+/RSOI3W5RKpXo2O7TP44QPfB/RgDF
+      /vZdulYXLTWNdZxl6twCczMZCnWXK89fxa0ekZmZe6rDHwA0g5FkHNd1kLOYot9O/SyQcmwK
+      xwXKh3vo48tcnEl/9R89xl///a+pt6weVnc2fOvSNH/y+1f7XcZAeOQQyLZtNEA3AmhPvZt/
+      vA9/80v+49cf0CXEn/3588/0WBv7J5Tr7R5VdnZMp4f7XcLAeCQA63fuMDMxgW2VWT20uX5p
+      HqdjMhQJc1xpMjWWJJs7Ym5+DkN/8oQsXnmRaHKMsqkxnog8st61LVbXd7hy7RKa0+H2nR3m
+      J1OU2xrnJlPcXFnn+edk7yd647deBygdFcjMxBlOpTjMbhIbnWZj7RPMVptKZhoVCNJxYOgp
+      OolG4iHeP6oyEVVkj6ssz4w+tL7TsXGdLq5S7G9vY7Ytmg2T40qDBA2OmxZKKV+3QSjutYKI
+      Z/fYC2F6OEb5KEs4HWcmk6ZyGCOemmA8nWL37hon9TlmR4eeeIN6KErQaZE7gfMvRB9ZH4nG
+      CBkGymmTOyhSq9cYiUVJRAw2Tywyw6En3uYg8vMOoJceCcDVK1fu/aDB919KoX0xEbj6jW+i
+      lELTNNJj4/eXP6n/fOPfMKLjfOfbV0nHH/2qo1qpQKVeJV+o8+prr3J4cEAsEsYIh9AKZaKR
+      e/cFetrtDwIN6YXqlUcOYv73w6Whoev6/Q+apn357weXP6kfvP4j5sej/MPf/g138tVH1idG
+      J3jpu99lfnoCgMmpKYZTo0SjcZYWzjE1OfVU2xXitzn1XqC33vgJwdQ8f/GXf0Uo4Ln/jiB8
+      5tQD8IPX//i0NynEY8kuWPiaBED4mgRA+JoEQPiaBED4mucC0DHrvP/BJzhKsbWxymef3uDo
+      IMf69j7KtfjNOx/2u0QxQDx3WxQ9ECEZi6CAhcULrN1aoW05NBsNjvcttEj4/m1R/MpVcoOw
+      XvFcAALBIBoaoFhfXWX+8nM0CnnGhkNslyxGInJbFF3TCAQ899adSZ57FWulAu2uRS5/jKYp
+      djc3mJk9x0g4SDjWIBT03FGbOMM8F4DE6ATXR+/1ATGTeWhdZvzR5jkhnoXsToWvSQCEr0kA
+      hK9JAISvSQCEr0kAhK9JAISveS4AD35F0q0bH/PRR59xmN3m09t3Ud06P3vjrX6XKAaI5y6E
+      RRMpJtMpXNchHB9hOmRz0DLQXJP97CETU2npBZJeoJ7xXAC6nTbNVhPT6mI2Gxw1FbHEEKF4
+      jJ3DGsmoLr1A0gvUM557Fbsdi/HJDB2ry4XFBSzHID4UQjd0kqmJp7odoxCP47kARONJovHk
+      l/9+YF0s6rlyxRnnuUmwEKdJAiB8TQIgfE0CIHxNAiB8TQIgfM3TAbDaJk2zjWN36XRtQGGa
+      Zr/LEgPEswFQrsOtWzfZuPU5u3tZPl/dwG6d8MZbH/S7NDFAvHtlSQMch5arkzYMwoZiO1dm
+      /tyY9AJJL1DPeDYAynVwXEVIdzG7isxYko29E1LxgPQCSS9Qz3j2VdSNEN95+ZWHlk1kZvpU
+      jRhUnp0DCHEaJADC1yQAwtckAMLXJADC1yQAwtckAMLXPBwAhVkvc3c7S7tZo1RtgVLk8vl+
+      FyYGiGcDoFyXW6vrxIYiVEoVdvZ2aFcO+Hxjv9+liQHi2SvBSrk4SmGWcph6gqGAxuZRk9nx
+      mPQCSS9Qz3g2ALoeIBWPUrMU4xNDxGJJdvaLJGJD0gskvUA9491XUdO4dO36Q4teGEn3qRgx
+      qDw7BxDiNEgAhK959xDoa0iOt1DRVr/LOHXRpNXvEgbGmQ7AlVdyNO16v8s4dbMpmQv1ihwC
+      CV+TAAhfkwAIX/N4ABTlcpluu0W9ZQGKk5OTfhclBoinA1DM7/HZyh1KhQJ3Njfp1Au8+9l6
+      v8sSA8SzZ4Fc2+Tm6haO69C0xogYsJWvMTeVfKAXSPW7zL5QypVeoB7xbAA0I8wrr77M5uYm
+      sWiYZGSYrWyRZCz4QC+QP78uSdN06QXqEc++ipqmE45EuHrt2v1l6fREHysSg8jTcwAhftck
+      AMLXJADC1yQAwtc8Own+Ol5oL9Pp+u8LMzKx6X6XMDDOdAC+1b4EHf+dD9e6qX6XMDDOdABE
+      f+wdVb9oTTn7vBsApTg6yFI1FTPjCRpdnczoMJtbOywtLfa7Ol/7u1/c4MO1wbg/k6cnwdHh
+      UYKdCgfFOrl8jtZJjs3DUr/LEgPEuyMAUCkeoCeniTomTkhno2AynRry/X2BlNvfXiClBqcH
+      y7MBUMrl8KhALGEzlB5jKplg/7BEfChyvxfIrxHQ9P72Amna4PRgeTYAmm7we9999aFlVxMj
+      fapGDCrPBkB4159ej/JHM4l+l9ETEgDxxBb1MZQR7ncZPeHps0BC/K5JAISveTYASik212/z
+      +co65UKejZ0cyrV4572P+l2aGCCenQMo18ExQkxFbA6rNma7wUnOwg2F+l2aGCCeDYCmgd21
+      MV2bYACi8RBbpTapiH+/F0D0nncDoBuMj8Ro2AGmU3GMYJBwrEEo6NmjNnEG3Q9Au932XHtB
+      LJkm9sXPjuOSiEcBaLXu3RHa1lzQvVXzadDcLkarf3fFdlwbNSCvu6a+aOywbdtzAfgq9Xqd
+      4eHhfpdx5riui67LSAoPjABn8T4zgUCAkEyKn5hSaqD6eZ7FQOwGlOtwZ/UW65u7T/R3lUoF
+      gFqtRqVSQSlFrVb7XZToKWftw281y3z0wSes393haRtR27UKbefhZY3i4ZeHQGdRtVolmUzS
+      LOU5MiMszoyye3eNUt1kdnaCze0CymkTGoozFg9TM01SY5PUS0UcPchxboeFS8+jOi32d7eY
+      WboKtsVQQHFcrjM5PcH29iFD8RjfuHbJp/eh679m5ZDjRoiwc4Lt6Bw0OixkRjjI5ZhaWCK3
+      s4NrhBiLGZTrJjOzE2xuHzOcjDMUDDAc0dnd2sRJzXEuaXBcLDO/fA33ZH8wRgAjEKTTNrFt
+      m4blcGk+Q7FSY3p+mcRIgnRiCEcZXLx8icrBNtmjE3RNZ2xqhvnZSdpti7HJaRbmpmm3LSrN
+      NpcvLlIpHTM2tUA8HOz3UxSAZXXBtVlYvkS9fELXrLCXzTE+d5GQ7t577xe+eO/nLhAxdAKq
+      y2GtzfzUBAuL58nu7KDpOq6rAGMwRgCUIre3jalCjA8HyR3XWFyYouuE6Vg1goZBYT+LqQW4
+      sLxMYW8LFU6QjhkUGzaJaIiIoTisdRiJRYgEFLv5YxbPz9Hu6miORWIkKSNAn3StBqurW4xN
+      z5Ie0nGjI5gneYrlKqmJKY729qiYHZ5fPvfQe+90W0S1JhtFg8uzcTZ2D5kcS5A/OuH80jKa
+      VeN/AHaBB0SOA7t1AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
