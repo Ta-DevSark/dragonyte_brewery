@@ -1,0 +1,127 @@
+id,Region,Country
+1,Asia Pacific,China
+2,Asia Pacific,India
+3,Asia Pacific,Japan
+4,Asia Pacific,South Korea
+5,Asia Pacific,Indonesia
+6,Asia Pacific,Thailand
+7,Asia Pacific,Vietnam
+8,Asia Pacific,Malaysia
+9,Asia Pacific,Singapore
+10,Asia Pacific,Philippines
+11,Asia Pacific,Cambodia
+12,Asia Pacific,Myanmar
+13,Asia Pacific,Laos
+14,Asia Pacific,Bangladesh
+15,Asia Pacific,Pakistan
+16,Asia Pacific,Nepal
+17,Asia Pacific,Bhutan
+18,Asia Pacific,Mongolia
+19,Asia Pacific,Sri Lanka
+20,Australasia,Australia
+21,Australasia,New Zealand
+22,Australasia,Papua New Guinea
+23,Australasia,Fiji
+24,Australasia,Solomon Islands
+25,Eastern Europe,Russia
+26,Eastern Europe,Poland
+27,Eastern Europe,Ukraine
+28,Eastern Europe,Hungary
+29,Eastern Europe,Czech Republic
+30,Eastern Europe,Romania
+31,Eastern Europe,Bulgaria
+32,Latin America,Brazil
+33,Latin America,Mexico
+34,Latin America,Argentina
+35,Latin America,Chile
+36,Latin America,Colombia
+37,Latin America,Peru
+38,Latin America,Venezuela
+39,Latin America,Ecuador
+40,Latin America,Bolivia
+41,Latin America,Paraguay
+42,Latin America,Uruguay
+43,Latin America,Costa Rica
+44,Latin America,Cuba
+45,Latin America,Guatemala
+46,Latin America,Honduras
+47,Latin America,Nicaragua
+48,Latin America,Panama
+49,Latin America,El Salvador
+50,Latin America,Dominican Republic
+51,Middle East and Africa,Algeria
+52,Middle East and Africa,Angola
+53,Middle East and Africa,Benin
+54,Middle East and Africa,Botswana
+55,Middle East and Africa,Burkina Faso
+56,Middle East and Africa,Burundi
+57,Middle East and Africa,Côte d'Ivoire
+58,Middle East and Africa,Cameroon
+59,Middle East and Africa,Cape Verde
+60,Middle East and Africa,Central African Republic
+61,Middle East and Africa,Chad
+62,Middle East and Africa,Comoros
+63,Middle East and Africa,Congo (Brazzaville)
+64,Middle East and Africa,Congo (Kinshasa)
+65,Middle East and Africa,Djibouti
+66,Middle East and Africa,Egypt
+67,Middle East and Africa,Equatorial Guinea
+68,Middle East and Africa,Eritrea
+69,Middle East and Africa,Eswatini
+70,Middle East and Africa,Ethiopia
+71,Middle East and Africa,Gabon
+72,Middle East and Africa,Gambia
+73,Middle East and Africa,Ghana
+74,Middle East and Africa,Guinea
+75,Middle East and Africa,Guinea-Bissau
+76,Middle East and Africa,Iran
+77,Middle East and Africa,Israel
+78,Middle East and Africa,Kenya
+79,Middle East and Africa,Lesotho
+80,Middle East and Africa,Liberia
+81,Middle East and Africa,Libya
+82,Middle East and Africa,Madagascar
+83,Middle East and Africa,Malawi
+84,Middle East and Africa,Mali
+85,Middle East and Africa,Mauritania
+86,Middle East and Africa,Mauritius
+87,Middle East and Africa,Morocco
+88,Middle East and Africa,Mozambique
+89,Middle East and Africa,Namibia
+90,Middle East and Africa,Niger
+91,Middle East and Africa,Nigeria
+92,Middle East and Africa,Rwanda
+93,Middle East and Africa,São Tomé and Príncipe
+94,Middle East and Africa,Saudi Arabia
+95,Middle East and Africa,Senegal
+96,Middle East and Africa,Seychelles
+97,Middle East and Africa,Sierra Leone
+98,Middle East and Africa,Somalia
+99,Middle East and Africa,South Africa
+100,Middle East and Africa,South Sudan
+101,Middle East and Africa,Sudan
+102,Middle East and Africa,Tanzania
+103,Middle East and Africa,Togo
+104,Middle East and Africa,Tunisia
+105,Middle East and Africa,Turkey
+106,North America,United States
+107,North America,Canada
+108,Western Europe,Germany
+109,Western Europe,France
+110,Western Europe,United Kingdom
+111,Western Europe,Italy
+112,Western Europe,Spain
+113,Western Europe,Netherlands
+114,Western Europe,Switzerland
+115,Western Europe,Belgium
+116,Western Europe,Austria
+117,Western Europe,Sweden
+118,Western Europe,Denmark
+119,Western Europe,Norway
+120,Western Europe,Ireland
+121,Western Europe,Portugal
+122,Western Europe,Finland
+123,Western Europe,Greece
+124,Western Europe,Iceland
+125,Western Europe,Luxembourg
+126,Western Europe,Malta

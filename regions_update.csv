@@ -1,0 +1,250 @@
+id,Country,Region
+1,Afghanistan,Asia Pacific
+7,Åland Islands,Western Europe
+7,Albania,Western Europe
+5,Algeria,Middle East and Africa
+8,American Samoa,World
+7,Andorra,Western Europe
+5,Angola,Middle East and Africa
+4,Anguilla,Latin America
+8,Antarctica,World
+4,Antigua and Barbuda,Latin America
+4,Argentina,Latin America
+5,Armenia,Middle East and Africa
+4,Aruba,Latin America
+2,Australia,Australasia
+7,Austria,Western Europe
+5,Azerbaijan,Middle East and Africa
+4,Bahamas,Latin America
+5,Bahrain,Middle East and Africa
+1,Bangladesh,Asia Pacific
+4,Barbados,Latin America
+3,Belarus,Eastern Europe
+7,Belgium,Western Europe
+4,Belize,Latin America
+5,Benin,Middle East and Africa
+6,Bermuda,North America
+1,Bhutan,Asia Pacific
+4,Bolivia (Plurinational State of),Latin America
+4,"Bonaire, Sint Eustatius and Saba",Latin America
+7,Bosnia and Herzegovina,Western Europe
+5,Botswana,Middle East and Africa
+4,Bouvet Island,Latin America
+4,Brazil,Latin America
+5,British Indian Ocean Territory,Middle East and Africa
+1,Brunei Darussalam,Asia Pacific
+3,Bulgaria,Eastern Europe
+5,Burkina Faso,Middle East and Africa
+5,Burundi,Middle East and Africa
+5,Cabo Verde,Middle East and Africa
+1,Cambodia,Asia Pacific
+5,Cameroon,Middle East and Africa
+6,Canada,North America
+4,Cayman Islands,Latin America
+5,Central African Republic,Middle East and Africa
+5,Chad,Middle East and Africa
+4,Chile,Latin America
+1,China,Asia Pacific
+2,Christmas Island,Australasia
+2,Cocos (Keeling) Islands,Australasia
+4,Colombia,Latin America
+5,Comoros,Middle East and Africa
+5,Congo,Middle East and Africa
+5,"Congo, Democratic Republic of the",Middle East and Africa
+8,Cook Islands,World
+4,Costa Rica,Latin America
+5,Côte d'Ivoire,Middle East and Africa
+7,Croatia,Western Europe
+4,Cuba,Latin America
+4,Curaçao,Latin America
+5,Cyprus,Middle East and Africa
+3,Czechia,Eastern Europe
+7,Denmark,Western Europe
+5,Djibouti,Middle East and Africa
+4,Dominica,Latin America
+4,Dominican Republic,Latin America
+4,Ecuador,Latin America
+5,Egypt,Middle East and Africa
+4,El Salvador,Latin America
+5,Equatorial Guinea,Middle East and Africa
+5,Eritrea,Middle East and Africa
+7,Estonia,Western Europe
+5,Eswatini,Middle East and Africa
+5,Ethiopia,Middle East and Africa
+4,Falkland Islands (Malvinas),Latin America
+7,Faroe Islands,Western Europe
+8,Fiji,World
+7,Finland,Western Europe
+7,France,Western Europe
+4,French Guiana,Latin America
+8,French Polynesia,World
+5,French Southern Territories,Middle East and Africa
+5,Gabon,Middle East and Africa
+5,Gambia,Middle East and Africa
+5,Georgia,Middle East and Africa
+7,Germany,Western Europe
+5,Ghana,Middle East and Africa
+7,Gibraltar,Western Europe
+7,Greece,Western Europe
+6,Greenland,North America
+4,Grenada,Latin America
+4,Guadeloupe,Latin America
+8,Guam,World
+4,Guatemala,Latin America
+7,Guernsey,Western Europe
+5,Guinea,Middle East and Africa
+5,Guinea-Bissau,Middle East and Africa
+4,Guyana,Latin America
+4,Haiti,Latin America
+2,Heard Island and McDonald Islands,Australasia
+7,Holy See,Western Europe
+4,Honduras,Latin America
+1,Hong Kong,Asia Pacific
+3,Hungary,Eastern Europe
+7,Iceland,Western Europe
+1,India,Asia Pacific
+1,Indonesia,Asia Pacific
+1,Iran (Islamic Republic of),Asia Pacific
+5,Iraq,Middle East and Africa
+7,Ireland,Western Europe
+7,Isle of Man,Western Europe
+5,Israel,Middle East and Africa
+7,Italy,Western Europe
+4,Jamaica,Latin America
+1,Japan,Asia Pacific
+7,Jersey,Western Europe
+5,Jordan,Middle East and Africa
+1,Kazakhstan,Asia Pacific
+5,Kenya,Middle East and Africa
+8,Kiribati,World
+1,Korea (Democratic People's Republic of),Asia Pacific
+1,"Korea, Republic of",Asia Pacific
+5,Kuwait,Middle East and Africa
+1,Kyrgyzstan,Asia Pacific
+1,Lao People's Democratic Republic,Asia Pacific
+7,Latvia,Western Europe
+5,Lebanon,Middle East and Africa
+5,Lesotho,Middle East and Africa
+5,Liberia,Middle East and Africa
+5,Libya,Middle East and Africa
+7,Liechtenstein,Western Europe
+7,Lithuania,Western Europe
+7,Luxembourg,Western Europe
+1,Macao,Asia Pacific
+5,Madagascar,Middle East and Africa
+5,Malawi,Middle East and Africa
+1,Malaysia,Asia Pacific
+1,Maldives,Asia Pacific
+5,Mali,Middle East and Africa
+7,Malta,Western Europe
+8,Marshall Islands,World
+4,Martinique,Latin America
+5,Mauritania,Middle East and Africa
+5,Mauritius,Middle East and Africa
+5,Mayotte,Middle East and Africa
+4,Mexico,Latin America
+8,Micronesia (Federated States of),World
+3,"Moldova, Republic of",Eastern Europe
+7,Monaco,Western Europe
+1,Mongolia,Asia Pacific
+7,Montenegro,Western Europe
+4,Montserrat,Latin America
+5,Morocco,Middle East and Africa
+5,Mozambique,Middle East and Africa
+1,Myanmar,Asia Pacific
+5,Namibia,Middle East and Africa
+8,Nauru,World
+1,Nepal,Asia Pacific
+7,Netherlands,Western Europe
+8,New Caledonia,World
+2,New Zealand,Australasia
+4,Nicaragua,Latin America
+5,Niger,Middle East and Africa
+5,Nigeria,Middle East and Africa
+8,Niue,World
+2,Norfolk Island,Australasia
+7,North Macedonia,Western Europe
+8,Northern Mariana Islands,World
+7,Norway,Western Europe
+5,Oman,Middle East and Africa
+1,Pakistan,Asia Pacific
+8,Palau,World
+5,"Palestine, State of",Middle East and Africa
+4,Panama,Latin America
+8,Papua New Guinea,World
+4,Paraguay,Latin America
+4,Peru,Latin America
+1,Philippines,Asia Pacific
+8,Pitcairn,World
+3,Poland,Eastern Europe
+7,Portugal,Western Europe
+4,Puerto Rico,Latin America
+5,Qatar,Middle East and Africa
+5,Réunion,Middle East and Africa
+3,Romania,Eastern Europe
+3,Russian Federation,Eastern Europe
+5,Rwanda,Middle East and Africa
+4,Saint Barthélemy,Latin America
+5,"Saint Helena, Ascension and Tristan da Cunha",Middle East and Africa
+4,Saint Kitts and Nevis,Latin America
+4,Saint Lucia,Latin America
+4,Saint Martin (French part),Latin America
+6,Saint Pierre and Miquelon,North America
+4,Saint Vincent and the Grenadines,Latin America
+8,Samoa,World
+7,San Marino,Western Europe
+5,Sao Tome and Principe,Middle East and Africa
+5,Saudi Arabia,Middle East and Africa
+5,Senegal,Middle East and Africa
+7,Serbia,Western Europe
+5,Seychelles,Middle East and Africa
+5,Sierra Leone,Middle East and Africa
+1,Singapore,Asia Pacific
+4,Sint Maarten (Dutch part),Latin America
+3,Slovakia,Eastern Europe
+7,Slovenia,Western Europe
+8,Solomon Islands,World
+5,Somalia,Middle East and Africa
+5,South Africa,Middle East and Africa
+4,South Georgia and the South Sandwich Islands,Latin America
+5,South Sudan,Middle East and Africa
+7,Spain,Western Europe
+1,Sri Lanka,Asia Pacific
+5,Sudan,Middle East and Africa
+4,Suriname,Latin America
+7,Svalbard and Jan Mayen,Western Europe
+7,Sweden,Western Europe
+7,Switzerland,Western Europe
+5,Syrian Arab Republic,Middle East and Africa
+1,"Taiwan, Province of China",Asia Pacific
+1,Tajikistan,Asia Pacific
+5,"Tanzania, United Republic of",Middle East and Africa
+1,Thailand,Asia Pacific
+1,Timor-Leste,Asia Pacific
+5,Togo,Middle East and Africa
+8,Tokelau,World
+8,Tonga,World
+4,Trinidad and Tobago,Latin America
+5,Tunisia,Middle East and Africa
+5,Turkey,Middle East and Africa
+1,Turkmenistan,Asia Pacific
+4,Turks and Caicos Islands,Latin America
+8,Tuvalu,World
+5,Uganda,Middle East and Africa
+3,Ukraine,Eastern Europe
+5,United Arab Emirates,Middle East and Africa
+7,United Kingdom of Great Britain and Northern Ireland,Western Europe
+6,United States of America,North America
+8,United States Minor Outlying Islands,World
+4,Uruguay,Latin America
+1,Uzbekistan,Asia Pacific
+8,Vanuatu,World
+4,Venezuela (Bolivarian Republic of),Latin America
+1,Viet Nam,Asia Pacific
+4,Virgin Islands (British),Latin America
+4,Virgin Islands (U.S.),Latin America
+8,Wallis and Futuna,World
+5,Western Sahara,Middle East and Africa
+5,Yemen,Middle East and Africa
+5,Zambia,Middle East and Africa
+5,Zimbabwe,Middle East and Africa
